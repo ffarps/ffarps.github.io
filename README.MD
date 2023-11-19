@@ -2,7 +2,9 @@
 
 ## My Personal Website
 
-- [ ] Index/home page with images to redirect to the projects page
-- [ ] Personal projects page
-- [ ] Contact and about me page
-- [ ] navbar
+[#459591](https://www.color-hex.com/color/459591)
+
+- [X] Index/home page with images to redirect to the projects page
+- [X] Personal projects page
+- [X] Contact and about me page
+- [X] navbar
