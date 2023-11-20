@@ -4,7 +4,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     display: flex;
     align-items: center;
@@ -91,6 +93,25 @@ nav {
 /* About section */
 #about {}
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-columm-1 {
+    margin-top: 2%;
+    flex-basis: 55%;
+}
+.about-columm-1 p{
+    margin-top: 3%;
+}
 .about-columm-2 {
     margin-top: 2%;
+    flex-basis: 40%;
+}
+
+.about-columm-2 img {
+    width: 40%;
+    border-radius: 5px;
 }
