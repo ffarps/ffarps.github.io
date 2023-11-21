@@ -43,13 +43,37 @@ a {
     transition: 0.3s;
     color: #459591;
 }
-
+/* The alert message box */
+.alert {
+    padding: 10px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
 .container {
     padding: 10px 10%;
 }
 
 .Slideshow-projects {
     margin-top: 5%;
+    position: relative;
 }
 
 /* Hide the images by default */
@@ -65,18 +89,19 @@ a {
 /* Next & previous buttons */
 .prev,
 .next {
-    cursor: pointer;
-    position: absolute;
-    top: 104%;
-    width: auto;
-    padding: 15px;
-    margin-top: -50px;
-    color: white;
-    font-weight: bold;
-    font-size: 28px;
-    user-select: none;
-    -webkit-user-select: none;
-    border-radius: 5%;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  user-select: all;
 }
 
 /* Position the "next button" to the right */
@@ -128,7 +153,16 @@ a {
 .demo:hover {
     opacity: 1;
 }
-
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 nav ul {
     list-style-type: none;
     margin: 0;
