@@ -37,6 +37,7 @@
 
 /* Style the buttons */
 .btn {
+    margin-top: 5%;
     border: none;
     outline: none;
     padding: 12px 16px;
