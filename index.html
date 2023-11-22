@@ -9,8 +9,6 @@
 </head>
 
 <body>
-  <!--To remove!-->
-
   <div id="header">
 
     <div class="container">
@@ -117,9 +115,87 @@
         </div>
       </div>
     </div>
+    <!--Project sections-->
     <div id="Projects">
-      <p>My Projects</p>
+      <h2>PORTFOLIO</h2>
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('people')"> People</button>
+      </div>
+
+      <!-- Portfolio Gallery Grid -->
+      <div class="row">
+        <div class="column nature">
+          <div class="content">
+            <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+            <h4>Mountains</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+            <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+            <h4>Lights</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column nature">
+          <div class="content">
+            <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+            <h4>Forest</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="column cars">
+          <div class="content">
+            <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+            <h4>Retro</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
+            <h4>Fast</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column cars">
+          <div class="content">
+            <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+            <h4>Classic</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+
+        <div class="column people">
+          <div class="content">
+            <img src="/w3images/people1.jpg" alt="People" style="width:100%">
+            <h4>Girl</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+            <h4>Man</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <div class="column people">
+          <div class="content">
+            <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+            <h4>Woman</h4>
+            <p>Lorem ipsum dolor..</p>
+          </div>
+        </div>
+        <!-- END GRID -->
+      </div>
     </div>
+    <!--Project sections-->
     <div id="Contact">
       <p>Contact me</p>
     </div>
@@ -127,7 +203,35 @@
     <!-- <button onclick="topFunction()" id="topButton" title="Go to top">&#8679;</button> -->
     <div id="topButton"><span id="progress-value" onclick="topFunction()" title="Go to top">&#8679;</span></div>
 
-    <div class="footer"><!--Hosted with github pages 2023 license whatever...--> </div>
+    <div class="footer"></div>
+    <footer class="site-footer">
+      <div class="container">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="#">Personnal Projects</a></li>
+          <li><a href="#">Professional Projects</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by <span>Francisco Pereira</span></p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <!-- <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li> -->
+              <li><a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/"><i
+                    class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--JS-Scripts-->
     <script src="./scripts/slideshow.js"></script>
     <script src="./scripts/topbutton.js"></script>
