@@ -1,13 +1,8 @@
 /* styles.css */
 
-/* Style for the heading */
-.h2 {
-  color: #333;
-  font-family: Arial, sans-serif;
-}
-
 /* Style for labels */
 label {
+  display: block;
   font-weight: bold;
 }
 
@@ -15,51 +10,49 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+  width: 30%;
+  padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Style for form inputs on focus */
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #459591; /* Change border color on focus */
 }
 
 /* Style for submit button */
 input[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #459591;
   color: white;
-  padding: 10px 20px;
+  padding: 12px 24px;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
 }
 
 /* Style for submit button on hover */
 input[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #459591b0;
 }
-
-/* styles.css */
-
-/* Rest of the styles remain unchanged */
 
 /* Style for the form container */
 .form-container {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  /* Center align the contents */
+  width: 100%; /* Adjust container width as needed */
+  margin: 10 auto;
+  text-align: left;
 }
 
 /* Style for the form group (label + input/textarea) */
 .form-group {
-  margin-bottom: 20px;
   text-align: left;
-  /* Align label to the left */
 }
 
-/* Style for the label */
-label {
-  display: block;
-  /* Display label as block to get on top of the input */
-  font-weight: bold;
-  margin-bottom: 5px;
-}
+/* Rest of the styles remain unchanged */
