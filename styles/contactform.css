@@ -2,41 +2,42 @@
 
 /* Style for the heading */
 h2 {
-    color: #333;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Style for labels */
-  label {
-    font-weight: bold;
-  }
-  
-  /* Style for form inputs */
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  /* Style for submit button */
-  input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* Style for submit button on hover */
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  /* styles.css */
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for labels */
+label {
+  font-weight: bold;
+}
+
+/* Style for form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for submit button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* styles.css */
 
 /* Rest of the styles remain unchanged */
 
@@ -44,20 +45,21 @@ h2 {
 .form-container {
   width: 50%;
   margin: 0 auto;
-  text-align: center; /* Center align the contents */
+  text-align: center;
+  /* Center align the contents */
 }
 
 /* Style for the form group (label + input/textarea) */
 .form-group {
   margin-bottom: 20px;
-  text-align: left; /* Align label to the left */
+  text-align: left;
+  /* Align label to the left */
 }
 
 /* Style for the label */
 label {
-  display: block; /* Display label as block to get on top of the input */
+  display: block;
+  /* Display label as block to get on top of the input */
   font-weight: bold;
   margin-bottom: 5px;
 }
-
-  
