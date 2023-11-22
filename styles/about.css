@@ -10,7 +10,7 @@
 }
 
 .about-columm-1 {
-    margin-top: 2%;
+    margin-top: 5%;
     flex-basis: 55%;
 }
 
@@ -19,11 +19,11 @@
 }
 
 .about-columm-2 {
-    margin-top: 2%;
+    margin-top: 5%;
     flex-basis: 40%;
 }
 
 .about-columm-2 img {
-    width: 40%;
+    width: 50%;
     border-radius: 5px;
 }
