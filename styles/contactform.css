@@ -55,4 +55,6 @@ input[type="submit"]:hover {
   text-align: left;
 }
 
-/* Rest of the styles remain unchanged */
+.otherCommunication{
+  margin-top: 2%;
+}
