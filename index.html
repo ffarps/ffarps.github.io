@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="styles/projectshow.css">
   <link rel="stylesheet" href="styles/slideshowprojects.css">
   <link rel="stylesheet" href="styles/topbutton.css">
-
+  <!---->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -221,26 +221,27 @@
     <!--Contact form-->
     <div id="Contact">
       <div class="container">
-        <h2>Contact Me</h2>
-        <br>
-        <form action="/submit-contact" method="post" class="form-container">
-          <div class="form-group">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
-          </div>
+          <h2>Contact Me</h2>
+          <br>
+          <form action="/submit-contact" method="post" class="form-container">
+            <div class="form-group">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
+            </div>
+  
+            <div class="form-group">
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+            </div>
+  
+            <div class="form-group">
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" required></textarea><br><br>
+            </div>
+  
+            <input type="submit" value="Submit">
+          </form>
 
-          <div class="form-group">
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-          </div>
-
-          <div class="form-group">
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br><br>
-          </div>
-
-          <input type="submit" value="Submit">
-        </form>
         <div class="otherCommunication">
           <h3>Other ways to contact me...</h3>
           <p>email?</p>
@@ -250,7 +251,6 @@
     </div>
     <!--end contact form-->
 
-    <!-- <button onclick="topFunction()" id="topButton" title="Go to top">&#8679;</button> -->
     <div id="topButton"><span id="progress-value" onclick="topFunction()" title="Go to top">&#8679;</span></div>
 
     <div class="footer"></div>
