@@ -40,9 +40,16 @@ input[type="submit"]:hover {
 }
 
 textarea#message {
-  width: 50%;
+  height: 100px;
 }
 
 .otherCommunication {
   text-align: center;
+  margin-bottom: 5%;
+}
+
+.otherCommunication a:hover {
+  color: #459591;
+  text-decoration: none;
+  font-size: 26px;
 }
