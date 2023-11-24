@@ -28,6 +28,10 @@ a {
     font-size: 24px;
 }
 
+.container {
+    padding: 10px 10%;
+}
+
 /* The alert message box is to be deleted*/
 .alert {
     padding: 10px;
@@ -53,5 +57,3 @@ a {
 .closebtn:hover {
     color: black;
 }
-
-/* The alert message box is to be deleted*/
