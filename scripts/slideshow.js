@@ -36,5 +36,5 @@ function showSlides(n) {
   clearTimeout(window.slideTimeout);
   window.slideTimeout = setTimeout(() => {
     plusSlides(1);
-  }, 2000);
+  }, 3000);
 }

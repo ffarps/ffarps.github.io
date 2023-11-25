@@ -14,7 +14,10 @@
     float: left;
     width: 33.33%;
     display: none;
-    /* Hide columns by default */
+}
+
+.column:hover {
+    background-color: #459591;
 }
 
 /* Clear floats after rows */
@@ -56,12 +59,14 @@
     background-color: #459591;
     color: white;
 }
-.btn-container{
+
+.btn-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.btn-container button{
+
+.btn-container button {
     margin-top: 3%;
     border: none;
     outline: none;
@@ -69,8 +74,9 @@
     background-color: #459591;
     cursor: pointer;
     color: white;
-    
+
 }
+
 .btn-container button:hover {
     background-color: #4595912c;
 }

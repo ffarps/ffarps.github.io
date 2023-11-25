@@ -8,6 +8,10 @@
     display: none;
 }
 
+.mySlides:hover {
+    background-color: #459591;
+}
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
@@ -71,7 +75,7 @@
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .active,
