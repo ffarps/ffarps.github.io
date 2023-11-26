@@ -114,10 +114,16 @@
         <div class="row">
           <div class="about-columm-1">
             <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit a massa a gravida. Nullam varius pellentesque leo, quis condimentum nisi molestie id. Integer vel nibh eleifend, vehicula mauris consequat, tincidunt nisi. Nulla at posuere nunc. Sed nisl justo, auctor quis tincidunt in, iaculis non quam. Etiam massa mi, mattis maximus ullamcorper in, dignissim faucibus purus. Duis felis lorem, dictum in sagittis aliquam, luctus eu arcu. Nunc fringilla arcu id placerat dapibus. In hac habitasse platea dictumst. Praesent viverra ipsum eu metus hendrerit laoreet. Curabitur iaculis finibus ultricies.
-           </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas blandit a massa a gravida. Nullam
+              varius pellentesque leo, quis condimentum nisi molestie id. Integer vel nibh eleifend, vehicula mauris
+              consequat, tincidunt nisi. Nulla at posuere nunc. Sed nisl justo, auctor quis tincidunt in, iaculis non
+              quam. Etiam massa mi, mattis maximus ullamcorper in, dignissim faucibus purus. Duis felis lorem, dictum in
+              sagittis aliquam, luctus eu arcu. Nunc fringilla arcu id placerat dapibus. In hac habitasse platea
+              dictumst. Praesent viverra ipsum eu metus hendrerit laoreet. Curabitur iaculis finibus ultricies.
+            </p>
             <div class="btn-container">
-              <button>Download my CV </button>
+              <!-- <button href="pages/franciscopereiraENCV.pdf" download>Download my CV</button> -->
+              <a href="pages/franciscopereiraENCV.pdf"download>Download my CV</a>
             </div>
 
           </div>
@@ -219,38 +225,44 @@
     <!--Contact form-->
     <div id="Contact">
       <div class="container">
-          <h2>Contact Me</h2>
-          <br>
-          <form action="/submit-contact" method="post" class="form-container">
-            <div class="form-group">
-              <label for="name">Name:</label><br>
-              <input type="text" id="name" name="name" required><br><br>
-            </div>    
-  
-            <div class="form-group">
-              <label for="email">Email:</label><br>
-              <input type="email" id="email" name="email" required><br><br>
-            </div>
-  
-            <div class="form-group">
-              <label for="message">Message:</label><br>
-              <textarea id="message" name="message" required></textarea><br><br>
-            </div>
-  
-            <input type="submit" value="Submit">
-          </form>
+        <h2>Contact Me</h2>
+        <br>
+        <form action="/submit-contact" method="post" class="form-container">
+          <div class="form-group">
+            <!-- <label for="name">Name:</label> -->
+            <br>
+            <input type="text" id="name" name="name" placeholder="First and Last Name" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="email">Email:</label> -->
+            <br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+          </div>
+
+          <div class="form-group">
+            <!-- <label for="message">Message:</label> -->
+            <br>
+            <textarea id="message" name="message" placeholder="Message" required></textarea><br><br>
+          </div>
+
+          <!-- <input type="submit" value="Send"><i class="fa-solid fa-paper-plane" style="color: #45959188;"></i> -->
+          <button type="submit" class="send-button">Send <i class="fa-solid fa-paper-plane" style="color: #fff;"></i></button>
+        </form>
 
         <div class="otherCommunication">
           <h3>Other ways to contact me...</h3><br>
-          <a href="mailto:franciscoandre.farp@gmail.com">franciscoandre.farp@gmail.com</a><br><br>
-          <a href="tel:+351926843295">+351 926843295</a>
+          <a href="mailto:franciscoandre.farp@gmail.com"><i class="fa-regular fa-envelope" style="color: #459591;"></i>
+            franciscoandre.farp@gmail.com</a><br><br>
+          <a href="tel:+351926843295"><i class="fa-solid fa-phone" style="color: #459591;"></i> +351 926843295</a>
 
         </div>
       </div>
     </div>
     <!--end contact form-->
 
-    <div id="topButton"><span id="progress-value" onclick="topFunction()" title="Go to top"><i class="fa-solid fa-angles-up"></i></span></div>
+    <div id="topButton"><span id="progress-value" onclick="topFunction()" title="Go to top"><i
+          class="fa-solid fa-angles-up"></i></span></div>
 
     <div class="footer"></div>
     <footer class="site-footer">
@@ -269,15 +281,18 @@
             <p class="copyright-text">Copyright &copy; 2023 <span>Francisco Pereira</span>. All Rights Reserved</p>
             <a href="pages/privacy.html">Privacy</a>
           </div>
-          
+
           <div class="col-md-4 col-sm-6 col-xs-12">
-            
+
             <ul class="social-icons">
               <li><a class="github" href="https://github.com/ffarps"><i class="fa fa-github"></i></a></li>
-              <li><a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/"><i class="fa fa-linkedin"></i></a></li>
-              <li><a class="Youtube" href="https://www.youtube.com/@ffarps/videos"><i class="fa fa-youtube"></i></a></li>
-              <li><a class="Artstation" href="https://www.artstation.com/ffarps"> <i class="fa-brands fa-artstation"></i> </a></li>
-              <p>My links</p>   
+              <li><a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/"><i
+                    class="fa fa-linkedin"></i></a></li>
+              <li><a class="Youtube" href="https://www.youtube.com/@ffarps/videos"><i class="fa fa-youtube"></i></a>
+              </li>
+              <li><a class="Artstation" href="https://www.artstation.com/ffarps"> <i
+                    class="fa-brands fa-artstation"></i> </a></li>
+              <p>My links</p>
             </ul>
           </div>
 

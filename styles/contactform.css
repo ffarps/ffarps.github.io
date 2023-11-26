@@ -38,6 +38,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45959188;
 }
+.send-button{
+  background-color: #459591;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+.send-button:hover{
+  background-color: #45959188;
+}
 
 textarea#message {
   height: 100px;
@@ -47,9 +60,12 @@ textarea#message {
   text-align: center;
   margin-bottom: 5%;
 }
+.otherCommunication a{
+  text-decoration: none;  
+  transition: 0.3s;
+}
 
 .otherCommunication a:hover {
   color: #459591;
   text-decoration: none;
-  font-size: 26px;
 }

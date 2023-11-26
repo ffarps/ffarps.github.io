@@ -14,10 +14,12 @@
     float: left;
     width: 33.33%;
     display: none;
+    transition:transform 0.3s;
 }
 
 .column:hover {
     background-color: #459591;
+    transform: translateY(-10px)
 }
 
 /* Clear floats after rows */
@@ -74,7 +76,6 @@
     background-color: #459591;
     cursor: pointer;
     color: white;
-
 }
 
 .btn-container button:hover {
