@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create Project Page</title>
+    <link rel="stylesheet" href="../styles/createProject.css" />
+  </head>
+  <body>
+    <form id="projectForm">
+      <label for="projectType"><h1>Project Type</h1></label>
+      <label class="containerCheck"
+        >Personal
+        <input type="checkbox" name="projectCheckbox" />
+        <span class="checkmark"></span>
+      </label>
+      <label class="containerCheck"
+        >Professional
+        <input type="checkbox" name="projectCheckbox" />
+        <span class="checkmark"></span>
+      </label>
+
+      <label for="projectTitle"><h1>Project Title</h1></label>
+      <input type="text" id="projectTitle" name="projectTitle" required />
+      <label for="projectDescription"><h1>Project Description</h1></label>
+      <textarea
+        id="projectDescription"
+        name="projectDescription"
+        required
+      ></textarea>
+      <label for="projectThumbnail"><h1>Project Thumbnail</h1></label>
+      <input
+        type="file"
+        id="projectThumbnail"
+        name="projectThumbnail"
+        required
+      />
+      <label for="projectLink"><h1>Project link</h1></label>
+      <input type="url" id="projectLink" name="projectLink" required />
+
+      <input type="submit" value="Create Project" />
+    </form>
+    <script src="../scripts/templateProjects.js"></script>
+  </body>
+</html>

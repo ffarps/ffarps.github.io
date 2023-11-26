@@ -8,10 +8,6 @@
     display: none;
 }
 
-.mySlides:hover {
-    background-color: #459591;
-}
-
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
