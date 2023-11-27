@@ -6,39 +6,44 @@
     <link rel="stylesheet" href="../styles/createProject.css" />
   </head>
   <body>
-    <form id="projectForm">
-      <label for="projectType"><h1>Project Type</h1></label>
-      <label class="containerCheck"
-        >Personal
-        <input type="checkbox" name="projectCheckbox"/>
-        <span class="checkmark"></span>
-      </label>
-      <label class="containerCheck"
-        >Professional
-        <input type="checkbox" name="projectCheckbox"/>
-        <span class="checkmark"></span>
-      </label>
+    <div>
+      <h1>Create Project Page</h1>
+      <form id="projectForm">
+        <label for="projectType"><h2>Project Type</h2></label>
+        <label class="containerCheck"
+          >Personal
+          <input type="checkbox" name="projectCheckbox" value="Personal" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="containerCheck"
+          >Professional
+          <input type="checkbox" name="projectCheckbox" value="Professional" />
+          <span class="checkmark"></span>
+        </label>
 
-      <label for="projectTitle"><h1>Project Title</h1></label>
-      <input type="text" id="projectTitle" name="projectTitle" required />
-      <label for="projectDescription"><h1>Project Description</h1></label>
-      <textarea
-        id="projectDescription"
-        name="projectDescription"
-        required
-      ></textarea>
-      <label for="projectThumbnail"><h1>Project Thumbnail</h1></label>
-      <input
-        type="file"
-        id="projectThumbnail"
-        name="projectThumbnail"
-        required
-      />
-      <label for="projectLink"><h1>Project link</h1></label>
-      <input type="url" id="projectLink" name="projectLink" required />
+        <label for="projectTitle"><h2>Project Title</h2></label>
+        <input type="text" id="projectTitle" name="projectTitle" required />
+        <label for="projectDescription"><h2>Project Description</h2></label>
+        <textarea
+          id="projectDescription"
+          name="projectDescription"
+          required
+        ></textarea>
+        <label for="projectThumbnail"><h2>Project Thumbnail</h2></label>
+        <input
+          type="file"
+          id="projectThumbnail"
+          name="projectThumbnail"
+          required
+        />
+        <img id="thumbnailPreview" src="" alt="Thumbnail Preview" />
+        <label for="projectLink"><h2>Project link</h2></label>
+        <input type="url" id="projectLink" name="projectLink" required />
 
-      <input type="submit" value="Create Project" />
-    </form>
+        <input type="submit" value="Create Project" />
+      </form>
+      <footer><a href="../">Return to index</a></footer>
+    </div>
     <script src="../scripts/templateProjects.js"></script>
   </body>
 </html>

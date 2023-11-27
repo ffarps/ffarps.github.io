@@ -1,8 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 10px 5%;
     background-color: #000;
+    color: white;
 }
 
 form {
@@ -28,6 +29,16 @@ textarea {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+input[type="file"] {
+    background-color: #459591;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+
 }
 
 input[type="submit"] {
@@ -123,4 +134,19 @@ input[type="submit"]:hover {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+footer {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    text-decoration: underline;
+    font-size: large;
 }
