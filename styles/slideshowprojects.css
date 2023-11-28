@@ -5,10 +5,29 @@
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
+.mySlides .hover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    background: #459591;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.mySlides a:hover .hover-text {
+    opacity: 1;
+}
+
 .cursor {
     cursor: pointer;
 }
