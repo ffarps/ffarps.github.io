@@ -57,3 +57,7 @@ a {
 .closebtn:hover {
     color: black;
 }
+
+.content a {
+    text-decoration: none;
+}
