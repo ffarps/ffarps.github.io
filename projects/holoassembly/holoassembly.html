@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project Template Page</title>
+    <link rel="stylesheet" href="/styles/projecttemplate.css"></link>
+    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/nav.css">
+    <script src="https://kit.fontawesome.com/db83251725.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+      <div class="container">
+        <nav>
+          <ul>
+              <li><a href="../../#">Home</a></li>
+              <li><a href="../../#About">About</a></li>
+              <li><a href="../../#Projects">Projects</a></li>
+              <li><a href="../../#Contact">Contact</a></li>
+            </ul>
+          </nav>
+        <h1 id="ProjectTitle">Holo Assembly</h1>
+        <span class="tag-cloud"></span>
+        <div class="tag-cloud">
+            <!-- comment one line -->
+            <span class="tag">Personal Project</span>
+            <!-- <span class="tag">Professional Project</span> -->
+        </div>
+        <div class="img">
+            <img src="/projects/holoassembly/holoassembly.jpg" alt="ProjectImage">
+            
+        </div>
+        <div class="description">
+          <p>An Augmented Reality Assembly guide App based on my Degree&#39;s final project</p>
+          <p>A unity 3D app for Android, capable of displaying information on an AR overlayed car.</p>
+          <p>Unity 2022.3.5f1</p>
+          <p>Vuforia v 10.17</p>
+          <p>Sounds from <a target="_blank" href="https://freesound.org/">https://freesound.org/</a></p>
+          <h3 id="future-work">Future Work</h3>
+          <ul>
+          <li>[ ] fix a bug that when the gaze hovers other object the outline stays on</li>
+          <li>[ ] in starting the scene with the AR simulator verufy if any object is already marked as selected in the database so the outline is on</li>
+          <li>[ ] fix the issue when there is no value stored in the database the connection to the database is not Working (it has something to do with the update method)</li>
+          <li>[ ] fix &quot;Not allowed to access vertices on mesh &#39;Windscreen washer reservoir&#39; (isReadable is false; Read/Write must be enabled in import settings)&quot;</li>
+          <li>[ ] fix &quot;Not allowed to access normals on mesh &#39;battery&#39; (isReadable is false; Read/Write must be enabled in import settings)&quot;</li>
+          <li>[ ] improve UI scaling so that when the phone rotates, the width will be bigger than the heigh, so the ui must change, with the logo on the left, and the Buttons on the right.</li>
+          <li>[ ] improve UI and Logo</li>
+          <li>[ ] implement text mesh pro &quot;loading... (finding Model/image)&quot;</li>
+          <li>[ ] implement a text mesh in the middle of the screen (above the Gaze) that says Looking for Image/Object (it varies whether it&#39;s an image or an object)</li>
+          </ul>
+          <h3 id="results-">Results:</h3>
+          <h4 id="app-running-in-the-unity-editor-">App running in the Unity Editor:</h4>
+          <p><a target="_blank" href="https://youtu.be/8Fu11Rj5KjE" title="App running in the Unity Editor"><img src="http://img.youtube.com/vi/8Fu11Rj5KjE/0.jpg" alt="IMAGE ALT TEXT"></a></p>
+          <h4 id="app-running-in-an-android-phone-using-a-image-target-marker-">App running in an Android phone using a Image target (marker)</h4>
+          <p><a target="_blank" href="https://youtu.be/hcyNxq3MUTk" title="App running in an Android phone using a Image target (marker)"><img src="http://img.youtube.com/vi/hcyNxq3MUTk/0.jpg" alt="IMAGE ALT TEXT"></a></p>
+          <h4 id="app-running-in-an-android-phone-using-a-model-target-cad-tracking-">App running in an Android phone using a Model target (Cad tracking)</h4>
+          <p><a target="_blank" href="https://youtu.be/_uyqvXNGZjE" title="App running in an Android phone using a Model target (Cad tracking)"><img src="http://img.youtube.com/vi/_uyqvXNGZjE/0.jpg" alt="IMAGE ALT TEXT"></a></p>
+          
+            <p>
+                Link to source: <a href="https://github.com/ffarps/HoloAssembly" target="_blank">GitHub</a>
+            </p>
+        </div>            
+
+    </div> 
+     <div class="footer"></div>
+     <footer class="site-footer">
+       <div class="container">
+         <h6>Quick Links</h6>
+         <ul class="footer-links">
+            <a href="../../">Return to index</a>
+           <li><a href="/pages/personalprojects.html">Personal Projects</a></li>
+           <li><a href="/pages/proprojects.html">Professional Projects</a></li>
+         </ul>
+         <hr>
+       </div>
+       <div class="container">
+         <div class="row">
+           <div class="col-md-8 col-sm-6 col-xs-12">
+             <p class="copyright-text">Copyright &copy; 2023 <span>Francisco Pereira</span>. All Rights Reserved</p>
+             <p>Made with <i class="fa-solid fa-heart"></i>, only with <i class="fa-brands fa-html5"></i>, <i
+                 class="fa-brands fa-css3-alt"></i> and <i class="fa-brands fa-js"></i></p>
+             <a href="pages/privacy.html">Privacy</a>
+           </div>
+ 
+           <div class="col-md-4 col-sm-6 col-xs-12">
+ 
+             <ul class="social-icons">
+               <li><a class="github" href="https://github.com/ffarps"><i class="fa fa-github"></i></a></li>
+               <li><a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/"><i
+                     class="fa fa-linkedin"></i></a></li>
+               <li><a class="Youtube" href="https://www.youtube.com/@ffarps/videos"><i class="fa fa-youtube"></i></a>
+               </li>
+               <li><a class="Artstation" href="https://www.artstation.com/ffarps"> <i
+                     class="fa-brands fa-artstation"></i> </a></li>
+               <p>My links</p>
+             </ul>
+           </div>
+ 
+         </div>
+       </div>
+       </div>
+     </footer>
+     <script src="/scripts/tag.js"></script>
+  </body>
+</html>

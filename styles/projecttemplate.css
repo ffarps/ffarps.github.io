@@ -1,0 +1,66 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    padding: 3% 10%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+img {
+    margin-top: 3%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    /* maybe this is not a good ideia */
+    max-height: 700px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.tag-cloud {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: #459591;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.tag:hover {
+    transform: scale(1.1);
+}

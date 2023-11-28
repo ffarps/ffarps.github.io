@@ -7,6 +7,10 @@
 ## What I've Learned
 
 - Make a web portfolio from scratch
+- put into practice some simple html and css knowledge
 -
 -
--
+
+## Future work
+
+-[ ] backend for adding and editing of projects
