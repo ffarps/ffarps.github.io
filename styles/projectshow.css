@@ -14,7 +14,7 @@
     float: left;
     width: 33.33%;
     display: none;
-    transition:transform 0.3s;
+    transition: transform 0.3s;
 }
 
 .column:hover {
@@ -57,10 +57,10 @@
 }
 
 /* Add a dark background color to the active button */
-.btn.active {
+/* .btn.active {
     background-color: #459591;
     color: white;
-}
+} */
 
 .btn-container {
     display: flex;

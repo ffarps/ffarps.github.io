@@ -1,4 +1,4 @@
-filterSelection("all") // Execute the function and show all columns
+filterSelection("all"); // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
@@ -39,7 +39,7 @@ function w3RemoveClass(element, name) {
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+  btns[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
