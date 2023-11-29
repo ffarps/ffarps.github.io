@@ -11,7 +11,7 @@
 
 .about-columm-1 {
     margin-top: 5%;
-    flex-basis: 70%;
+    flex-basis: 65%;
 }
 
 .about-columm-1 p {
@@ -28,6 +28,7 @@
     width: 100%;
     border-radius: 1px;
 }
+
 .btn-container {
     display: flex;
     align-items: center;
