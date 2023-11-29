@@ -81,3 +81,7 @@
 .btn-container button:hover {
     background-color: #4595912c;
 }
+
+.content a {
+    font-size: medium
+}
