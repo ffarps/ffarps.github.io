@@ -113,3 +113,9 @@
         opacity: 1
     }
 }
+
+.more-projects {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
