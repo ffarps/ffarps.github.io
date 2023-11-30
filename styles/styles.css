@@ -63,7 +63,7 @@ a {
     text-decoration: none;
 }
 
-.page-content {
+.projectsslideshow-content {
     opacity: 0;
     animation: fadeIn 0.3s forwards;
 }
