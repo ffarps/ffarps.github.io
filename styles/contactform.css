@@ -1,5 +1,6 @@
 .form-container {
   text-align: left;
+  width: 50%;
 }
 
 label {
@@ -9,11 +10,11 @@ label {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 270px;
-  padding: 15px;
+  width: 100%;
+  padding: 20px;
   border: 1px solid #45959188;
-  font-size: 16px;
-  color:#459591;
+  font-size: 25px;
+  color: #459591;
   transition: border-color 0.3s ease-in-out;
   background: #4595912c;
   margin-bottom: 15px;
@@ -41,7 +42,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45959188;
 }
-.send-button{
+
+.send-button {
   background-color: #459591;
   color: white;
   padding: 12px 24px;
@@ -51,20 +53,22 @@ input[type="submit"]:hover {
   font-size: 16px;
   transition: background-color 0.3s ease-in-out;
 }
-.send-button:hover{
+
+.send-button:hover {
   background-color: #45959188;
 }
 
 textarea#message {
-  height: 100px;
+  height: 150px;
 }
 
 .otherCommunication {
   margin-top: 5%;
   text-align: center;
 }
-.otherCommunication a{
-  text-decoration: none;  
+
+.otherCommunication a {
+  text-decoration: none;
   transition: 0.3s;
 }
 

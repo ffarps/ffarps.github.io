@@ -212,8 +212,7 @@
               <div class="btn-container">
                 <!-- <button href="pages/franciscopereiraENCV.pdf" download>Download my CV</button> -->
                 <a href="pages/franciscopereiraENCV.pdf" download
-                  ><i class="fa-solid fa-download" style="color: #fff"></i>
-                  Download my CV</a
+                  >Download my CV <i class="fa-solid fa-download" style="color: #fff"></i></a
                 >
               </div>
             </div>
@@ -388,7 +387,7 @@
         </div>
         <div class="btn-container">
           <button onclick="window.location.href='/pages/personalprojects.html'">
-            See more projects
+            See more projects <i class="fa-solid fa-eye" style="color: #fff;"></i>
           </button>
         </div>
       </div>
@@ -396,12 +395,12 @@
       <!--Contact form-->
       <div id="Contact">
         <div class="container">
-          <h2>Contact Me</h2>
+          <h1>Contact Me</h1>
           <!--  -->
-          <p>(not working now)</p>
+          <p>(not sensible info)</p>
           <!--  -->
           <div class="row">
-            <form action="/submit-contact" method="post" class="form-container">
+            <form action="https://formsubmit.co/franciscoandre.farp@gmail.com" method="POST" class="form-container">
               <div class="form-group">
                 <!-- <label for="name">Name:</label> -->
                 <input
@@ -435,6 +434,9 @@
               <button type="submit" class="send-button">
                 Send <i class="fa-solid fa-paper-plane" style="color: #fff"></i>
               </button>
+              <!--Disable the captch, not recommended <input type="hidden" name="_captcha" value="false"> -->
+              <input type="hidden" name="_next" value="https://ffarps.github.io/#Contact">
+              <input type="hidden" name="_autoresponse" value="Thank you for sending a message, we'll be in touch soon.">
             </form>
             <div class="otherCommunication">
               <a href="mailto:franciscoandre.farp@gmail.com"
