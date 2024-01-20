@@ -14,8 +14,9 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
+    padding: 0;
     background-repeat: repeat;
     background-color: black;
     /* background-color: #459591; */
@@ -76,4 +77,8 @@ a {
     to {
         opacity: 1;
     }
+}
+
+@media (max-width: 600px) {
+    
 }
