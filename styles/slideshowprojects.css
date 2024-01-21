@@ -118,3 +118,16 @@
     justify-content: center;
     margin-top: 2%;
 }
+
+@media (max-width: 600px) {
+    .prev,
+    .next {
+    display: none;
+    }
+    .caption-container {
+        font-size: 11px;
+    }
+    .more-projects a{
+        font-size: 11px;
+    }
+}

@@ -80,5 +80,10 @@ a {
 }
 
 @media (max-width: 600px) {
-    
+    .alert{
+        display: none;
+    }
+    .container {
+        padding: 8px 8%;
+    }
 }

@@ -85,3 +85,16 @@
 .content a {
     font-size: medium
 }
+
+@media (max-width: 600px) {
+.row {
+    margin: 8px -16px;
+}
+.row,
+.row>.column {
+    padding: 3px;
+}
+.column{
+    width: 100%;    
+}
+}

@@ -49,3 +49,24 @@
 .btn-container a:hover {
     background-color: #4595912c;
 }
+@media (max-width: 600px) {
+
+    .about-columm-1 h1{font-size: 30px;}
+    .row {
+        display: grid;
+    }
+    .about-columm-1 p {
+        font-size: 14x;
+    }
+    .btn-container a{
+        font-size: 20px;
+    }
+    .about-columm-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-columm-2 img{
+        width: 55%;
+    }
+}

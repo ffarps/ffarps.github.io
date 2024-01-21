@@ -77,3 +77,11 @@ textarea#message {
   color: #459591;
   text-decoration: none;
 }
+@media (max-width: 600px) {
+  .form-container {
+    width: 100%;
+  }
+  .otherCommunication a{
+    font-size: 23px;
+  }
+}

@@ -13,3 +13,10 @@
     transition: 0.3s;
     color: #459591;
 }
+@media (max-width: 600px) {
+    .header-text {
+        margin-top: 1%;
+        font-size: 15px;
+    }  
+
+}

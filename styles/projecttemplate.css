@@ -106,3 +106,94 @@ a {
 .proColumn2 {
     flex-basis: 40%
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 3% 10%;
+    }
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-bottom: 5%;
+    }
+    
+    h3 {
+        margin-bottom: 5%;
+    }
+    
+    .video iframe {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .tag-cloud {
+        margin-top: 0%;
+        display: inline-block;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .tag {
+        display: inline-block;
+        padding: 8px 20px;
+        border-radius: 25px;
+        background-color: #459591;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .tag-cloud a {
+        display: inline-block;
+        padding: 8px 20px;
+        border-radius: 25px;
+        background-color: #459591;
+        color: white;
+        text-decoration: none;
+        transition: transform 0.3s ease-in-out;
+        font-size: 11px;
+    }
+    
+    .tag-cloud a:hover {
+        transform: scale(1.1);
+    }
+    
+    .fa-github {
+        margin-right: 8px;
+        /* Adjust spacing */
+    }
+    
+    .tag:hover {
+        transform: scale(1.1);
+    }
+    
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .proColumn1 {
+        flex-basis: 100%;
+    }
+    
+    .proColumn2 {
+        flex-basis: 100%
+    }
+}
