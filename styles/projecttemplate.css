@@ -196,4 +196,7 @@ a {
     .proColumn2 {
         flex-basis: 100%
     }
+
+    
 }
+@media (max-width: 600px) {}
