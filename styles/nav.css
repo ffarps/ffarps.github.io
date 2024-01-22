@@ -37,3 +37,21 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.gittag a.button{
+    font-size: 13px;
+    top: 10px;
+    right: 10px;
+    position:fixed;
+    display: inline-block;
+    padding: 8px 8px; /* Adjust padding as needed */
+    background-color: black; /* GitHub's color, adjust as needed */
+    text-decoration: none;
+}
+.gittag a.button:hover{
+    background-color: #459591;
+}
+@media (max-width: 600px) {
+    .gittag a.button{
+        display: none;
+    }   
+}
