@@ -63,7 +63,7 @@ textarea#message {
 }
 
 .otherCommunication {
-  margin-top: 5%;
+  margin-top: 15%;
   text-align: center;
 }
 
@@ -82,6 +82,6 @@ textarea#message {
     width: 100%;
   }
   .otherCommunication a{
-    font-size: 23px;
+    font-size: 19px;
   }
 }

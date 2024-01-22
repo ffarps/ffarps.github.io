@@ -12,11 +12,14 @@
 .about-columm-1 {
     margin-top: 5%;
     flex-basis: 65%;
+    
 }
 
 .about-columm-1 p {
     margin-top: 3%;
     color: #ffffff;
+    margin-bottom: 15px;
+    
 }
 
 .about-columm-2 {
@@ -57,6 +60,7 @@
     }
     .about-columm-1 p {
         font-size: 14x;
+        margin-bottom: 10px;
     }
     .btn-container a{
         font-size: 20px;
@@ -67,6 +71,6 @@
         justify-content: center;
     }
     .about-columm-2 img{
-        width: 55%;
+        width: 61%;
     }
 }
