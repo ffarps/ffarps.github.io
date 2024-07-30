@@ -109,7 +109,7 @@
               <a>
                 <!-- <a href="/projects/holoassembly/holoassembly.html"> -->
                 <img class="demo cursor" src="/projects/holoassembly/0.jpg" style="width: 100%"
-                  onclick="currentSlide(1)" alt="HoloAssembly, an AR mobile app based on my Degree's final project " />
+                  onclick="currentSlide(1)" alt="HoloAssembly, an AR mobile app" />
               </a>
             </div>
             <div class="projects-column">
@@ -316,12 +316,31 @@
     <div id="Contact">
       <div class="container">
         <h1>Contact Me</h1>
-        <!--  -->
-        <h6>forwarder service, no sensible info, requires captcha</h6>
-        <!--  -->
+        
         <div class="row">
+          <div class="otherCommunication">
+            <br>
+            <a href="mailto:franciscoandre.farp@gmail.com" class="hover:text-blue-100 duration-200 flex items-center gap-2">
+              <i class="fa-regular fa-envelope"></i>
+              <span>Send me an email</span>
+            </a>
+            <div class="flex items-center gap-2 mt-2 cursor-pointer" id="emailLink" data-email="franciscoandre.farp@gmail.com">
+              <i class="fa-solid fa-copy"></i>
+              <span>Copy email</span>
+            </div>
+            <p id="copyMessage" style="display: none;">Email copied!</p>
+            <!-- <a href="tel:+351926843295">
+              <i class="fa-solid fa-phone"></i>
+              +351 926 843 295
+              <i class="fa-solid fa-copy" id="numberLink" data-number="+351 926 843 295" tyle="color: #459591"></i>
+            </a> -->
+            <p id="copyMessage2" style="display: none;">Number copied!</p>
+          </div>
           <form action="https://formsubmit.co/franciscoandre.farp@gmail.com" method="POST" class="form-container">
             <div class="form-group">
+              <h3>Or, leave me a message using this form</h3>
+              <br>
+              <h6>forwarder service, no sensible info, requires captcha</h6>
               <!-- <label for="name">Name:</label> -->
               <input type="text" id="name" name="name" placeholder="First and Last Name" required />
             </div>
@@ -342,24 +361,7 @@
             <input type="hidden" name="_autoresponse"
               value="Hey, Francisco here, Thanks for sending a message, we'll be in touch soon.">
           </form>
-          <div class="otherCommunication">
-            <h4>or send email without captcha</h4>
-            <!-- <a href="mailto:franciscoandre.farp@gmail.com"> -->
-              <br>
-              <!-- <i class="fa-regular fa-envelope"></i> -->
-              <a href="mailto:franciscoandre.farp@gmail.com"  class="hover:text-blue-100 duration-200 flex items-center gap-4"><p> <i class="fa-regular fa-envelope"></i> Send me an email</p></a>
-              <i class="fa-solid fa-copy" id="emailLink"  data-email="franciscoandre.farp@gmail.com"> <h4> copy email </h4></i>
-              <p id="copyMessage" style="display: none;">Email copied!</p>
-            </a>
-            <br />
-            <br />
-            <!-- <a href="tel:+351926843295">
-              <i class="fa-solid fa-phone"></i>
-              +351 926 843 295
-              <i class="fa-solid fa-copy" id="numberLink" data-number="+351 926 843 295" tyle="color: #459591"></i>
-            </a> -->
-            <p id="copyMessage2" style="display: none;">Number copied!</p>
-          </div>
+         
         </div>
 
         <!--to remove-->
