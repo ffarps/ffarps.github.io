@@ -40,7 +40,7 @@
         <!-- Follow me on github tag -->
         <a href="https://github.com/ffarps" class="button" target="_blank"
         style="box-sizing:unset;">
-        <small>My</small> GitHub 
+        <small>Follow me on </small> Github
       </a>
       <!-- END Follow me on github tag -->
         </div>
@@ -147,32 +147,24 @@
         <div class="row">
           <div class="about-columm-1">
             <h1>About me</h1>
-            <br />
-            <p></p>
-            Hello There!
-            <p></p>
-            Francisco Pereira, 22, from Mirandela, graduated in Informatics Engineering from the Polytechnic Institute of Bragança. 
-            I received two research fellowships from CeDRI during my studies. 
-            <p></p>
-            Currently, I'm working as a software developer in an AI setting. 
-            <p></p>
-            Proactive and dedicated, I'm eager to achieve great things.
-            
+            <div style="line-height: 1.5;">
+              <p>Hello, I'm <strong>Francisco Pereira</strong>, a 22-year-old Informatics Engineering graduate from the Polytechnic Institute of Bragança.</p>
+              <p>During my studies, I was awarded two research fellowships from CeDRI, gaining valuable experience in research and development.</p>
+              <p>Currently, I work as a Software Developer, focusing on AI-driven projects. I am proactive, goal-oriented, and eager to achieve great things.</p>
+            </div>
             <div class="btn-container">
               <!-- <button href="pages/franciscopereiraENCV.pdf" download>Download my CV</button> -->
               <a href="downloads/FranciscoPereiraCV.pdf" download>Download my CV <i class="fa-solid fa-download"
                   style="color: #fff"></i></a>
             </div>
           </div>
-
           <div class="about-columm-2">
-            <!-- <p>my photo</p> -->
-            <!--  -->
-
-            <img title="My photo" src="images/cyber.png" />
-
-            <!--  -->
+            <figure>
+              <img title="My photo" src="images/cyber.png" alt="My Avatar" />
+              <figcaption>"cyberpunk choom with vr headset" by Midjourney</figcaption>
+            </figure>
           </div>
+          
         </div>
       </div>
     </div>
@@ -311,41 +303,34 @@
             <br>
             <a href="mailto:franciscoandre.farp@gmail.com" class="hover:text-blue-100 duration-200 flex items-center gap-2">
               <i class="fa-regular fa-envelope"></i>
-              <span>Send me an email</span>
+              <span>franciscoandre.farp at gmail dot com</span>
             </a>
             <div class="flex items-center gap-2 mt-2 cursor-pointer" id="emailLink" data-email="franciscoandre.farp@gmail.com">
               <i class="fa-solid fa-copy"></i>
               <span>Copy email</span>
             </div>
             <p id="copyMessage" style="display: none;">Email copied!</p>
-            <!-- <a href="tel:+351926843295">
-              <i class="fa-solid fa-phone"></i>
-              +351 926 843 295
-              <i class="fa-solid fa-copy" id="numberLink" data-number="+351 926 843 295" tyle="color: #459591"></i>
-            </a> -->
             <p id="copyMessage2" style="display: none;">Number copied!</p>
           </div>
           <form action="https://formsubmit.co/franciscoandre.farp@gmail.com" method="POST" class="form-container">
             <div class="form-group">
-              <h3>Or, leave me a message using this form</h3>
               <br>
+              <br>
+              <br>
+              <h4>Or, leave me a message using this form</h4>
               <h6>forwarder service, no sensible info, requires captcha</h6>
               <br>
               <input type="text" id="name" name="name" placeholder="First and Last Name" required />
             </div>
             <div class="form-group">
-              <!-- <label for="email">Email:</label> -->
               <input type="email" id="email" name="email" placeholder="Email" required />
             </div>
             <div class="form-group">
-              <!-- <label for="message">Message:</label> -->
               <textarea id="message" name="message" placeholder="Message" required></textarea>
             </div>
-            <!-- <input type="submit" value="Send"><i class="fa-solid fa-paper-plane" style="color: #45959188;"></i> -->
             <button type="submit" class="send-button">
               Send <i class="fa-solid fa-paper-plane" style="color: #fff"></i>
             </button>
-            <!--Disable the captch, not recommended <input type="hidden" name="_captcha" value="false"> -->
             <input type="hidden" name="_next" value="https://ffarps.github.io/#Contact">
             <input type="hidden" name="_autoresponse"
               value="Hey, Francisco here, Thanks for sending a message, we'll be in touch soon.">
