@@ -7,27 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/styles.css" />
   <link rel="stylesheet" href="styles/contactform.css" />
-  <link rel="stylesheet" href="styles/footer.css" />
   <link rel="stylesheet" href="styles/about.css" />
-  <link rel="stylesheet" href="styles/footer.css" />
   <link rel="stylesheet" href="styles/header.css" />
   <link rel="stylesheet" href="styles/nav.css" />
   <link rel="stylesheet" href="styles/projectshow.css" />
   <link rel="stylesheet" href="styles/slideshowprojects.css" />
   <link rel="stylesheet" href="styles/topbutton.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
   <script src="https://kit.fontawesome.com/db83251725.js" crossorigin="anonymous"></script>
   <meta property="og:title" content="Francisco Pereira's Portfolio" />
   <meta property="og:description"
     content="Hello There! I'm a Software Developer from Mirandela, ready to achieve great things" />
-  <meta property="og:image" content="https://ffarps.github.io/images/cyber.png"/>
+  <meta property="og:image" content="https://ffarps.github.io/images/cyber.png" />
   <meta property="og:url" content="https://ffarps.github.io" />
-  <!--Mobile friendly-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
 <body>
-  <div id="header">
+  <header>
     <div class="container">
       <nav>
         <ul>
@@ -37,12 +33,12 @@
           <li><a href="#Contact">Contact</a></li>
         </ul>
         <div class="gittag">
-        <!-- Follow me on github tag -->
-        <a href="https://github.com/ffarps" class="button" target="_blank"
-        style="box-sizing:unset;">
-        <small>Follow me on </small> Github
-      </a>
-      <!-- END Follow me on github tag -->
+          <!-- Follow me on github tag -->
+          <a href="https://github.com/ffarps" class="button" target="_blank" rel="noopener noreferrer"
+            style="box-sizing:unset;">
+            <small>Follow me on </small> Github
+          </a>
+          <!-- END Follow me on github tag -->
         </div>
 
       </nav>
@@ -54,42 +50,48 @@
         <div class="Slideshow-projects">
           <div class="mySlides">
             <a href="/projects/holoassembly/holoassembly.html">
-              <img title="HoloAssembly" src="/projects/holoassembly/holoassembly.jpg" style="width: 100%" />
+              <img src="/projects/holoassembly/holoassembly.jpg" loading="lazy" style="width: 100%"
+                alt="HoloAssembly project preview" />
               <span class="hover-text">View more Info</span>
             </a>
           </div>
 
           <div class="mySlides">
             <a>
-              <img title="fitness-tracker-react-dot-net" src="images/reactDotnet.png" style="width: 100%" />
+              <img title="fitness-tracker-react-dot-net" src="images/reactDotnet.png" loading="lazy" style="width: 100%"
+                alt="Fitness Tracker project preview" />
               <span class="hover-text">Currently in development..</span>
             </a>
           </div>
 
           <div class="mySlides">
             <a>
-              <img title="crabby" src="images/crabby.png" style="width: 100%" />
+              <img title="crabby" src="images/crabby.png" loading="lazy" style="width: 100%"
+                alt="CRABBY project preview" />
               <span class="hover-text">Coming: When it's ready</span>
             </a>
           </div>
 
           <div class="mySlides">
             <a>
-              <img title="SwoleStore" src="images/swolestore.png" style="width: 100%" />
+              <img title="SwoleStore" src="images/swolestore.png" loading="lazy" style="width: 100%"
+                alt="SwoleStore project preview" />
               <span class="hover-text">Coming: When it's ready</span>
             </a>
           </div>
 
           <div class="mySlides">
             <a>
-              <img title="Angular-edit-tool" src="images/angularEdit.png" style="width: 100%" />
+              <img title="Angular-edit-tool" src="images/angularEdit.png" loading="lazy" style="width: 100%"
+                alt="Angular Edit Tool project preview" />
               <span class="hover-text">Coming: When it's ready</span>
             </a>
           </div>
 
           <div class="mySlides">
             <a>
-              <img title="OpenGL-render" src="images/openglrender.png" style="width: 100%" />
+              <img title="OpenGL-render" src="images/openglrender.png" loading="lazy" style="width: 100%"
+                alt="OpenGL Render project preview" />
               <span class="hover-text">Coming: When it's ready</span>
             </a>
           </div>
@@ -138,19 +140,21 @@
           </div>
         </div>
       </div>
-   
+
     </div>
 
     <!--About-->
-    <div id="About">
+    <section id="About">
       <div class="container">
         <div class="row">
           <div class="about-columm-1">
             <h1>About me</h1>
             <div style="line-height: 1.5;">
-              <p>Hello, I'm <strong>Francisco Pereira</strong>, an informatics engineering graduate with experience in software development and research, awarded two research fellowships.</p>
-              
-              <p>Currently working as a Software Developer, focusing on creating innovative and scalable solutions with AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.</p>
+              <p>Hello, I'm <strong>Francisco Pereira</strong>, an informatics engineering graduate with experience in
+                software development and research, awarded two research fellowships.</p>
+
+              <p>Currently working as a Software Developer, focusing on creating innovative and scalable solutions with
+                AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.</p>
             </div>
             <div class="btn-container">
               <!-- <button href="pages/franciscopereiraENCV.pdf" download>Download my CV</button> -->
@@ -164,12 +168,12 @@
               <figcaption>cyberpunk choom with vr headset, Midjourney</figcaption>
             </figure>
           </div>
-          
+
         </div>
       </div>
-    </div>
+    </section>
     <!--Project sections-->
-    <div id="Projects">
+    <section id="Projects">
       <div class="container">
         <h1>Projects</h1>
         <div id="myBtnContainer">
@@ -226,7 +230,7 @@
               <a>
                 <img src="/images/swolestore600X350.png" alt="Car" style="width: 100%" />
                 <h4>Swole Store</h4>
-                <p>Lan React and Django Fullstack e-commerce App</p>
+                <p>React and Django Fullstack e-commerce App</p>
                 <h6>Coming: When it's ready</h6>
               </a>
             </div>
@@ -289,62 +293,64 @@
           See more projects <i class="fa-solid fa-eye" style="color: #fff;"></i>
         </button>
       </div>
-    </div>
+    </section>
     <!--end Project sections-->
 
-   
+
 
     <!--Contact form-->
     <div id="Contact">
       <div class="container">
         <h1>Contact Me</h1>
-        
-          <div class="otherCommunication">
-            <br>
-            <a href="mailto:franciscoandre.farp@gmail.com" class="hover:text-blue-100 duration-200 flex items-center gap-2">
-              <i class="fa-regular fa-envelope"></i>
-              <span>franciscoandre.farp at gmail dot com</span>
-            </a>
-            <div class="flex items-center gap-2 mt-2 cursor-pointer" id="emailLink" data-email="franciscoandre.farp@gmail.com">
-              <i class="fa-solid fa-copy"></i>
-              <span>Copy email</span>
-            </div>
-            <p id="copyMessage" style="display: none;">Email copied!</p>
-            <p id="copyMessage2" style="display: none;">Number copied!</p>
-          </div>
-          <form action="https://formsubmit.co/franciscoandre.farp@gmail.com" method="POST" class="form-container">
-            <div class="form-group">
-              <br>
-              <br>
-              <br>
-              <h4>Or, leave me a message using this form</h4>
-              <h6>forwarder service, no sensible info, requires captcha</h6>
-              <br>
-              <input type="text" id="name" name="name" placeholder="First and Last Name" required />
-            </div>
-            <div class="form-group">
-              <input type="email" id="email" name="email" placeholder="Email" required />
-            </div>
-            <div class="form-group">
-              <textarea id="message" name="message" placeholder="Message" required></textarea>
-            </div>
-            <button type="submit" class="send-button">
-              Send <i class="fa-solid fa-paper-plane" style="color: #fff"></i>
-            </button>
-            <input type="hidden" name="_next" value="https://ffarps.github.io/#Contact">
-            <input type="hidden" name="_autoresponse"
-              value="Hey, Francisco here, Thanks for sending a message, we'll be in touch soon.">
-          </form>
 
-          <!--to remove-->
-    <div class="alert">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        <a href="https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort="
-          target="_blank">Website/Portfolio currently in development... For the meanwhile,
-        heres some repositories showing some work</a>
-    </div>
-    <!---->
-    
+        <div class="otherCommunication">
+          <br>
+          <a href="mailto:franciscoandre.farp@gmail.com"
+            class="hover:text-blue-100 duration-200 flex items-center gap-2">
+            <i class="fa-regular fa-envelope"></i>
+            <span>franciscoandre.farp at gmail dot com</span>
+          </a>
+          <div class="flex items-center gap-2 mt-2 cursor-pointer" id="emailLink"
+            data-email="franciscoandre.farp@gmail.com">
+            <i class="fa-solid fa-copy"></i>
+            <span>Copy email</span>
+          </div>
+          <p id="copyMessage" style="display: none;">Email copied!</p>
+          <p id="copyMessage2" style="display: none;">Number copied!</p>
+        </div>
+        <form action="https://formsubmit.co/franciscoandre.farp@gmail.com" method="POST" class="form-container">
+          <div class="form-group">
+            <br>
+            <br>
+            <br>
+            <h4>Or, leave me a message using this form</h4>
+            <h6>forwarder service, no sensible info, requires captcha</h6>
+            <br>
+            <input type="text" id="name" name="name" placeholder="First and Last Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" class="send-button">
+            Send <i class="fa-solid fa-paper-plane" style="color: #fff"></i>
+          </button>
+          <input type="hidden" name="_next" value="https://ffarps.github.io/#Contact">
+          <input type="hidden" name="_autoresponse"
+            value="Hey, Francisco here, Thanks for sending a message, we'll be in touch soon.">
+        </form>
+
+        <!--to remove-->
+        <div class="alert">
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+          <a href="https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort="
+            target="_blank">Website/Portfolio currently in development... For the meanwhile,
+            heres some repositories showing some work</a>
+        </div>
+        <!---->
+
       </div>
     </div>
     <!--end contact form-->
