@@ -3,21 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Francisco Pereira's Portfolio</title>
+  <title>Francisco Pereira</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Francisco Pereira - Driving Innovation with AI & Machine Learning" />
   <link rel="stylesheet" href="styles/styles.css" />
-  <link rel="stylesheet" href="styles/contactform.css" />
-  <link rel="stylesheet" href="styles/about.css" />
-  <link rel="stylesheet" href="styles/header.css" />
-  <link rel="stylesheet" href="styles/nav.css" />
-  <link rel="stylesheet" href="styles/projectshow.css" />
-  <link rel="stylesheet" href="styles/slideshowprojects.css" />
-  <link rel="stylesheet" href="styles/topbutton.css" />
-  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   <script src="https://kit.fontawesome.com/db83251725.js" crossorigin="anonymous"></script>
-  <meta property="og:title" content="Francisco Pereira's Portfolio" />
-  <meta property="og:description"
-    content="Hello There! I'm a Software Developer from Mirandela, ready to achieve great things" />
+  <meta property="og:title" content="Francisco Pereira" />
+  <meta property="og:description" content="Driving Innovation with AI & Machine Learning" />
   <meta property="og:image" content="https://ffarps.github.io/images/cyber.png" />
   <meta property="og:url" content="https://ffarps.github.io" />
 </head>
@@ -25,396 +18,150 @@
 <body>
   <header>
     <div class="container">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
+      <nav aria-label="Main navigation">
         <div class="gittag">
-          <!-- Follow me on github tag -->
-          <a href="https://github.com/ffarps" class="button" target="_blank" rel="noopener noreferrer"
-            style="box-sizing:unset;">
+          <a href="https://github.com/ffarps" class="button" target="_blank" rel="noopener noreferrer">
             <small>Follow me on </small> Github
           </a>
-          <!-- END Follow me on github tag -->
         </div>
-
       </nav>
       <div class="header-text">
         <h1>Hello World, I'm <span>Francisco Pereira</span></h1>
         <p>Software Developer</p>
       </div>
-      <div class="projectsslideshow-content">
-        <div class="Slideshow-projects">
-          <div class="mySlides">
-            <a href="/projects/holoassembly/holoassembly.html">
-              <img src="/projects/holoassembly/holoassembly.jpg" loading="lazy" style="width: 100%"
-                alt="HoloAssembly project preview" />
-              <span class="hover-text">View more Info</span>
-            </a>
-          </div>
-
-          <div class="mySlides">
-            <a>
-              <img title="fitness-tracker-react-dot-net" src="images/reactDotnet.png" loading="lazy" style="width: 100%"
-                alt="Fitness Tracker project preview" />
-              <span class="hover-text">Currently in development..</span>
-            </a>
-          </div>
-
-          <div class="mySlides">
-            <a>
-              <img title="crabby" src="images/crabby.png" loading="lazy" style="width: 100%"
-                alt="CRABBY project preview" />
-              <span class="hover-text">Coming: When it's ready</span>
-            </a>
-          </div>
-
-          <div class="mySlides">
-            <a>
-              <img title="SwoleStore" src="images/swolestore.png" loading="lazy" style="width: 100%"
-                alt="SwoleStore project preview" />
-              <span class="hover-text">Coming: When it's ready</span>
-            </a>
-          </div>
-
-          <div class="mySlides">
-            <a>
-              <img title="Angular-edit-tool" src="images/angularEdit.png" loading="lazy" style="width: 100%"
-                alt="Angular Edit Tool project preview" />
-              <span class="hover-text">Coming: When it's ready</span>
-            </a>
-          </div>
-
-          <div class="mySlides">
-            <a>
-              <img title="OpenGL-render" src="images/openglrender.png" loading="lazy" style="width: 100%"
-                alt="OpenGL Render project preview" />
-              <span class="hover-text">Coming: When it's ready</span>
-            </a>
-          </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-          <!-- Image text -->
-          <div class="caption-container">
-            <h2 id="caption"></h2>
-          </div>
-
-          <!-- Thumbnail images -->
-          <div class="projects-row">
-            <div class="projects-column">
-              <a>
-                <!-- <a href="/projects/holoassembly/holoassembly.html"> -->
-                <img class="demo cursor" src="/projects/holoassembly/0.jpg" style="width: 100%"
-                  onclick="currentSlide(1)" alt="HoloAssembly, an AR mobile app" />
-              </a>
-            </div>
-            <div class="projects-column">
-              <img class="demo cursor" src="images/reactDotnet600X350.png" style="width: 100%" onclick="currentSlide(2)"
-                alt="Fitness Tracker, a React and dotNET app " />
-            </div>
-            <div class="projects-column">
-              <img class="demo cursor" src="images/crabby600X350.png" style="width: 100%" onclick="currentSlide(3)"
-                alt="CRABBY, a 2D game developed in Rust" />
-            </div>
-            <div class="projects-column">
-              <img class="demo cursor" src="images/swolestore600X350.png" style="width: 100%" onclick="currentSlide(4)"
-                alt="SwoleStore, a React and Django Fullstack e-commerce App" />
-            </div>
-            <div class="projects-column">
-              <img class="demo cursor" src="images/angularEdit600X350.png" style="width: 100%" onclick="currentSlide(5)"
-                alt="Photo/Video Editing Tool" />
-            </div>
-            <div class="projects-column">
-              <img class="demo cursor" src="images/openglrender600X350.png" style="width: 100%"
-                onclick="currentSlide(6)" alt="OpenGL render engine" />
-            </div>
-          </div>
-          <div class="more-projects">
-            <a href="#Projects">View More Projects</a>
-          </div>
-        </div>
-      </div>
-
     </div>
-
-    <!--About-->
+  </header>
+  <main>
     <section id="About">
       <div class="container">
         <div class="row">
-          <div class="about-columm-1">
-            <h1>About me</h1>
-            <div style="line-height: 1.5;">
-              <p>Hello, I'm <strong>Francisco Pereira</strong>, an informatics engineering graduate with experience in
-                software development and research, awarded two research fellowships.</p>
-
-              <p>Currently working as a Software Developer, focusing on creating innovative and scalable solutions with
-                AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.</p>
-            </div>
-            <div class="btn-container">
-              <!-- <button href="pages/franciscopereiraENCV.pdf" download>Download my CV</button> -->
-              <a href="downloads/FranciscoPereiraCV.pdf" download>Download my CV <i class="fa-solid fa-download"
-                  style="color: #fff"></i></a>
+          <div class="about-column-1">
+            <h2>About Me</h2>
+            <div class="about-description" style="line-height: 1.7; font-size: 1.1em;">
+              <p>
+                I'm Francisco Pereira, a passionate software developer with a strong background in AI, machine learning,
+                and full-stack development.<br>
+                My journey started with a degree in Informatics Engineering, and since then I've worked on research
+                fellowships, innovative projects, and real-world products.<br><br>
+                I enjoy blending creativity with technology—whether that's building AR/VR apps, automating tasks with
+                AI, or designing beautiful, user-friendly web experiences.<br>
+                <strong>Values:</strong> Innovation, curiosity, and making an impact.<br>
+                <strong>Skills:</strong> Python, JavaScript, Rust, React, AI/ML, AR/VR, and more.<br>
+                <strong>Currently:</strong> Focused on delivering scalable solutions and learning something new every
+                day.<br>
+              </p>
             </div>
           </div>
-          <div class="about-columm-2">
-            <figure>
-              <img title="My photo" src="images/cyber.png" alt="My Avatar" />
-              <figcaption>cyberpunk choom with vr headset, Midjourney</figcaption>
-            </figure>
+          <div class="about-column-2">
+            <!-- Image removed as requested -->
           </div>
-
         </div>
       </div>
     </section>
-    <!--Project sections-->
     <section id="Projects">
       <div class="container">
-        <h1>Projects</h1>
-        <div id="myBtnContainer">
-          <button class="btn active" onclick="filterSelection('all')">
-            Show all
-          </button>
-          <button class="btn" onclick="filterSelection('Game/Simulation Development')">
-            Game/Simulation Development
-          </button>
-          <button class="btn" onclick="filterSelection('Fullstack Web Development')">
-            Fullstack Web Development
-          </button>
-          <button class="btn" onclick="filterSelection('Mobile and other Software Development')">
-            Mobile and other Software Development
-          </button>
+        <h2>Projects</h2>
+        <div class="warning-card"
+          style="background: #fff3cd; color: #856404; border: 1px solid #ffeeba; border-radius: 5px; padding: 1em; margin-bottom: 1.5em; display: flex; align-items: center; gap: 1em;">
+          <i class="fa fa-exclamation-triangle" style="font-size: 1.5em;"></i>
+          <div>
+            <strong>Heads up!</strong><br>
+            You can find more projects in my <a
+              href="https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort=" target="_blank"
+              rel="noopener noreferrer" style="color: #856404; text-decoration: underline;">public GitHub
+              repositories</a>.<br>
+            More projects are coming soon!<br>
+            This website is currently being refactored and developed.
+          </div>
         </div>
-
-        <!-- Portfolio Gallery Grid -->
+        <!-- <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')" type="button">Show all</button>
+          <button class="btn" onclick="filterSelection('Game/Simulation Development')" type="button">Game/Simulation
+            Development</button>
+          <button class="btn" onclick="filterSelection('Web Development')" type="button">Web Development</button>
+          <button class="btn" onclick="filterSelection('Mobile and other Software Development')" type="button">Mobile
+            and other Software Development</button>
+        </div> -->
         <div class="row">
           <div class="column Game/Simulation Development">
             <div class="content">
               <a href="/projects/holoassembly/holoassembly.html">
-                <img src="/projects/holoassembly/0.jpg" alt="HoloAssembly" style="width: 100%" />
                 <h4>HoloAssembly</h4>
-                <p>
-                  An Augmented Reality mobile App based on my Degree's final
-                  project
-                </p>
+                <p>AR/VR Assembly Simulator</p>
               </a>
             </div>
           </div>
-          <div class="column Fullstack Web Development">
+          <div class="column Web Development">
             <div class="content">
-              <a>
-                <img src="/images/reactDotnet600X350.png" alt="Lights" style="width: 100%" />
+              <a href="#">
                 <h4>Fitness Tracker</h4>
-                <p>Fullstack app made with React and dotNET</p>
-                <h6>Coming: When it's ready</h6>
+                <p>React/.NET fullstack fitness tracker</p>
+                <h6>Currently in development..</h6>
               </a>
             </div>
           </div>
           <div class="column Game/Simulation Development">
             <div class="content">
-              <a>
-                <img src="/images/crabby600X350.png" alt="Nature" style="width: 100%" />
+              <a href="#">
                 <h4>CRABBY</h4>
                 <p>2D game developed in Rust</p>
                 <h6>Coming: When it's ready</h6>
               </a>
             </div>
           </div>
-          <div class="column Fullstack Web Development">
-            <div class="content">
-              <a>
-                <img src="/images/swolestore600X350.png" alt="Car" style="width: 100%" />
-                <h4>Swole Store</h4>
-                <p>React and Django Fullstack e-commerce App</p>
-                <h6>Coming: When it's ready</h6>
-              </a>
-            </div>
-          </div>
-          <div class="column Fullstack Web Development">
-            <div class="content">
-              <a>
-                <img src="/images/angularEdit600X350.png" alt="Car" style="width: 100%" />
-                <h4>Photo/Video Editing Tool</h4>
-                <p>Simple editing image and photos features</p>
-                <h6>Coming: When it's ready</h6>
-              </a>
-            </div>
-          </div>
-          <div class="column Game/Simulation Development">
-            <div class="content">
-              <a>
-                <img src="/images/openglrender600X350.png" alt="Car" style="width: 100%" />
-                <h4>OpenGL render engine</h4>
-                <p>Lorem ipsum dolor..</p>
-                <h6>Coming: When it's ready</h6>
-              </a>
-            </div>
-          </div>
-          <div class="column Mobile and other Software Development">
-            <div class="content">
-              <a>
-                <img src="/images/600X400.svg" alt="People" style="width: 100%" />
-                <h4>Project 6</h4>
-                <p>Lorem ipsum dolor..</p>
-                <h6>Coming: When it's ready</h6>
-              </a>
-            </div>
-          </div>
-          <div class="column Mobile and other Software Development">
-            <div class="content">
-              <a>
-                <img src="/images/600X400.svg" alt="People" style="width: 100%" />
-                <h4>Project 7</h4>
-                <p>Lorem ipsum dolor..</p>
-                <h6>Coming: When it's ready</h6>
-              </a>
-            </div>
-          </div>
-          <div class="column Mobile and other Software Development">
-            <div class="content">
-              <a>
-                <img src="/images/600X400.svg" alt="People" style="width: 100%" />
-                <h4>Project 8</h4>
-                <p>Lorem ipsum dolor..</p>
-                <h6>Coming: When it's ready</h6>
-              </a>
-            </div>
-          </div>
-          <!-- END GRID -->
+          <!-- Add more project cards as needed -->
         </div>
-      </div>
-      <div class="btn-container">
-        <button onclick="window.location.href='/pages/personalprojects.html'">
-          See more projects <i class="fa-solid fa-eye" style="color: #fff;"></i>
-        </button>
       </div>
     </section>
-    <!--end Project sections-->
-
-
-
-    <!--Contact form-->
-    <div id="Contact">
+    <section id="Contact" aria-label="Contact">
       <div class="container">
-        <h1>Contact Me</h1>
-
-        <div class="otherCommunication">
-          <br>
-          <a href="mailto:franciscoandre.farp@gmail.com"
-            class="hover:text-blue-100 duration-200 flex items-center gap-2">
-            <i class="fa-regular fa-envelope"></i>
-            <span>franciscoandre.farp at gmail dot com</span>
+        <h2>Contact</h2>
+        <p>Want to get in touch? The best way is to send me a message on LinkedIn. I respond quickly and look forward to connecting with you!</p>
+        <div class="btn-container">
+          <a href="https://www.linkedin.com/messaging/compose?recipient=francisco-pereira-9755501a3" target="_blank"
+            rel="noopener noreferrer" class="linkedin-cta-btn" aria-label="Message me on LinkedIn">
+            <i class="fa fa-linkedin"></i> Message me on LinkedIn
           </a>
-          <div class="flex items-center gap-2 mt-2 cursor-pointer" id="emailLink"
-            data-email="franciscoandre.farp@gmail.com">
-            <i class="fa-solid fa-copy"></i>
-            <span>Copy email</span>
-          </div>
-          <p id="copyMessage" style="display: none;">Email copied!</p>
-          <p id="copyMessage2" style="display: none;">Number copied!</p>
         </div>
-        <form action="https://formsubmit.co/franciscoandre.farp@gmail.com" method="POST" class="form-container">
-          <div class="form-group">
-            <br>
-            <br>
-            <br>
-            <h4>Or, leave me a message using this form</h4>
-            <h6>forwarder service, no sensible info, requires captcha</h6>
-            <br>
-            <input type="text" id="name" name="name" placeholder="First and Last Name" required />
-          </div>
-          <div class="form-group">
-            <input type="email" id="email" name="email" placeholder="Email" required />
-          </div>
-          <div class="form-group">
-            <textarea id="message" name="message" placeholder="Message" required></textarea>
-          </div>
-          <button type="submit" class="send-button">
-            Send <i class="fa-solid fa-paper-plane" style="color: #fff"></i>
-          </button>
-          <input type="hidden" name="_next" value="https://ffarps.github.io/#Contact">
-          <input type="hidden" name="_autoresponse"
-            value="Hey, Francisco here, Thanks for sending a message, we'll be in touch soon.">
-        </form>
-
-        <!--to remove-->
-        <div class="alert">
-          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-          <a href="https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort="
-            target="_blank">Website/Portfolio currently in development... For the meanwhile,
-            heres some repositories showing some work</a>
+      </div>
+    </section>
+  </main>
+  <button id="topButton" onclick="topFunction()" title="Go to top" aria-label="Go to top">
+    <span id="progress-value"><i class="fa-solid fa-angles-up"></i></span>
+  </button>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <h3>Francisco Pereira</h3>
+          <p class="footer-tagline">Driving Innovation with AI &amp; Machine Learning</p>
+          <p class="copyright-text">&copy; 2023-2024 Francisco Pereira. All Rights Reserved.</p>
         </div>
-        <!---->
-
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/pages/personalprojects.html">Personal Projects</a></li>
+            <li><a href="/pages/proprojects.html">Professional Projects</a></li>
+            <li><a href="pages/privacy.html">Privacy</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <ul class="social-icons">
+            <li><a class="github" href="https://github.com/ffarps" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fa fa-github"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="youtube" href="https://www.youtube.com/@ffarps/videos" target="_blank" rel="noopener noreferrer" title="YouTube"><i class="fa fa-youtube"></i></a></li>
+            <li><a class="artstation" href="https://www.artstation.com/ffarps" target="_blank" rel="noopener noreferrer" title="ArtStation"><i class="fa-brands fa-artstation"></i></a></li>
+          </ul>
+          <div class="footer-connect-msg">Let's connect and build something great!</div>
+        </div>
       </div>
     </div>
-    <!--end contact form-->
-
-    <div id="topButton">
-      <span id="progress-value" onclick="topFunction()" title="Go to top"><i class="fa-solid fa-angles-up"></i></span>
-    </div>
-
-    <div class="footer"></div>
-    <footer class="site-footer">
-      <div class="container">
-        <h6>Quick Links</h6>
-        <ul class="footer-links">
-          <li>
-            <a href="/pages/personalprojects.html">Personal Projects</a>
-          </li>
-          <li><a href="/pages/proprojects.html">Professional Projects</a></li>
-        </ul>
-        <hr />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              Copyright &copy; 2023-2024 <span>Francisco Pereira</span>. All Rights Reserved</p>
-            <p>
-              Made with <i class="fa-solid fa-heart"></i>, only with
-              <i class="fa-brands fa-html5"></i>,
-              <i class="fa-brands fa-css3-alt"></i> and
-              <i class="fa-brands fa-js"></i>
-            </p>
-            <a href="pages/privacy.html">Privacy</a>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li>
-                <a class="github" href="https://github.com/ffarps" target="_blank"><i class="fa fa-github"></i></a>
-              </li>
-              <li>
-                <a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/" target="_blank"><i
-                    class="fa fa-linkedin"></i></a>
-              </li>
-              <li>
-                <a class="Youtube" href="https://www.youtube.com/@ffarps/videos" target="_blank"><i
-                    class="fa fa-youtube"></i></a>
-              </li>
-              <li>
-                <a class="Artstation" href="https://www.artstation.com/ffarps" target="_blank">
-                  <i class="fa-brands fa-artstation"></i>
-                </a>
-              </li>
-              <p>My links</p>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!--JS-Scripts-->
-    <script src="scripts/slideshow.js"></script>
-    <script src="scripts/topbutton.js"></script>
-    <script src="scripts/calcScrolTopButton.js"></script>
-    <script src="scripts/projectsFilter.js"></script>
-    <script src="scripts/emailClipboard.js"></script>
+  </footer>
+  <script src="scripts/topbutton.js"></script>
+  <script src="scripts/calcScrolTopButton.js"></script>
+  <script src="scripts/projectsFilter.js"></script>
+  <script src="scripts/emailClipboard.js"></script>
 </body>
 
 </html>
