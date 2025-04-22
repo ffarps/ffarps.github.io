@@ -332,25 +332,34 @@ nav {
   margin-bottom: 0.7em;
 }
 .footer-social a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.6em;
-  height: 2.6em;
-  border-radius: 50%;
-  background: #222;
-  color: #fff;
-  font-size: 1.35em;
-  transition: background 0.2s, color 0.2s, transform 0.15s;
-  text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 2.6em !important;
+  height: 2.6em !important;
+  border-radius: 50% !important;
+  background: #232b2b !important;
+  color: #b3e7fc !important;
+  font-size: 1.35em !important;
+  margin-right: 0.5em !important;
+  transition: background 0.18s, color 0.18s, transform 0.14s !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+.footer-social a[aria-disabled="true"] {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed !important;
 }
 .footer-social a:hover,
 .footer-social a:focus {
-  background: var(--primary-color, #459591);
-  color: #fff;
-  transform: scale(1.08);
+  background: var(--primary-color, #459591) !important;
+  color: #fff !important;
+  transform: scale(1.1) !important;
   outline: none;
+}
+.footer-social a i {
+  font-size: 1.25em !important;
 }
 
 .footer-links {
@@ -912,6 +921,45 @@ footer {
     }
 }
 
+/* OVERRIDE: Make .project-card-btn style take precedence for LinkedIn button */
+.linkedin-cta-btn.project-card-btn {
+  background: var(--primary-color-light, #d7e7e5) !important;
+  border: 1.5px solid var(--primary-color, #459591) !important;
+  color: var(--primary-color, #459591) !important;
+  border-radius: 7px !important;
+  box-shadow: 0 2px 8px rgba(36,41,47,0.06) !important;
+  padding: 0.7em 2.2em !important;
+  font-size: 1.1em !important;
+  font-weight: 600 !important;
+  transition: background 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s, transform 0.14s !important;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.6em !important;
+  text-decoration: none !important;
+  outline: none !important;
+  border-width: 1.5px !important;
+}
+.linkedin-cta-btn.project-card-btn:focus,
+.linkedin-cta-btn.project-card-btn:hover {
+  background: var(--primary-color, #459591) !important;
+  color: #fff !important;
+  border-color: var(--primary-color, #459591) !important;
+  box-shadow: 0 4px 16px rgba(69,149,145,0.15) !important;
+  transform: scale(1.05) !important;
+}
+.linkedin-cta-btn.project-card-btn i {
+  font-size: 1.2em !important;
+}
+@media (max-width: 600px) {
+  .linkedin-cta-btn.project-card-btn {
+    width: 100% !important;
+    padding: 1em 0 !important;
+    font-size: 1em !important;
+  }
+}
+
 /* ===============================
    Prominent GitHub Button
    =============================== */
@@ -985,20 +1033,83 @@ footer {
   }
 }
 
-/* Footer social icon spans with previously inline styles */
-.footer-social .youtube,
-.footer-social .artstation,
-.footer-social .alumni,
-.footer-social .orcid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.6em;
-    height: 2.6em;
-    border-radius: 50%;
-    background: #222;
-    color: #fff;
-    font-size: 1.35em;
-    opacity: 0.5;
-    cursor: not-allowed;
+/* Project Card-like Button for LinkedIn CTA */
+.project-card-btn {
+  background: var(--primary-color-light, #d7e7e5);
+  border: 1.5px solid var(--primary-color, #459591);
+  color: var(--primary-color, #459591);
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(36,41,47,0.06);
+  padding: 0.7em 2.2em;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: background 0.18s, color 0.18s, border-color 0.18s, box-shadow 0.18s, transform 0.14s;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  text-decoration: none;
+  outline: none;
+}
+.project-card-btn:focus, .project-card-btn:hover {
+  background: var(--primary-color, #459591);
+  color: #fff;
+  border-color: var(--primary-color, #459591);
+  box-shadow: 0 4px 16px rgba(69,149,145,0.15);
+  transform: scale(1.05);
+}
+.project-card-btn i {
+  font-size: 1.2em;
+}
+
+/* Enhanced Footer Styling */
+.enhanced-footer {
+  background: linear-gradient(90deg, #181818 80%, #222c24 100%);
+  color: #e6e6e6;
+  border-top: 2px solid var(--primary-color, #459591);
+  box-shadow: 0 -2px 8px rgba(36,41,47,0.08);
+}
+.enhanced-footer .footer-links a {
+  color: #b3e7fc;
+  font-weight: 500;
+}
+.enhanced-footer .footer-links a:hover,
+.enhanced-footer .footer-links a:focus {
+  color: var(--primary-color, #459591);
+  text-decoration: underline;
+}
+.enhanced-footer .footer-social a {
+  background: #232b2b;
+  color: #b3e7fc;
+  border-radius: 50%;
+  padding: 0.4em 0.55em;
+  margin-right: 0.5em;
+  font-size: 1.25em;
+  transition: background 0.18s, color 0.18s, transform 0.14s;
+}
+.enhanced-footer .footer-social a:hover,
+.enhanced-footer .footer-social a:focus {
+  background: var(--primary-color, #459591);
+  color: #fff;
+  transform: scale(1.1);
+}
+.enhanced-footer .footer-copyright {
+  display: block;
+  margin-top: 0.7em;
+  color: #b3e7fc;
+  font-size: 0.97em;
+  letter-spacing: 0.03em;
+}
+
+@media (max-width: 600px) {
+  .project-card-btn {
+    width: 100%;
+    padding: 1em 0;
+    font-size: 1em;
+  }
+  .enhanced-footer .footer-social a {
+    font-size: 1em;
+    padding: 0.4em 0.7em;
+  }
 }

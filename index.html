@@ -19,18 +19,17 @@
   <div class="warning-card" role="alert">
     <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
     <span>
-      You can find more projects in my <a
-        href="https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort=" target="_blank"
-        rel="noopener noreferrer">public GitHub repositories</a>.<br>
-      More projects are coming soon!<br>
-      This website is currently being refactored and developed.
+      You can find my work in <a href="https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort="
+        target="_blank" rel="noopener noreferrer">my GitHub repositories</a>.<br>
+      This website is currently being refactored.
     </span>
   </div>
   <header>
     <div class="container">
       <nav aria-label="Main navigation">
         <div class="gittag">
-          <a href="https://github.com/ffarps" class="button prominent-github" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/ffarps" class="button prominent-github project-card-btn" target="_blank"
+            rel="noopener noreferrer">
             <small>Follow me on </small> Github
           </a>
         </div>
@@ -109,7 +108,7 @@
         <h2>Contact</h2>
         <div class="btn-container left-align">
           <a href="https://www.linkedin.com/messaging/compose?recipient=francisco-pereira-9755501a3" target="_blank"
-            rel="noopener noreferrer" class="linkedin-cta-btn" aria-label="Message me on LinkedIn">
+            rel="noopener noreferrer" class="linkedin-cta-btn project-card-btn" aria-label="Message me on LinkedIn">
             <i class="fa fa-linkedin"></i> Message me on LinkedIn
           </a>
         </div>
@@ -119,33 +118,39 @@
   <button id="topButton" onclick="topFunction()" title="Go to top" aria-label="Go to top">
     <span id="progress-value"><i class="fa-solid fa-angles-up"></i></span>
   </button>
-  <footer class="site-footer">
+  <footer class="site-footer enhanced-footer">
     <div class="container minimal-footer">
       <div class="footer-social">
-        <a class="github" href="https://github.com/ffarps" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <!-- To enable any link in the future, simply remove tabindex, aria-disabled, and set data-enabled="true" for that specific link. -->
+        <a class="github" href="https://github.com/ffarps" tabindex="-1" aria-disabled="true" title="GitHub"
+          data-enabled="false">
           <i class="fa fa-github"></i>
         </a>
-        <a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/" target="_blank"
-          rel="noopener noreferrer" title="LinkedIn">
+        <a class="linkedin" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/" tabindex="-1"
+          aria-disabled="true" title="LinkedIn" data-enabled="false">
           <i class="fa fa-linkedin"></i>
         </a>
-        <span class="youtube" title="YouTube">
+        <a class="youtube" href="https://www.youtube.com/@ffarps/videos" tabindex="-1" aria-disabled="true"
+          title="YouTube" data-enabled="false">
           <i class="fa fa-youtube"></i>
-        </span>
-        <span class="artstation" title="ArtStation">
+        </a>
+        <a class="artstation" href="https://www.artstation.com/ffarps" tabindex="-1" aria-disabled="true"
+          title="ArtStation" data-enabled="false">
           <i class="fa-brands fa-artstation"></i>
-        </span>
-        <span class="alumni" title="CEDRI Alumni">
+        </a>
+        <a class="alumni" href="https://cedri.ipb.pt/people/alumni/francisco-pereira" tabindex="-1" aria-disabled="true"
+          title="CEDRI Alumni" data-enabled="false">
           <i class="fa fa-university"></i>
-        </span>
-        <span class="orcid" title="ORCID">
+        </a>
+        <a class="orcid" href="https://orcid.org/0000-0002-2969-5614" tabindex="-1" aria-disabled="true" title="ORCID"
+          data-enabled="false">
           <i class="fa fa-id-card"></i>
-        </span>
+        </a>
       </div>
       <div class="footer-links">
         <a href="/pages/privacy.html">Privacy</a>
       </div>
-      <span>&copy; 2023–2025 Francisco Pereira</span>
+      <span class="footer-copyright">&copy; 2023–2025 Francisco Pereira</span>
     </div>
   </footer>
   <script src="scripts/topbutton.js"></script>
