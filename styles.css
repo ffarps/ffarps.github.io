@@ -996,23 +996,23 @@ footer {
    =============================== */
 .warning-card {
   width: 100vw;
-  max-width: 100%;
+  max-width: 100vw;
+  margin-left: calc(-1 * (100vw - 100%) / 2);
+  margin-right: calc(-1 * (100vw - 100%) / 2);
+  box-sizing: border-box;
+  padding: 0.6em 0.8em;
   background: linear-gradient(90deg, #fffbe6 80%, #ffeeba 100%);
   color: #856404;
   border-bottom: 1px solid #ffeeba;
-  padding: 1.1rem 0.5rem 1.1rem 0;
+  font-size: 1em;
   display: flex;
   align-items: center;
-  gap: 1.1rem;
-  font-size: 1.08rem;
-  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
-  justify-content: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
-  margin-bottom: 1.2rem;
+  gap: 0.7em;
+  margin-bottom: 0.7rem;
 }
 .warning-card i {
-  font-size: 1.35em;
-  margin-right: 0.5em;
+  font-size: 1.1em;
+  margin-right: 0.4em;
   color: #f0ad4e;
 }
 .warning-card a {
@@ -1021,15 +1021,16 @@ footer {
 }
 @media (max-width: 600px) {
   .warning-card {
-    font-size: 1em;
+    font-size: 0.97em;
     flex-direction: column;
-    gap: 0.5rem;
-    padding: 0.8rem 0.2rem 0.8rem 0;
+    gap: 0.4em;
+    padding: 0.5em 0.2em;
     text-align: center;
+    border-radius: 0 0 6px 6px;
   }
   .warning-card i {
-    font-size: 1.1em;
-    margin-bottom: 0.3em;
+    font-size: 1em;
+    margin-bottom: 0.2em;
   }
 }
 
@@ -1111,5 +1112,43 @@ footer {
   .enhanced-footer .footer-social a {
     font-size: 1em;
     padding: 0.4em 0.7em;
+  }
+}
+
+/* Header Text Effects (no hover/focus) */
+.header-text {
+  text-align: center;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  animation: fadeInHeader 1.2s cubic-bezier(0.39, 0.58, 0.57, 1) 0.1s both;
+}
+.header-text h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--primary-color, #459591);
+}
+.header-text h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-top: 0.15em;
+  margin-bottom: 0.3em;
+}
+.header-text p {
+  font-size: 1.12em;
+  color: #b3e7fc;
+  margin-top: 0.2em;
+  letter-spacing: 0.01em;
+}
+@keyframes fadeInHeader {
+  0% {
+    opacity: 0;
+    transform: translateY(-32px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
