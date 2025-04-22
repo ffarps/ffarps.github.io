@@ -138,6 +138,11 @@ a:focus {
     .about-columm-2 img { width: 61%; }
 }
 
+.about-description {
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
 /* ===============================
    Buttons
    =============================== */
@@ -978,4 +983,22 @@ footer {
     font-size: 1.1em;
     margin-bottom: 0.3em;
   }
+}
+
+/* Footer social icon spans with previously inline styles */
+.footer-social .youtube,
+.footer-social .artstation,
+.footer-social .alumni,
+.footer-social .orcid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6em;
+    height: 2.6em;
+    border-radius: 50%;
+    background: #222;
+    color: #fff;
+    font-size: 1.35em;
+    opacity: 0.5;
+    cursor: not-allowed;
 }
