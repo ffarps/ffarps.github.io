@@ -1,19 +1,13 @@
-# ffarps.github.io
+# [https://ffarps.github.io/](https://ffarps.github.io/)
 
-## My Personal Website
+## Project Overview
 
-### Pure HTML and CSS, with a touch of Javascript
+This project is a personal portfolio website built using HTML, CSS, and JavaScript. It is currently hosted on GitHub Pages and is a work in progress.
 
-## What I've Learned
+## License
 
-- Making a web portfolio from scratch
-- Put into practice some html and css knowledge
--
+[![License](https://img.shields.io/badge/License-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0)
 
-## Future work
+## Acknowledgements
 
-- Project pages UI overhaul
-- Hosting a new Portofolio in a hosting service that supports front and back end, but for now, it works, it just works.
-- Backend for adding and editing of projects and sending messages in contact
-
-for now, the sending of messages is handled by using an endpoint from formsubmit.co, to deactivate the form: https://formsubmit.co/help;
+- [GitHub Pages](https://pages.github.com/)
