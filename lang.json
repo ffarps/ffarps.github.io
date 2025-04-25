@@ -1,0 +1,42 @@
+{
+  "pt-PT": {
+    "about_title": "Sobre Mim",
+    "about_text": "Sou um engenheiro informático com experiência em desenvolvimento de software e investigação, tendo recebido duas bolsas de investigação no CeDRI. Atualmente trabalho como Software Developer, focado em criar soluções inovadoras e escaláveis com projetos orientados por IA. Proativo, orientado para resultados e apaixonado por gerar impacto.",
+    "download_cv": "Descarregar CV (PDF)",
+    "projects": "Projetos",
+    "ml": "Aprendizagem Automática",
+    "sim": "Desenvolvimento de Simulações",
+    "web": "Desenvolvimento Web",
+    "backend": "Backend",
+    "project_ml_title": "Projeto de Machine Learning",
+    "project_ml_desc": "Template de projeto de ML.",
+    "project_sim_title": "HoloAssembly",
+    "project_sim_desc": "Simulador de montagem AR/VR.",
+    "project_web_title": "Projeto Web",
+    "project_web_desc": "Template de projeto web.",
+    "project_backend_title": "Projeto Backend",
+    "project_backend_desc": "Template de projeto backend.",
+    "contact": "Contacto",
+    "linkedin_text": "Mande uma mensagem no LinkedIn"
+  },
+  "en-GB": {
+    "about_title": "About Me",
+    "about_text": "An informatics engineering graduate with experience in software development and research, awarded two research fellowships at CeDRI. Currently working as a Software Developer, focusing on creating innovative and scalable solutions with AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.",
+    "download_cv": "Download CV (PDF)",
+    "projects": "Projects",
+    "ml": "Machine Learning",
+    "sim": "Simulation Development",
+    "web": "Web Development",
+    "backend": "Backend",
+    "project_ml_title": "Machine Learning Project",
+    "project_ml_desc": "ML project template.",
+    "project_sim_title": "HoloAssembly",
+    "project_sim_desc": "AR/VR Assembly Simulator.",
+    "project_web_title": "Web Project",
+    "project_web_desc": "Web project template.",
+    "project_backend_title": "Backend Project",
+    "project_backend_desc": "Backend project template.",
+    "contact": "Contact",
+    "linkedin_text": "Message me on LinkedIn"
+  }
+}
