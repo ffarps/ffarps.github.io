@@ -1,7 +1,7 @@
 {
   "pt-PT": {
     "about_title": "Sobre Mim",
-    "about_text": "Sou um engenheiro informático com experiência em desenvolvimento de software e investigação, tendo recebido duas bolsas de investigação no CeDRI. Atualmente trabalho como Software Developer, focado em criar soluções inovadoras e escaláveis com projetos orientados por IA. Proativo, orientado para resultados e apaixonado por gerar impacto.",
+    "about_text": "Engenheiro informático com experiência em desenvolvimento de software e investigação, tendo recebido duas bolsas de investigação no CeDRI. Atualmente, trabalho como desenvolvedor de software, concentrando-me na criação de soluções inovadoras e escaláveis com projectos orientados para a IA. Proactivo, orientado para os objectivos e empenhado em obter resultados com impacto.",
     "download_cv": "Descarregar CV (PDF)",
     "projects": "Projetos",
     "ml": "Aprendizagem Automática",
@@ -16,8 +16,11 @@
     "project_web_desc": "Template de projeto web.",
     "project_backend_title": "Projeto Backend",
     "project_backend_desc": "Template de projeto backend.",
+    "subtitle": "Desenvolvedor de Software",
     "contact": "Contacto",
-    "linkedin_text": "Mande uma mensagem no LinkedIn"
+    "linkedin_text": "Mande-me uma mensagem no LinkedIn",
+    "subsubtitle": "Impulsionar a inovação com IA e Aprendizagem Automática",
+    "github_warning": "Veja meus projetos públicos no GitHub! Clique para visitar meu perfil."
   },
   "en-GB": {
     "about_title": "About Me",
@@ -36,7 +39,10 @@
     "project_web_desc": "Web project template.",
     "project_backend_title": "Backend Project",
     "project_backend_desc": "Backend project template.",
+    "subtitle": "Software Developer",
     "contact": "Contact",
-    "linkedin_text": "Message me on LinkedIn"
+    "linkedin_text": "Message me on LinkedIn",
+    "subsubtitle": "Driving Innovation with AI & Machine Learning",
+    "github_warning": "Check out my public projects on GitHub! Click to visit my profile."
   }
 }
