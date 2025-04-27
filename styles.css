@@ -8,6 +8,11 @@
   --font-color-dark: #fff;
   --font-color-light: #000;
   --theme-switcher-bg: transparent;
+
+  /* Default theme variables for initial load */
+  --back-accent-color: var(--back-accent-color-light);
+  --font-color: var(--font-color-light);
+  --accent-color: var(--accent-color-light);
 }
 
 body {
@@ -234,7 +239,7 @@ header h3 {
 }
 .cv-btn:hover, .cv-btn:focus {
   background: var(--font-color, var(--font-color-dark));
-  color: var(--back-accent-color, var(--back-accent-color-dark));
+  color: var(--back-accent-color, var(--back-accent-color-light));
   border: 2px solid var(--font-color, var(--font-color-dark));
 }
 .project-link {
@@ -310,7 +315,27 @@ footer.footer {
   align-items: center;
   justify-content: flex-end;
 }
+
+@media (max-width: 900px) {
+  header, main {
+    width: 96%;
+    padding: 1.2rem 0.3rem 0 0.3rem;
+  }
+  .projects-grid {
+    gap: 1.2rem;
+  }
+}
+
 @media (max-width: 700px) {
+  header, main {
+    width: 100%;
+    padding: 1rem 0.1rem 0 0.1rem;
+  }
+  .header-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7em;
+  }
   .footer-row {
     flex-direction: column;
     gap: 0.6em;
@@ -324,11 +349,33 @@ footer.footer {
     gap: 0.6em;
     align-items: stretch;
   }
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .project-card {
+    min-height: 220px;
+    padding: 1em 0.2em;
+  }
+  .cv-btn {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
 }
 
 @media (max-width: 500px) {
   h1 {
     font-size: 1.27em;
+  }
+  header h1 {
+    font-size: 1.4em;
+  }
+  header h2 {
+    font-size: 1.05em;
+  }
+  header h3 {
+    font-size: 0.97em;
   }
   .footer-social a {
     width: 36px;
@@ -343,21 +390,22 @@ footer.footer {
     min-width: 18px;
     min-height: 18px;
     max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: auto;
-  }
-  .footer-copyright {
-    font-size: 0.85em;
   }
   .linkedin-btn {
-    padding: 7px 12px;
-    font-size: 0.92em;
+    padding: 7px 13px;
+    font-size: 0.97em;
   }
   .linkedin-btn svg {
     width: 15px;
     height: 15px;
     margin-right: 6px;
+  }
+  .projects-grid {
+    gap: 0.6rem;
+  }
+  .project-card img.project-thumb {
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -384,11 +432,11 @@ footer.footer {
 
 .linkedin-btn:hover, .linkedin-btn:focus {
   background: var(--font-color, var(--font-color-dark));
-  color: var(--back-accent-color, var(--back-accent-color-dark));
+  color: var(--back-accent-color, var(--back-accent-color-light));
 }
 
 .linkedin-btn:hover svg, .linkedin-btn:focus svg {
-  fill: var(--back-accent-color, var(--back-accent-color-dark));
+  fill: var(--back-accent-color, var(--back-accent-color-light));
 }
 
 .theme-switcher {
@@ -398,6 +446,7 @@ footer.footer {
   background: var(--theme-switcher-bg);
   padding: 0.5em 0;
   justify-content: center;
+  margin-right:1em;
 }
 .theme-btn {
   border: none;
@@ -426,7 +475,6 @@ footer.footer {
   background: var(--theme-switcher-bg);
   padding: 0.5em 0;
   justify-content: center;
-  margin-top: 1em;
 }
 
 /* --- PROJECTS SECTION UNIFIED CARD LAYOUT --- */
@@ -455,7 +503,7 @@ footer.footer {
   padding: 0.15em 0.7em;
   margin-bottom: 0.7em;
   letter-spacing: 0.02em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 /* .project-badge.sim { color: #008080; }
 .project-badge.ml { color: #b77cff; }
@@ -476,7 +524,7 @@ footer.footer {
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  transition: box-shadow 0.2s, transform 0.15s;
+  transition: box-shadow 0.2s;
   margin-bottom: 0;
 }
 .project-card img.project-thumb {
@@ -527,14 +575,14 @@ footer.footer {
   text-decoration: none;
   color: inherit;
 }
+
+/* Remove color, background, and border changes on hover for project cards. Add a visual effect: scale up and add a subtle shadow. */
 .project-card.project-clickable:hover {
-  /* box-shadow: 0 8px 40px rgba(0,255,247,0.35); */
-  transform: translateY(0px) scale(1.04);
+  transform: scale(1.03);
+  box-shadow: 0 6px 28px rgba(0,0,0,0.18), 0 1.5px 8px rgba(0,255,247,0.10);
+  z-index: 2;
 }
-.project-card.placeholder {
-  opacity: 0.7;
-  filter: grayscale(0.4);
-}
+
 .github-icon-link {
   display: inline-flex;
   align-items: center;
@@ -579,6 +627,7 @@ footer.footer {
   cursor: pointer;
   transition: box-shadow 0.13s, background 0.13s, color 0.13s;
   outline: none;
+  text-decoration: none !important;
 }
 .github-warning-card:hover, .github-warning-card:focus {
   background: var(--font-color, var(--font-color-dark));
@@ -587,7 +636,19 @@ footer.footer {
   border-color: var(--font-color, var(--font-color-dark));
 }
 
+.github-warning-card a {
+  text-decoration: none !important;
+}
+
 /* --- Styled GitHub Profile Text --- */
+#github_warning,
+#github_warning a {
+  text-decoration: none !important;
+}
+.github-warning-card,
+.github-warning-card a {
+  text-decoration: none !important;
+}
 #github_warning {
   display: inline-flex;
   align-items: center;
@@ -599,7 +660,8 @@ footer.footer {
   color: var(--font-color, var(--font-color-dark));
   font-size: 1.04em;
   font-weight: 600;
-  text-decoration: underline dotted var(--font-color, var(--font-color-dark)) 2px;
+  /* text-decoration: underline dotted var(--font-color, var(--font-color-dark)) 2px; */
+  text-decoration: none;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   cursor: pointer;
   transition: background 0.15s, color 0.15s, box-shadow 0.15s;
@@ -611,7 +673,7 @@ footer.footer {
   color: var(--back-accent-color, var(--back-accent-color-dark)) !important;
   box-shadow: 0 4px 18px rgba(0,0,0,0.16);
   border-color: var(--font-color, var(--font-color-dark));
-  text-decoration: underline solid var(--back-accent-color, var(--back-accent-color-dark)) 2.5px;
+  /* text-decoration: underline solid var(--back-accent-color, var(--back-accent-color-dark)) 2.5px; */
 }
 #github_warning svg {
   width: 1.3em;
@@ -647,7 +709,7 @@ footer.footer {
   border-radius: 6px;
   padding: 0.18em 0.7em 0.18em 0.4em;
   cursor: pointer;
-  transition: background 0.18s, box-shadow 0.18s, transform 0.12s;
+  transition: background 0.18s, box-shadow 0.18s;
   font-family: inherit;
   font-size: 1em;
   position: relative;
@@ -657,12 +719,11 @@ footer.footer {
 .stylish-lang-switcher .lang-btn.active {
   background: var(--accent-color, var(--accent-color-dark));
   color: var(--back-accent-color, var(--back-accent-color-dark));
-  box-shadow: 0 0 0 3px rgba(0,255,247,0.16);
+  /* box-shadow: 0 0 0 3px rgba(0,255,247,0.16); */
   z-index: 2;
 }
 .stylish-lang-switcher .lang-btn:hover {
   /* background: rgba(0,255,247,0.13); */
-  transform: translateY(-1px) scale(1.06);
 }
 .stylish-lang-switcher .lang-flag-wrap {
   display: flex;
@@ -673,13 +734,13 @@ footer.footer {
   width: 32px;
   height: 22px;
   border-radius: 3px;
-  border: 1.5px solid var(--accent-color, var(--accent-color-dark));
+  border: 2.5px solid var(--accent-color, var(--accent-color-dark));
   box-shadow: 0 1px 4px rgba(0,0,0,0.10);
   /* transition: border 0.18s, box-shadow 0.18s, transform 0.18s; */
 }
 .stylish-lang-switcher .lang-btn:hover .lang-flag-wrap img {
-  border: 2.5px solid var(--font-color, var(--font-color-dark));
-  box-shadow: 0 2px 8px rgba(0,255,247,0.13);
+  border-color: var(--font-color, var(--font-color-dark));
+  /* box-shadow: 0 2px 8px rgba(0,255,247,0.13); */
   /* transform: scale(1.13); */
 }
 .stylish-lang-switcher .lang-label {
@@ -707,8 +768,14 @@ footer.footer {
 }
 @media (max-width: 700px) {
   .stylish-lang-switcher {
+    width: auto !important;
+    min-width: unset !important;
+    max-width: 100vw;
+    box-sizing: border-box;
     padding: 0.2em 0.2em;
     gap: 0.2em;
+    margin: 0 auto;
+    justify-content: center;
   }
   .stylish-lang-switcher .lang-label {
     font-size: 0.97em;
