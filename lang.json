@@ -1,7 +1,7 @@
 {
   "pt-PT": {
     "about_title": "Sobre Mim",
-    "about_text": "Engenheiro informático com experiência em desenvolvimento de software e investigação, tendo recebido duas bolsas de investigação no CeDRI. Atualmente, trabalho como desenvolvedor de software, concentrando-me na criação de soluções inovadoras e escaláveis com projectos orientados para a IA. Proactivo, orientado para os objectivos e empenhado em obter resultados com impacto.",
+    "about_text": "Engenheiro informático com experiência em desenvolvimento de software e investigação, tendo recebido duas bolsas de investigação no CeDRI. Atualmente, trabalho como técnico de Investigação e desenvolvimento, concentrando-me na criação de soluções inovadoras e escaláveis com projectos orientados para a IA. Proactivo, orientado para os objectivos e empenhado em obter resultados com impacto.",
     "download_cv": "Ver meu CV (PDF)",
     "projects": "Projetos",
     "ml": "Aprendizagem Automática",
@@ -24,7 +24,7 @@
   },
   "en-GB": {
     "about_title": "About Me",
-    "about_text": "An informatics engineering graduate with experience in software development and research, awarded two research fellowships at CeDRI. Currently working as a Software Developer, focusing on creating innovative and scalable solutions with AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.",
+    "about_text": "An informatics engineering graduate with experience in software development and research, awarded two research fellowships at CeDRI. Currently working as a Research and Development Technician, focusing on creating innovative and scalable solutions with AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.",
     "download_cv": "View my CV (PDF)",
     "projects": "Projects",
     "ml": "Machine Learning",
