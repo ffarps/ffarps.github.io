@@ -35,7 +35,7 @@
         <div class="project-card project-clickable"
           onclick="window.open('https://github.com/ffarps/holoassembly','_blank')">
           <span class="project-badge sim" id="badge_sim"></span>
-          <img src="images/holoassembly.jpg" alt="HoloAssembly" class="project-thumb" />
+          <img loading="lazy" src="images/holoassembly.jpg" alt="HoloAssembly" class="project-thumb" loading="lazy" />
           <h3 id="project_sim_title"></h3>
           <p id="project_sim_desc"></p>
           <div class="project-links">
@@ -48,13 +48,13 @@
             </span>
           </div>
         </div>
-        <div class="project-card placeholder">
+        <div class="project-card project-clickable" onclick="window.location.href='pages/projects/project-ml.html'">
           <span class="project-badge ml" id="badge_ml"></span>
-          <img src="images/gpu-svgrepo-com.svg" alt="ML Project" class="project-thumb" />
+          <img loading="lazy" src="images/gpu-svgrepo-com.svg" alt="ML Project" class="project-thumb" />
           <h3 id="project_ml_title"></h3>
           <p id="project_ml_desc"></p>
           <div class="project-links">
-            <span class="project-link github-icon-link disabled">
+            <span class="project-link github-icon-link">
               <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z" />
@@ -62,13 +62,13 @@
             </span>
           </div>
         </div>
-        <div class="project-card placeholder">
+        <div class="project-card project-clickable" onclick="window.location.href='pages/projects/project-web.html'">
           <span class="project-badge web" id="badge_web"></span>
-          <img src="images/web-development-svgrepo-com.svg" alt="Web Project" class="project-thumb" />
+          <img loading="lazy" src="images/web-development-svgrepo-com.svg" alt="Web Project" class="project-thumb" />
           <h3 id="project_web_title"></h3>
           <p id="project_web_desc"></p>
           <div class="project-links">
-            <span class="project-link github-icon-link disabled">
+            <span class="project-link github-icon-link">
               <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z" />
@@ -76,13 +76,42 @@
             </span>
           </div>
         </div>
-        <div class="project-card placeholder">
+        <div class="project-card project-clickable"
+          onclick="window.location.href='pages/projects/project-backend.html'">
           <span class="project-badge backend" id="badge_backend"></span>
-          <img src="images/api-svgrepo-com.svg" alt="Backend Project" class="project-thumb" />
+          <img loading="lazy" src="images/api-svgrepo-com.svg" alt="Backend Project" class="project-thumb" />
           <h3 id="project_backend_title"></h3>
           <p id="project_backend_desc"></p>
           <div class="project-links">
-            <span class="project-link github-icon-link disabled">
+            <span class="project-link github-icon-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z" />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="project-card project-clickable" onclick="window.location.href='pages/projects/project-mobile.html'">
+          <span class="project-badge mobile" id="badge_mobile"></span>
+          <img loading="lazy" src="images/web-development-svgrepo-com.svg" alt="Mobile Project" class="project-thumb" />
+          <h3 id="project_mobile_title"></h3>
+          <p id="project_mobile_desc"></p>
+          <div class="project-links">
+            <span class="project-link github-icon-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z" />
+              </svg>
+            </span>
+          </div>
+        </div>
+        <div class="project-card project-clickable" onclick="window.location.href='pages/projects/project-tools.html'">
+          <span class="project-badge tools" id="badge_tools"></span>
+          <img loading="lazy" src="images/api-svgrepo-com.svg" alt="Tools Project" class="project-thumb" />
+          <h3 id="project_tools_title"></h3>
+          <p id="project_tools_desc"></p>
+          <div class="project-links">
+            <span class="project-link github-icon-link">
               <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true">
                 <path
                   d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z" />
@@ -91,9 +120,32 @@
           </div>
         </div>
       </div>
-      <span id="github_warning"
-        style="display:block;margin:1.2em 0 0.4em 0;cursor:pointer;text-decoration:underline;color:var(--font-color, #222);"
-        tabindex="0" role="link" aria-label="GitHub profile link"></span>
+    </section>
+    <div style="text-align: center; margin: 2rem 0;">
+      <button id="github_warning" class="projects-btn" tabindex="0" aria-label="View all projects"></button>
+    </div>
+    <section class="section" id="articles-section">
+      <h2>Articles</h2>
+      <div class="articles-list">
+        <article class="article-card">
+          <h3><a href="pages/articles/article-ai-future.html">The Future of AI in Software Development</a></h3>
+          <p>Exploring how AI is transforming coding practices and what developers need to know.</p>
+          <span class="article-date">October 2023</span>
+        </article>
+        <article class="article-card">
+          <h3><a href="pages/articles/article-web-performance.html">Optimizing Web Performance: Tips and Tricks</a></h3>
+          <p>Practical advice for building faster, more efficient websites.</p>
+          <span class="article-date">November 2023</span>
+        </article>
+        <article class="article-card">
+          <h3><a href="pages/articles/article-ml-basics.html">Machine Learning Basics for Beginners</a></h3>
+          <p>A gentle introduction to ML concepts with real-world examples.</p>
+          <span class="article-date">December 2023</span>
+        </article>
+      </div>
+      <div style="text-align: center; margin: 2rem 0;">
+        <button class="projects-btn" onclick="window.location.href='/pages/articles.html'">View All Articles</button>
+      </div>
     </section>
     <section class="section" id="contact-section">
       <h2 id="contact"></h2>
@@ -110,11 +162,15 @@
   </main>
   <footer class="footer">
     <div class="footer-main central-footer-content">
-      <div class="footer-row" style="display: flex; justify-content: space-between;">
-        <div class="footer-links" style="order: 1;">
+      <div class="footer-row">
+        <div class="footer-links">
+          <a href="/" class="footer-link">Home</a>
+          <a href="/pages/projects.html" class="footer-link">Projects</a>
+          <a href="/pages/articles.html" class="footer-link">Articles</a>
+          <a href="#contact-section" class="footer-link">Contact Me</a>
           <a href="/pages/privacy.html" class="footer-link">Privacy</a>
         </div>
-        <div class="footer-social" style="order: 2; margin: 0 auto;">
+        <div class="footer-social">
           <a class="primary" href="https://github.com/ffarps" title="GitHub" target="_blank" rel="noopener noreferrer">
             <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
               <path
@@ -131,14 +187,16 @@
             </svg>
           </a>
         </div>
-        <div class="footer-switchers" style="order: 3;">
+        <div class="footer-switchers">
           <div id="lang-switcher" class="lang-switcher lang-switcher-footer stylish-lang-switcher">
             <button class="lang-btn" data-lang="en-GB" aria-label="English" title="English" tabindex="0">
-              <span class="lang-flag-wrap"><img src="images/gb.svg" alt="English" height="22" width="32" /></span>
+              <span class="lang-flag-wrap"><img loading="lazy" src="images/gb.svg" alt="English" height="22"
+                  width="32" /></span>
               <span class="lang-label">EN</span>
             </button>
             <button class="lang-btn" data-lang="pt-PT" aria-label="Português" title="Português" tabindex="0">
-              <span class="lang-flag-wrap"><img src="images/pt.svg" alt="Português" height="22" width="32" /></span>
+              <span class="lang-flag-wrap"><img loading="lazy" src="images/pt.svg" alt="Português" height="22"
+                  width="32" /></span>
               <span class="lang-label">PT</span>
             </button>
           </div>

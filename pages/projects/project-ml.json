@@ -1,0 +1,50 @@
+{
+    "pt-PT": {
+        "title": "Projeto de Machine Learning",
+        "description": "Este projeto demonstra técnicas avançadas de aprendizado de máquina para análise preditiva. Inclui pré-processamento de dados, treinamento de modelos e implantação de uma API REST para previsões em tempo real.",
+        "technologies_title": "Tecnologias Utilizadas",
+        "technologies": [
+            "Python",
+            "TensorFlow / Keras",
+            "Scikit-learn",
+            "Pandas / NumPy",
+            "Flask para API"
+        ],
+        "features_title": "Recursos Principais",
+        "features": [
+            "Pipeline de pré-processamento de dados",
+            "Múltiplos algoritmos de ML (Random Forest, Redes Neurais)",
+            "Avaliação de modelos e ajuste de hiperparâmetros",
+            "API RESTful para previsões",
+            "Dashboard de visualização de dados"
+        ],
+        "results_title": "Resultados",
+        "results": "Alcancei 95% de precisão no conjunto de dados de teste com modelo otimizado. Implantado como microsserviço em ambiente de produção.",
+        "back_home": "Voltar ao Início",
+        "go_projects": "Ir para Todos os Projetos"
+    },
+    "en-GB": {
+        "title": "Machine Learning Project",
+        "description": "This project demonstrates advanced machine learning techniques for predictive analytics. It includes data preprocessing, model training, and deployment of a REST API for real-time predictions.",
+        "technologies_title": "Technologies Used",
+        "technologies": [
+            "Python",
+            "TensorFlow / Keras",
+            "Scikit-learn",
+            "Pandas / NumPy",
+            "Flask for API"
+        ],
+        "features_title": "Key Features",
+        "features": [
+            "Data preprocessing pipeline",
+            "Multiple ML algorithms (Random Forest, Neural Networks)",
+            "Model evaluation and hyperparameter tuning",
+            "RESTful API for predictions",
+            "Data visualization dashboard"
+        ],
+        "results_title": "Results",
+        "results": "Achieved 95% accuracy on test dataset with optimized model. Deployed as a microservice in production environment.",
+        "back_home": "Back to Home",
+        "go_projects": "Go to All Projects Page"
+    }
+}

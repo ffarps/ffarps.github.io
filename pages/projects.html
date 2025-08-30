@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-GB" id="html-root">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>All Projects</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+        body {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--font-color);
+            text-decoration: none;
+            border: 1px solid var(--accent-color);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+
+        .back-link:hover {
+            background: var(--accent-color);
+            color: var(--back-accent-color);
+        }
+
+        .search-container {
+            margin-bottom: 2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 1rem;
+            border: 2px solid var(--accent-color);
+            background: var(--back-accent-color);
+            color: var(--font-color);
+            border-radius: 4px;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .tag {
+            padding: 0.25rem 0.5rem;
+            background: var(--accent-color);
+            color: var(--back-accent-color);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .tag.active {
+            background: var(--font-color);
+            color: var(--back-accent-color);
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            background: var(--back-accent-color);
+            border: 2px solid var(--accent-color);
+            border-radius: 12px;
+            padding: 1.2rem;
+            transition: box-shadow 0.2s;
+            cursor: pointer;
+        }
+
+        .project-card:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+            background: var(--accent-color);
+            color: var(--back-accent-color);
+        }
+
+        .project-card:hover h3,
+        .project-card:hover p {
+            color: var(--back-accent-color);
+        }
+
+        .project-thumb {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+
+        .project-badge {
+            display: inline-block;
+            font-size: 0.9em;
+            font-weight: 600;
+            background: var(--accent-color);
+            color: var(--back-accent-color);
+            border-radius: 6px;
+            padding: 0.15em 0.7em;
+            margin-bottom: 0.7em;
+        }
+
+        .footer {
+            max-width: none !important;
+            width: 100vw !important;
+            margin-left: calc(-50vw + 50%) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/" class="back-link">&larr; Back to Home</a>
+    <h1>All Projects</h1>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search projects..." id="search-input">
+    </div>
+    <div class="tags">
+        <span class="tag active" data-tag="all">All</span>
+        <span class="tag" data-tag="ml">Machine Learning</span>
+        <span class="tag" data-tag="web">Web Development</span>
+        <span class="tag" data-tag="backend">Backend</span>
+        <span class="tag" data-tag="mobile">Mobile</span>
+        <span class="tag" data-tag="tools">Tools</span>
+        <span class="tag" data-tag="sim">Simulation</span>
+    </div>
+    <div class="projects-grid" id="projects-grid">
+        <!-- Projects will be loaded here -->
+    </div>
+
+    <script>
+        const projects = [
+            { title: 'HoloAssembly', desc: 'AR/VR Assembly Simulator', tag: 'sim', link: 'https://github.com/ffarps/holoassembly', badge: 'Simulation', image: '/images/holoassembly.jpg' },
+            { title: 'Machine Learning Project', desc: 'Advanced predictive analytics with ML', tag: 'ml', link: 'projects/project-ml.html', badge: 'ML', image: '/images/gpu-svgrepo-com.svg' },
+            { title: 'Web Development Project', desc: 'Full-stack web application', tag: 'web', link: 'projects/project-web.html', badge: 'Web', image: '/images/web-development-svgrepo-com.svg' },
+            { title: 'Backend API Project', desc: 'Scalable REST API with microservices', tag: 'backend', link: 'projects/project-backend.html', badge: 'Backend', image: '/images/api-svgrepo-com.svg' },
+            { title: 'Mobile App Project', desc: 'Cross-platform mobile application', tag: 'mobile', link: 'projects/project-mobile.html', badge: 'Mobile', image: '/images/web-development-svgrepo-com.svg' },
+            { title: 'Developer Tools', desc: 'CLI utilities and productivity tools', tag: 'tools', link: 'projects/project-tools.html', badge: 'Tools', image: '/images/api-svgrepo-com.svg' }
+        ];
+
+        function renderProjects(filteredProjects) {
+            const grid = document.getElementById('projects-grid');
+            grid.innerHTML = filteredProjects.map(project => `
+                <div class="project-card" onclick="window.location.href='${project.link}'">
+                    <img src="${project.image}" alt="${project.title}" class="project-thumb" loading="lazy" />
+                    <span class="project-badge">${project.badge}</span>
+                    <h3>${project.title}</h3>
+                    <p>${project.desc}</p>
+                </div>
+            `).join('');
+        }
+
+        function filterProjects() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const activeTag = document.querySelector('.tag.active').dataset.tag;
+            let filtered = projects.filter(project =>
+                (activeTag === 'all' || project.tag === activeTag) &&
+                (project.title.toLowerCase().includes(searchTerm) || project.desc.toLowerCase().includes(searchTerm))
+            );
+            renderProjects(filtered);
+        }
+
+        document.getElementById('search-input').addEventListener('input', filterProjects);
+        document.querySelectorAll('.tag').forEach(tag => {
+            tag.addEventListener('click', function () {
+                document.querySelectorAll('.tag').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                filterProjects();
+            });
+        });
+
+        renderProjects(projects);
+    </script>
+
+    <footer class="footer">
+        <div class="footer-main central-footer-content">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <a href="/" class="footer-link">Home</a>
+                    <a href="/pages/projects.html" class="footer-link">Projects</a>
+                    <a href="/pages/articles.html" class="footer-link">Articles</a>
+                    <a href="/#contact-section" class="footer-link">Contact Me</a>
+                    <a href="/pages/privacy.html" class="footer-link">Privacy</a>
+                </div>
+                <div class="footer-social">
+                    <a class="primary" href="https://github.com/ffarps" title="GitHub" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="primary linkedin-icon" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/"
+                        title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.327-.024-3.037-1.849-3.037-1.851 0-2.132 1.445-2.132 2.939v5.667h-3.554V9h3.414v1.561h.049c.476-.899 1.637-1.849 3.369-1.849 3.602 0 4.267 2.369 4.267 5.455v6.285zM5.337 7.433c-1.144 0-2.069-.926-2.069-2.069 0-1.143.925-2.069 2.069-2.069s2.069.926 2.069 2.069c0 1.143-.925 2.069-2.069 2.069zm1.777 13.019H3.56V9h3.554v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.549C0 23.229.792 24 1.771 24h20.451C23.2 24 24 23.229 24 22.271V1.723C24 .771 23.2 0 22.222 0z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-switchers">
+                    <div id="lang-switcher" class="lang-switcher lang-switcher-footer stylish-lang-switcher">
+                        <button class="lang-btn" data-lang="en-GB" aria-label="English" title="English" tabindex="0">
+                            <span class="lang-flag-wrap"><img src="/images/gb.svg" alt="English" height="22"
+                                    width="32" /></span>
+                            <span class="lang-label">EN</span>
+                        </button>
+                        <button class="lang-btn" data-lang="pt-PT" aria-label="Português" title="Português"
+                            tabindex="0">
+                            <span class="lang-flag-wrap"><img src="/images/pt.svg" alt="Português" height="22"
+                                    width="32" /></span>
+                            <span class="lang-label">PT</span>
+                        </button>
+                    </div>
+                    <div id="theme-switcher" class="theme-switcher">
+                        <button class="theme-btn" data-theme="system" aria-label="System Default"
+                            title="System Default">System</button>
+                        <button class="theme-btn" data-theme="dark" aria-label="Dark Mode"
+                            title="Dark Mode">Dark</button>
+                        <button class="theme-btn" data-theme="light" aria-label="Light Mode"
+                            title="Light Mode">Light</button>
+                    </div>
+                </div>
+            </div>
+            <span class="footer-copyright">&copy; 2023-2025 Francisco Pereira</span>
+        </div>
+    </footer>
+
+    <script src="/scripts/language.js"></script>
+    <script src="/scripts/theme.js"></script>
+</body>
+
+</html>

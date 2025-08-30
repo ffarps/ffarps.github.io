@@ -1,6 +1,6 @@
 // language.js: Handles language switching and dynamic text
 document.addEventListener('DOMContentLoaded', function () {
-  const langFile = 'lang.json';
+  const langFile = '/lang.json';
   let lang = localStorage.getItem('lang') || 'en-GB';
   const langBtns = document.querySelectorAll('.lang-btn');
 
@@ -10,16 +10,22 @@ document.addEventListener('DOMContentLoaded', function () {
       if (el) {
         // If github_warning, add the GitHub icon before the text
         if (key === 'github_warning') {
-          el.innerHTML = `<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.11 3.29 9.45 7.86 10.98.58.11.79-.25.79-.56 0-.28-.01-1.02-.01-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.07-.74.08-.73.08-.73 1.18.08 1.8 1.22 1.8 1.22 1.05 1.8 2.75 1.28 3.43.98.11-.77.41-1.28.74-1.58-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.2-3.1-.12-.3-.52-1.51.11-3.16 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.5 3.17-1.19 3.17-1.19.63 1.65.23 2.86.11 3.16.75.81 1.2 1.84 1.2 3.1 0 4.43-2.68 5.41-5.24 5.69.43.37.81 1.11.81 2.24 0 1.62-.01 2.93-.01 3.33 0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5z"/></svg>` + data[lang][key];
-          el.onclick = function() {
-            window.open('https://github.com/ffarps?tab=repositories&q=&type=public&language=&sort=', '_blank');
+          el.textContent = data[lang][key];
+          el.onclick = function () {
+            window.location.href = '/pages/projects.html';
           };
-          el.onkeydown = function(e) {
+          el.onkeydown = function (e) {
             if (e.key === 'Enter' || e.key === ' ') {
               e.preventDefault();
               el.click();
             }
           };
+        } else if (key === 'download_cv') {
+          const cvBtn = document.getElementById('download_cv');
+          if (cvBtn) {
+            cvBtn.href = lang === 'pt-PT' ? '/downloads/franciscopereira.cv.pt.pdf' : '/downloads/franciscopereira.cv.en.pdf';
+          }
+          el.textContent = data[lang][key];
         } else {
           el.textContent = data[lang][key];
         }

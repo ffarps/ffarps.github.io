@@ -8,6 +8,8 @@
     "sim": "Desenvolvimento de Simulações",
     "web": "Desenvolvimento Web",
     "backend": "Backend",
+    "mobile": "Desenvolvimento Mobile",
+    "tools": "Ferramentas de Desenvolvimento",
     "project_ml_title": "Projeto de Machine Learning",
     "project_ml_desc": "Template de projeto de ML.",
     "project_sim_title": "HoloAssembly",
@@ -16,11 +18,15 @@
     "project_web_desc": "Template de projeto web.",
     "project_backend_title": "Projeto Backend",
     "project_backend_desc": "Template de projeto backend.",
+    "project_mobile_title": "Projeto de App Mobile",
+    "project_mobile_desc": "Aplicação móvel cross-platform.",
+    "project_tools_title": "Ferramentas de Desenvolvimento",
+    "project_tools_desc": "Utilitários e ferramentas para desenvolvedores.",
     "subtitle": "Desenvolvedor de Software",
     "contact": "Contacto",
     "linkedin_text": "Mande-me uma mensagem no LinkedIn",
     "subsubtitle": "A impulsionar inovação com IA e Aprendizagem Automática",
-    "github_warning": "Veja os meus projetos públicos no GitHub! Clique para visitar o meu perfil."
+    "github_warning": "Ver Todos os Meus Projetos"
   },
   "en-GB": {
     "about_title": "About Me",
@@ -31,6 +37,8 @@
     "sim": "Simulation Development",
     "web": "Web Development",
     "backend": "Backend",
+    "mobile": "Mobile Development",
+    "tools": "Developer Tools",
     "project_ml_title": "Machine Learning Project",
     "project_ml_desc": "ML project template.",
     "project_sim_title": "HoloAssembly",
@@ -39,10 +47,14 @@
     "project_web_desc": "Web project template.",
     "project_backend_title": "Backend Project",
     "project_backend_desc": "Backend project template.",
+    "project_mobile_title": "Mobile App Project",
+    "project_mobile_desc": "Cross-platform mobile application.",
+    "project_tools_title": "Developer Tools",
+    "project_tools_desc": "Utilities and tools for developers.",
     "subtitle": "Software Developer",
     "contact": "Contact",
     "linkedin_text": "Message me on LinkedIn",
     "subsubtitle": "Driving Innovation with AI & Machine Learning",
-    "github_warning": "Check out my public projects on GitHub! Click to visit my profile."
+    "github_warning": "View All My Projects"
   }
 }

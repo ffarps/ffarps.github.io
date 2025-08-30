@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <title>Guia Viagem aos Açores</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Guia e itinerário dos Açores: São Miguel e Pico. Roteiros, restaurantes, atividades, mapas e logística.">
+  <meta name="robots" content="index,follow">
+  <style>
+    /* ========== Single-file CSS (mobile-first) ========== */
+    :root {
+      color-scheme: light dark;
+      --fg: #111;
+      --bg: #fff;
+      --muted: #6b7280;
+      --link: #0b72e7;
+      --card: #f6f8fa;
+      --border: #e5e7eb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #e5e7eb;
+        --bg: #0b0f14;
+        --muted: #9aa4af;
+        --link: #64a8ff;
+        --card: #0f151c;
+        --border: #1f2937;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+    }
+
+    header {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 16px 48px;
+    }
+
+    .top-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+      margin: .5rem 0 1rem;
+    }
+
+    .top-links a {
+      color: var(--link);
+      text-decoration: none;
+      padding: .35rem .6rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: .95rem;
+    }
+
+    .top-links a:hover {
+      background: var(--card);
+    }
+
+    .notice {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: .9rem 1rem;
+      border-radius: 10px;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1.2;
+      margin: 1.25rem 0 .75rem;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin-top: .25rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      line-height: 1.7;
+      margin: .7rem 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 1.25rem;
+    }
+
+    li {
+      margin: .3rem 0;
+    }
+
+    a {
+      color: var(--link);
+    }
+
+    img,
+    video,
+    iframe {
+      max-width: 100%;
+      height: auto;
+      border: none;
+    }
+
+    pre,
+    code {
+      background: rgba(127, 127, 127, .12);
+      border-radius: 6px;
+    }
+
+    code {
+      padding: .1rem .3rem;
+    }
+
+    pre {
+      padding: .8rem;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+
+    th,
+    td {
+      border: 1px solid var(--border);
+      padding: .6rem;
+      vertical-align: top;
+    }
+
+    blockquote {
+      margin: .8rem 0;
+      padding: .6rem .9rem;
+      border-left: 4px solid var(--border);
+      background: var(--card);
+      border-radius: 6px;
+    }
+
+    .footer-note {
+      color: var(--muted);
+      font-size: .9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Adjust link if your site uses a project path -->
+    <a href="../../index.html">← Página Inicial</a>
+  </header>
+  <main>
+    <p>Mapa Açores e pontos de Interesse</p>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UAxQSjnTH9yBIZ3GRcpRhdapJI6UKRM&ehbc=2E312F&noprof=1"
+      width="100%" height="100%" style="height: 400px;width: 100%;"></iframe>
+    <!-- Static quick nav (IDs will be normalized after MD render) -->
+    <nav class="top-links">
+      <a href="#itinerario">Itinerário</a>
+      <a href="#anexo-a-pontos-de-interesse-e-atividades-por-ilha">Pontos de Interesse</a>
+      <a href="#anexo-b-guia-gastronomico">Gastronomia</a>
+      <a href="#anexo-c-informacoes-uteis">Informações Úteis</a>
+      <a href="#anexo-d-sugestoes-de-trilhos-e-atividades-alternativas">Trilhos</a>
+      <a href="#anexo-e-plano-de-restaurantes-por-dia-reservas">Restaurantes</a>
+    </nav>
+    <div id="content" class="notice">A carregar o guia…</div>
+
+    <a href="../../index.html">← Página Inicial</a>
+
+  </main>
+  <!-- Client-side Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    // Slugify Portuguese headings to ASCII ids (handles accents consistently)
+    const slugify = s => s.toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9\- ]+/g, '')
+      .trim().replace(/\s+/g, '-');
+
+    (async function () {
+      try {
+        // Fetch the Markdown from the same folder
+        const res = await fetch('acores.md', { cache: 'no-store' });
+        if (!res.ok) throw new Error('Falha ao carregar acores.md');
+        const md = await res.text();
+
+        marked.setOptions({ gfm: true, breaks: false });
+        const html = marked.parse(md);
+
+        const container = document.getElementById('content');
+        container.classList.remove('notice'); // remove loading style
+        container.innerHTML = html;
+
+        // Ensure headings get stable IDs
+        const heads = container.querySelectorAll('h1, h2, h3, h4, h5, h6');
+        heads.forEach(h => {
+          const existing = h.getAttribute('id');
+          const id = existing && existing.length ? existing : h.textContent;
+          h.id = slugify(id);
+        });
+
+        // Normalize internal anchors to the same slug
+        const internal = container.querySelectorAll('a[href^="#"]');
+        internal.forEach(a => {
+          const raw = decodeURIComponent(a.getAttribute('href').slice(1));
+          a.setAttribute('href', '#' + slugify(raw));
+        });
+
+        // Also normalize the static quick nav anchors at the top
+        document.querySelectorAll('.top-links a[href^="#"]').forEach(a => {
+          const raw = decodeURIComponent(a.getAttribute('href').slice(1));
+          a.setAttribute('href', '#' + slugify(raw));
+        });
+
+      } catch (e) {
+        console.error(e);
+        const c = document.getElementById('content');
+        c.classList.add('notice');
+        c.textContent = 'Não foi possível carregar o guia. Confirme que "markdownacores25.md" está em pages/articles/.';
+      }
+    })();
+  </script>
+</body>
+
+</html>
