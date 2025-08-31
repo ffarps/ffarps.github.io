@@ -2,7 +2,7 @@
 
 Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, atividades e informações logísticas.
 
-### Informações Essenciais
+## Informações Essenciais
 
 - Ilhas visitadas: São Miguel e Pico
 - Duração: 8 Dias e 7 Noites, 5 noites em São Miguel e 2 noites no Pico
@@ -12,17 +12,18 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 - Variáveis Meteorológicas: 17°C a 26°C, Humidade Média 68% a 83% com baixa probabilidade de chuva
 - Fuso Horário: UTC-1 (1 hora atrás do continente)
 - Informação Extra: São Miguel é rodeada pela `EN1-1A` (100 km, ~1h30 de ponta a ponta). Subidas a Lagoas/Montanhas demoram mais, com nevoeiros frequentes e estradas estreitas.
-#### Mapa 
+
+## Mapa
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UAxQSjnTH9yBIZ3GRcpRhdapJI6UKRM&ehbc=2E312F&noprof=1" width="100%" height="100%" style="height: 400px;width: 100%;" frameborder="0"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-#### Links
+<!-- #### Links
 [Itinerário](#itinerário),
 [Pontos de Interesse](#anexo-a-pontos-de-interesse-e-atividades-por-ilha),
 [Guia Gastronómico](#anexo-b-guia-gastronómico),
 [Informações Úteis](#anexo-c-informações-úteis),
 [Sugestões de Trilhos e Atividades Alternativas](#anexo-d-sugestões-de-trilhos-e-atividades-alternativas)
-[Restaurantes por Dia](#anexo-e-plano-de-restaurantes-por-dia-reservas)
+[Restaurantes por Dia](#anexo-e-plano-de-restaurantes-por-dia-reservas) -->
 
 ### Resumo do Itinerário
 
@@ -43,8 +44,11 @@ Itinerário da viagem hora por hora (ajuste em função do SpotAzores e meteo).
 
 ## Dia 1 (Dom 7 Set): Chegada a São Miguel — Rota Oeste/Norte
 
+### Ver [Mapa](#mapa)
+
 - 10:30 Levantamento de carro na Thrifty Car Rental (Aeroporto PDL)
-- 11:30 Gruta do Carvão (40–50 min, visita guiada; reservar slot)
+- 11:30 [Gruta do Carvão](https://maps.app.goo.gl/Frnh59ZsjTxBfstT9) (40–50 min, visita guiada; Reserva feita, pagamento no local)
+- 12:00 Almoço em restaurante próximo, ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
 - 13:00 Sete Cidades
   - Miradouro da Vista do Rei (parque junto ao miradouro)
   - Descer à vila; picnic junto à Ponte das Sete Cidades (entre Lagoa Verde/Azul)
@@ -59,6 +63,8 @@ Itinerário da viagem hora por hora (ajuste em função do SpotAzores e meteo).
 Percurso no Maps (~100 km)
 
 ## Dia 2 (Seg 8 Set): Furnas & Lagoa do Fogo
+
+### Ver [Mapa](#mapa)
 
 - 09:00 Furnas (centro)
   - Passeio pelo Parque das Caldeiras (fumarolas) e Vila
@@ -76,6 +82,8 @@ Percurso no Maps (~150 km)
 
 ## Dia 3 (Ter 9 Set): Nordeste — Costa Selvagem
 
+### Ver [Mapa](#mapa)
+
 - 09:30 Rabo de Peixe (porto de pesca; visita breve respeitando a comunidade)
 - 10:15 Chá Gorreana (fábrica e trilho PRC28 ~3,5 km, fácil)
 - 11:30 Parque Natural da Ribeira dos Caldeirões (cascata e moinhos)
@@ -91,6 +99,8 @@ Percurso no Maps (~160 km)
 
 ## Dia 4 (Qua 10 Set): Costa Sul — Vila Franca e Lagoa do Congro
 
+### Ver [Mapa](#mapa)
+
 - 09:00 Vila Franca do Campo
   - Bilhete barco Ilhéu de Vila Franca (lotação 400/dia; reservar com antecedência)
   - Ermida Nossa Senhora da Paz (vista icónica)
@@ -103,6 +113,8 @@ Percurso no Maps (~160 km)
 
 ## Dia 5 (Qui 11 Set): Pico — Vinhas, Gruta e Baleias
 
+### Ver [Mapa](#mapa)
+
 - 06:00 Devolução do carro em PDL (tempo para check‑in)
 - 07:00–07:55 Voo PDL → PIX (SATA SP436)
 - 08:15 Levantamento de carro no Aeroporto do Pico (recomendado) e café
@@ -114,10 +126,13 @@ Percurso no Maps (~160 km)
 - 13:50–16:30 Observação de cetáceos (Lajes do Pico recomendado; reserva)
 - 17:15–18:15 Gruta das Torres (visita guiada; reservar)
 - 18:30 Check‑in São Roque/Madalena; pôr do sol nas Piscinas Naturais (Barca ou São Roque)
+- Ir às compras para o almoco de amanha levar sandes/empadas/fruta e água (3 L/pessoa)
 - 20:00 Jantar
   - Cella Bar (vista + tapas) ou alternativa local
 
 ## Dia 6 (Sex 12 Set): Montanha do Pico
+
+### Ver [Mapa](#mapa)
 
 - 07:30 Casa da Montanha — registo e briefing (obrigatório; reservar online)
 - 08:00–16:00 Subida ao Piquinho (2351 m)
@@ -129,6 +144,8 @@ Percurso no Maps (~160 km)
 
 ## Dia 7 (Sáb 13 Set): Manhã no Pico — Regresso a São Miguel
 
+### Ver [Mapa](#mapa)
+
 - Manhã livre no Pico (banho em Poça da Branca, passeio em Lajes do Pico ou Lagoa do Capitão, consoante meteo)
 - Almoço leve
 - Voo PIX → PDL (hora a confirmar)
@@ -139,6 +156,8 @@ Percurso no Maps (~160 km)
   - Associação Agrícola (Rabo de Peixe; reserva com muita antecedência) ou A Tasca
 
 ## Dia 8 (Dom 14 Set): Partida
+
+### Ver [Mapa](#mapa)
 
 - Manhã tranquila e pequeno‑almoço
 - 08:30 Aeroporto PDL
@@ -353,78 +372,132 @@ Notas rápidas de reserva
 - Liga preferencialmente fora dos picos (11:00–12:00 e 16:30–18:30).
 - Confirma horários no Maps, alguns fecham 1–2 dias/semana.
 
+#### Dia 1 - Dom 8 Set: São Miguel: Oeste/Norte (Sete Cidades → Mosteiros → PDL)
 
-
-#### Dia 1 (Dom) — São Miguel: Oeste/Norte (Sete Cidades → Mosteiros → PDL)
 *Sugestões de Restaurantes*
+
 - Almoço (zona Sete Cidades / Mosteiros)
   - [Restaurante Lagoa Azul (Sete Cidades)](https://maps.google.com/?q=Restaurante+Lagoa+Azul+Sete+Cidades) – buffet/regional, prático para almoço
   - [Green Love (Sete Cidades)](https://maps.google.com/?q=Green+Love+Sete+Cidades) – bowls, sandes e opções leves
   - [O Silva (Mosteiros)](https://maps.google.com/?q=Restaurante+O+Silva+Mosteiros) – peixe do dia, lapas; vista mar
-- Jantar (Ponta Delgada)
-  - [A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) – petiscos açorianos (muito concorrido; reserva)
-  - [Restaurante Alcides](https://maps.google.com/?q=Restaurante+Alcides+Ponta+Delgada) – bife à regional clássico (reserva)
+
+  **Estado:** Escolhemos no momento
+
+- [Jantar](#dia-1---dom-8-set-são-miguel-oestenorte-sete-cidades--mosteiros--pdl) (Ponta Delgada)
+  - [A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) – petiscos açorianos (muito concorrido; reserva) (isto tem marisco ew)
+  - [Restaurante Alcides](https://maps.google.com/?q=Restaurante+Alcides+Ponta+Delgada) – bife à regional clássico (reserva) (por mim SIM)
   - [Suplexio](https://maps.google.com/?q=Supl%C3%A9xio+Ponta+Delgada) – hambúrguer gourmet
   - [Restaurante Açores](https://maps.google.com/?q=Restaurante+A%C3%A7ores+Ponta+Delgada) – tradicional
 
-#### Dia 2 (Seg) — São Miguel: Furnas & Lagoa do Fogo
+  **Estado:** À espera do resultado da sondagem
+
+#### Dia 2 - Seg 9 Set: São Miguel: Furnas & Lagoa do Fogo
+
 *Sugestões de Restaurantes*
+
 - Almoço (Furnas)
-  - [Tony’s](https://maps.google.com/?q=Tony%27s+Furnas) – Cozido das Furnas (reserva obrigatória)
-  - [Terra Nostra](https://maps.google.com/?q=Terra+Nostra+Garden+Hotel+Restaurant) (restaurante do hotel) – mais requintado; reserva
-  - [Caldeiras & Vulcões / Miroma](https://maps.google.com/?q=Miroma+Furnas) – cozinha local
+  - [x] [Tony’s](https://maps.google.com/?q=Tony%27s+Furnas) – Cozido das Furnas (reserva obrigatória)
+  - ~~[Terra Nostra](https://maps.google.com/?q=Terra+Nostra+Garden+Hotel+Restaurant) (restaurante do hotel) – mais requintado; reserva~~
+  - ~~[Caldeiras & Vulcões / Miroma](https://maps.google.com/?q=Miroma+Furnas) – cozinha local~~
+
+  **Estado:** Reservado as 12:30
+
 - Jantar (Ponta Delgada)
   - [Mariserra](https://maps.google.com/?q=Mariserra+Ponta+Delgada) – peixe/marisco
   - [Louvre Michaelense](https://maps.google.com/?q=Louvre+Michaelense+Ponta+Delgada) – refeição leve/tábuas
 
-#### Dia 3 (Ter) — São Miguel: Nordeste (Costa Selvagem)
+  **Estado:** Escolhemos no momento
+
+#### Dia 3 - Ter 10 Set: São Miguel: Nordeste (Costa Selvagem)
+
 *Sugestões de Restaurantes*
+
 - Almoço (Nordeste)
   - [O Forno](https://maps.google.com/?q=Restaurante+O+Forno+Nordeste) – regional
   - [Tronqueira](https://maps.google.com/?q=Restaurante+Tronqueira+Nordeste) – regional
-- Jantar (Ponta Delgada)
-  - [Casa do Bife “O Galego”](https://maps.google.com/?q=Casa+do+Bife+O+Galego+Ponta+Delgada) – bife regional (reserva recomendada)
-  - [A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) (alternativa se não foste no Dia 1)
 
-#### Dia 4 (Qua) — São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
+  **Estado:** Escolhemos no momento
+
+- Jantar (Ponta Delgada)
+  - [x] [Casa do Bife “O Galego”](https://maps.google.com/?q=Casa+do+Bife+O+Galego+Ponta+Delgada) – bife regional (reserva recomendada)
+  - ~~[A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) (alternativa se não foste no Dia 1)~~
+
+  **Estado:** Reservado as 20:00
+
+#### Dia 4 - Qua 11 Set: São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
+
 *Sugestões de Restaurantes*
+
 - Almoço (Vila Franca / Caloura)
   - [Bar da Caloura](https://maps.google.com/?q=Bar+da+Caloura) – peixe grelhado fresquíssimo (lista de espera no local; chega cedo)
   - [Atlântico](https://maps.google.com/?q=Restaurante+Atl%C3%A2ntico+Vila+Franca+do+Campo) – peixe/regional
   - [O Jaime](https://maps.google.com/?q=Restaurante+O+Jaime+Vila+Franca+do+Campo) – tradicional
   - Doce/Take‑away: [Queijadas da Vila](https://maps.google.com/?q=Queijadas+do+Morgado+Vila+Franca)
-- Jantar (Ponta Delgada)
-  - [Otaka](https://maps.google.com/?q=Otaka+Ponta+Delgada) – sushi de autor com peixe açoriano (reserva)
-  - [Bar da Caloura](https://maps.google.com/?q=Bar+da+Caloura) (se preferires jantar com vista mar)
 
-#### Dia 5 (Qui) — Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
+  **Estado:** Escolhemos no momento
+
+- Jantar (Ponta Delgada)
+  - [X] [Otaka](https://maps.google.com/?q=Otaka+Ponta+Delgada) – sushi de autor com peixe açoriano (reserva)
+  - ~~[Bar da Caloura](https://maps.google.com/?q=Bar+da+Caloura) (se preferires jantar com vista mar)~~
+
+  **Estado:** Reservado as 20:00
+
+#### Dia 5 - Qui 12 Set: Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
+
 *Sugestões de Restaurantes*
+
+[Sondagem](#dia-5---qui-12-set-pico-vinhas-unesco-gruta-das-torres-baleias)
+
 - Almoço (Madalena / São Roque)
   - [Ancoradouro](https://maps.google.com/?q=Ancoradouro+Madalena+Pico) – peixe e marisco (reserva)
   - [O Cinco](https://maps.google.com/?q=O+Cinco+Madalena+Pico) – moderno
   - [Petisca](https://maps.google.com/?q=Petisca+Madalena+Pico) – petiscos
+
+  **Estado:** à espera da sondagem
+
 - Jantar (Madalena)
   - [Cella Bar](https://maps.google.com/?q=Cella+Bar+Madalena+Pico) – tapas e pôr‑do‑sol (muito concorrido; reserva)
   - [Ancoradouro](https://maps.google.com/?q=Ancoradouro+Madalena+Pico) (alternativa)
 
-#### Dia 6 (Sex) — Pico: Subida à Montanha
+  **Estado:** à espera da sondagem
+
+#### Dia 6 - Sex 13 Set: Pico: Subida à Montanha
+
 *Sugestões de Restaurantes*
+
 - Almoço
   - Recomenda‑se “almoço volante”: sandes/empadas/fruta e água (3 L/pessoa) comprados de manhã em pastelarias/supermercados locais (Madalena/São Roque).
-- Jantar (Nordeste do Pico / Santo Amaro ou Manhenha)
+
+  **Estado:** no dia anterior
+
+- [Jantar](#dia-6---sex-13-set-pico-subida-a-montanha) (Nordeste do Pico / Santo Amaro ou Manhenha)
   - [Magma](https://maps.google.com/?q=Magma+Restaurante+Santo+Amaro+Pico) (Santo Amaro/Terra Alta) – cozinha de autor; reserva
   - [Restaurante Ponta da Ilha](https://maps.google.com/?q=Restaurante+Ponta+da+Ilha+Pico) (Manhenha) – tradicional; reserva
 
-#### Dia 7 (Sáb) — Pico → São Miguel (jantar de despedida em PDL)
+  **Estado:** à espera da sondagem
+
+#### Dia 7 - Sáb 14 Set: Pico → São Miguel (jantar de despedida em PDL)
+
 *Sugestões de Restaurantes*
+[Sondagem](#dia-7---sáb-14-set-pico--são-miguel-jantar-de-despedida-em-pdl)
+
 - Almoço (Pico, conforme logística do voo)
   - [Cella Bar / Ancoradouro](https://maps.google.com/?q=Cella+Bar+Madalena+Pico) (Madalena) – se ainda estiveres no Pico
+  - [Ancoradouro](https://maps.google.com/?q=Ancoradouro+Madalena+Pico) (alternativa)
+  - [O Cinco](https://maps.google.com/?q=O+Cinco+Madalena+Pico) (alternativa)
+  
+  **Estado:** à espera da sondagem
+
 - Jantar (Ponta Delgada)
   - [Associação Agrícola de São Miguel (Rabo de Peixe)](https://maps.google.com/?q=Associa%C3%A7%C3%A3o+Agr%C3%ADcola+de+S%C3%A3o+Miguel) – mítico bife à Associação (reserva com muita antecedência)
   - [A Tasca / Otaka](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) (alternativas no centro)
 
-#### Dia 8 (Dom) — Partida
+  **Estado:** à espera da sondagem
+
+#### Dia 8 - Dom 15 Set: Partida
+
 *Sugestões de Restaurantes*
+
 - Pequeno‑almoço no alojamento ou café próximo do aeroporto; sem almoço/jantar planeados.
 
 Sugestões extra (se precisares de trocas por meteo)
@@ -432,3 +505,7 @@ Sugestões extra (se precisares de trocas por meteo)
 - PDL e arredores: [Tasca Mané Cigano](https://maps.google.com/?q=Tasca+Man%C3%A9+Cigano+Ponta+Delgada) (chicharros + feijão assado)
 - Rabo de Peixe (almoço simples): snacks e marisqueiras junto ao porto.
 - Ribeira Grande: [Areal de Santa Bárbara](https://maps.google.com/?q=Areal+de+Santa+B%C3%A1rbara+Ribeira+Grande) (food trucks sazonais) para algo rápido.
+
+**Estado:** Escolhemos no momento
+
+---
