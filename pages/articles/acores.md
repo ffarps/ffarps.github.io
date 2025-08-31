@@ -69,7 +69,7 @@ Percurso no Maps (~100 km)
 - 09:00 Furnas (centro)
   - Passeio pelo Parque das Caldeiras (fumarolas) e Vila
 - 10:00 Parque Terra Nostra (opcional; 17€; levar fato-de-banho escuro)
-- 12:30 Cozido das Furnas no Tony’s (reserva obrigatória)
+- 12:00 Cozido das Furnas no Tony’s (reserva FEITA)
 - 14:30 Fumarolas da Lagoa das Furnas (ver retirada de panelas ~11:30–12:30, bilhete 3€ vale o dia)
 - 15:30 Caldeira Velha (termas – slot com tempo limite; reservar)
 - 17:00 Lagoa do Fogo
@@ -372,7 +372,7 @@ Notas rápidas de reserva
 - Liga preferencialmente fora dos picos (11:00–12:00 e 16:30–18:30).
 - Confirma horários no Maps, alguns fecham 1–2 dias/semana.
 
-#### Dia 1 - Dom 8 Set: São Miguel: Oeste/Norte (Sete Cidades → Mosteiros → PDL)
+#### Dia 1 - Dom 7 Set: São Miguel: Oeste/Norte (Sete Cidades → Mosteiros → PDL)
 
 *Sugestões de Restaurantes*
 
@@ -391,7 +391,7 @@ Notas rápidas de reserva
 
   **Estado:** À espera do resultado da sondagem
 
-#### Dia 2 - Seg 9 Set: São Miguel: Furnas & Lagoa do Fogo
+#### Dia 2 - Seg 8 Set: São Miguel: Furnas & Lagoa do Fogo
 
 *Sugestões de Restaurantes*
 
@@ -408,7 +408,7 @@ Notas rápidas de reserva
 
   **Estado:** Escolhemos no momento
 
-#### Dia 3 - Ter 10 Set: São Miguel: Nordeste (Costa Selvagem)
+#### Dia 3 - Ter 9 Set: São Miguel: Nordeste (Costa Selvagem)
 
 *Sugestões de Restaurantes*
 
@@ -424,7 +424,7 @@ Notas rápidas de reserva
 
   **Estado:** Reservado as 20:00
 
-#### Dia 4 - Qua 11 Set: São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
+#### Dia 4 - Qua 10 Set: São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
 
 *Sugestões de Restaurantes*
 
@@ -442,7 +442,7 @@ Notas rápidas de reserva
 
   **Estado:** Reservado as 20:00
 
-#### Dia 5 - Qui 12 Set: Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
+#### Dia 5 - Qui 11 Set: Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
 
 *Sugestões de Restaurantes*
 
@@ -461,7 +461,7 @@ Notas rápidas de reserva
 
   **Estado:** à espera da sondagem
 
-#### Dia 6 - Sex 13 Set: Pico: Subida à Montanha
+#### Dia 6 - Sex 12 Set: Pico: Subida à Montanha
 
 *Sugestões de Restaurantes*
 
@@ -476,7 +476,7 @@ Notas rápidas de reserva
 
   **Estado:** à espera da sondagem
 
-#### Dia 7 - Sáb 14 Set: Pico → São Miguel (jantar de despedida em PDL)
+#### Dia 7 - Sáb 13 Set: Pico → São Miguel (jantar de despedida em PDL)
 
 *Sugestões de Restaurantes*
 [Sondagem](#dia-7---sáb-14-set-pico--são-miguel-jantar-de-despedida-em-pdl)
