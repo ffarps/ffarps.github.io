@@ -191,7 +191,6 @@ h3#subsubtitle {
 }
 
 .article-card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   background: var(--accent-color, var(--accent-color-dark));
   color: var(--back-accent-color, var(--back-accent-color-dark));
 }
@@ -252,7 +251,6 @@ h3#subsubtitle {
 .projects-btn:hover {
   background: var(--accent-color, var(--accent-color-dark));
   color: var(--back-accent-color, var(--back-accent-color-dark));
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -341,9 +339,7 @@ header h3 {
 }
 
 .lang-btn:focus,
-.lang-btn.active {
-  box-shadow: 0 0 0 2px var(--accent-color, var(--accent-color-dark));
-}
+.lang-btn.active {}
 
 .lang-btn img {
   display: block;
@@ -762,7 +758,6 @@ footer.footer {
 .project-card.project-clickable:hover {
   background: var(--accent-color, var(--accent-color-dark));
   color: var(--back-accent-color, var(--back-accent-color-dark));
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .project-card.project-clickable:hover h3,
@@ -814,7 +809,6 @@ footer.footer {
   margin: 1.2em auto 0.4em auto;
   max-width: 350px;
   min-height: 38px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   cursor: pointer;
   transition: box-shadow 0.13s, background 0.13s, color 0.13s;
   outline: none;
@@ -825,7 +819,6 @@ footer.footer {
 .github-warning-card:focus {
   background: var(--font-color, var(--font-color-dark));
   color: var(--back-accent-color, var(--back-accent-color-dark));
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.16);
   border-color: var(--font-color, var(--font-color-dark));
 }
 
@@ -857,7 +850,6 @@ footer.footer {
   font-weight: 600;
   /* text-decoration: underline dotted var(--font-color, var(--font-color-dark)) 2px; */
   text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   cursor: pointer;
   transition: background 0.15s, color 0.15s, box-shadow 0.15s;
   outline: none;
@@ -868,7 +860,6 @@ footer.footer {
 #github_warning:focus {
   background: var(--font-color, var(--font-color-dark));
   color: var(--back-accent-color, var(--back-accent-color-dark)) !important;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.16);
   border-color: var(--font-color, var(--font-color-dark));
   /* text-decoration: underline solid var(--back-accent-color, var(--back-accent-color-dark)) 2.5px; */
 }
@@ -940,7 +931,6 @@ footer.footer {
   height: 22px;
   border-radius: 3px;
   border: 2.5px solid var(--accent-color, var(--accent-color-dark));
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10);
   /* transition: border 0.18s, box-shadow 0.18s, transform 0.18s; */
 }
 

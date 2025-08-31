@@ -1,6 +1,6 @@
 # Guia Viagem aos Açores
 
-Guia e itinerário da viagem, contém tabela temporal, restaurantes, atividades e informações logísticas.
+Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, atividades e informações logísticas.
 
 ### Informações Essenciais
 
@@ -12,18 +12,11 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, atividades 
 - Variáveis Meteorológicas: 17°C a 26°C, Humidade Média 68% a 83% com baixa probabilidade de chuva
 - Fuso Horário: UTC-1 (1 hora atrás do continente)
 - Informação Extra: São Miguel é rodeada pela `EN1-1A` (100 km, ~1h30 de ponta a ponta). Subidas a Lagoas/Montanhas demoram mais, com nevoeiros frequentes e estradas estreitas.
+#### Mapa 
 
-Melhorias e ajustes recomendados
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1UAxQSjnTH9yBIZ3GRcpRhdapJI6UKRM&ehbc=2E312F&noprof=1" width="100%" height="100%" style="height: 400px;width: 100%;" frameborder="0"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-- Lagoa do Fogo (15 Jun–30 Set): acesso aos miradouros por `shuttle` para carros de aluguer. Ver “Informações Úteis”.
-- Ponta da Ferraria: ir em meia-maré (subida/descida) para melhor temperatura da piscina natural.
-- Ilhéu de Vila Franca: limite 400 pax/dia; reservar com antecedência (ver “Reservas Prioritárias”).
-- Gruta do Carvão (PDL) e Gruta das Torres (Pico): visitas guiadas com lotação; reservar.
-- Montanha do Pico: registo obrigatório na `Casa da Montanha`; considerar guia para subida noturna; levar equipamento adequado.
-- Miradouros com estradas íngremes (ex.: Farol do Arnel): descer a pé, deixar carro no topo.
-- Flexibilizar plano conforme SpotAzores (webcams) – prioridade a lagoas/miradouros quando abertos.
-
-Links
+#### Links
 [Itinerário](#itinerário),
 [Pontos de Interesse](#anexo-a-pontos-de-interesse-e-atividades-por-ilha),
 [Guia Gastronómico](#anexo-b-guia-gastronómico),
