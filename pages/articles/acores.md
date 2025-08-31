@@ -422,7 +422,7 @@ Notas rápidas de reserva
   - [x] [Casa do Bife “O Galego”](https://maps.google.com/?q=Casa+do+Bife+O+Galego+Ponta+Delgada) – bife regional (reserva recomendada)
   - ~~[A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) (alternativa se não foste no Dia 1)~~
 
-  **Estado:** Reservado as 20:00
+  **Estado:** ~~Reservado as 20:00~~ os gajos são ligam 
 
 #### Dia 4 - Qua 10 Set: São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
 
@@ -440,7 +440,7 @@ Notas rápidas de reserva
   - [X] [Otaka](https://maps.google.com/?q=Otaka+Ponta+Delgada) – sushi de autor com peixe açoriano (reserva)
   - ~~[Bar da Caloura](https://maps.google.com/?q=Bar+da+Caloura) (se preferires jantar com vista mar)~~
 
-  **Estado:** Reservado as 20:00
+  **Estado:** ~~Reservado as 20:00~~ [SONDAGEM](#dia-4---qua-10-set-são-miguel-costa-sul-vila-franca-do-campo-caloura)
 
 #### Dia 5 - Qui 11 Set: Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
 
