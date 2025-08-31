@@ -6,7 +6,7 @@
   <title>Francisco Pereira</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Francisco Pereira - Driving Innovation with AI & Machine Learning" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
   <link rel="stylesheet" href="overflow-debug.css" />
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="fonts/jetBrainsMono/jetbrains-mono.css" />
@@ -125,7 +125,7 @@
       <button id="github_warning" class="projects-btn" tabindex="0" aria-label="View all projects"></button>
     </div>
     <section class="section" id="articles-section">
-      <h2>Articles</h2>
+      <h2 id="articles_title">Articles</h2>
       <div class="articles-list">
         <article class="article-card">
           <h3><a href="pages/articles/article-ai-future.html">The Future of AI in Software Development</a></h3>
@@ -144,7 +144,8 @@
         </article>
       </div>
       <div style="text-align: center; margin: 2rem 0;">
-        <button class="projects-btn" onclick="window.location.href='/pages/articles.html'">View All Articles</button>
+        <button id="view_all_articles" class="projects-btn" onclick="window.location.href='/pages/articles.html'">View
+          All Articles</button>
       </div>
     </section>
     <section class="section" id="contact-section">

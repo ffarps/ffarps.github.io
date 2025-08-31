@@ -4,14 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Machine Learning Project</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <style>
-        body {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
         .back-link {
             display: inline-block;
             margin-bottom: 2rem;
@@ -30,58 +24,61 @@
 </head>
 
 <body>
-    <a href="/" class="back-link">&larr; <span id="back_home">Back to Home</span></a>
-    <h1 id="project_title">Machine Learning Project</h1>
-    <p id="project_description">This project demonstrates advanced machine learning techniques for predictive analytics.
-        It includes data preprocessing, model training, and deployment of a REST API for real-time predictions.</p>
-    <h2 id="technologies_title">Technologies Used</h2>
-    <ul id="technologies_list">
-        <li>Python</li>
-        <li>TensorFlow / Keras</li>
-        <li>Scikit-learn</li>
-        <li>Pandas / NumPy</li>
-        <li>Flask for API</li>
-    </ul>
-    <h2 id="features_title">Key Features</h2>
-    <ul id="features_list">
-        <li>Data preprocessing pipeline</li>
-        <li>Multiple ML algorithms (Random Forest, Neural Networks)</li>
-        <li>Model evaluation and hyperparameter tuning</li>
-        <li>RESTful API for predictions</li>
-        <li>Data visualization dashboard</li>
-    </ul>
-    <h2 id="results_title">Results</h2>
-    <p id="results_text">Achieved 95% accuracy on test dataset with optimized model. Deployed as a microservice in
-        production environment.</p>
-    <p>[Mock screenshots and code snippets would go here...]</p>
-    <div style="text-align: center; margin-top: 2rem;">
-        <a href="/pages/projects.html" class="back-link"><span id="go_projects">Go to All Projects Page</span></a>
+    <div class="content-wrapper">
+        <a href="/" class="back-link">&larr; <span id="back_home">Back to Home</span></a>
+        <h1 id="project_title">Machine Learning Project</h1>
+        <p id="project_description">This project demonstrates advanced machine learning techniques for predictive
+            analytics.
+            It includes data preprocessing, model training, and deployment of a REST API for real-time predictions.</p>
+        <h2 id="technologies_title">Technologies Used</h2>
+        <ul id="technologies_list">
+            <li>Python</li>
+            <li>TensorFlow / Keras</li>
+            <li>Scikit-learn</li>
+            <li>Pandas / NumPy</li>
+            <li>Flask for API</li>
+        </ul>
+        <h2 id="features_title">Key Features</h2>
+        <ul id="features_list">
+            <li>Data preprocessing pipeline</li>
+            <li>Multiple ML algorithms (Random Forest, Neural Networks)</li>
+            <li>Model evaluation and hyperparameter tuning</li>
+            <li>RESTful API for predictions</li>
+            <li>Data visualization dashboard</li>
+        </ul>
+        <h2 id="results_title">Results</h2>
+        <p id="results_text">Achieved 95% accuracy on test dataset with optimized model. Deployed as a microservice in
+            production environment.</p>
+        <p>[Mock screenshots and code snippets would go here...]</p>
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="/pages/projects.html" class="back-link"><span id="go_projects">Go to All Projects Page</span></a>
+        </div>
+
+        <script>
+            const lang = localStorage.getItem('lang') || 'en-GB';
+
+            fetch('/pages/projects/project-ml.json')
+                .then(response => response.json())
+                .then(data => {
+                    const content = data[lang];
+                    document.getElementById('project_title').textContent = content.title;
+                    document.getElementById('project_description').textContent = content.description;
+                    document.getElementById('technologies_title').textContent = content.technologies_title;
+                    document.getElementById('features_title').textContent = content.features_title;
+                    document.getElementById('results_title').textContent = content.results_title;
+                    document.getElementById('results_text').textContent = content.results;
+                    document.getElementById('back_home').textContent = content.back_home;
+                    document.getElementById('go_projects').textContent = content.go_projects;
+
+                    const techList = document.getElementById('technologies_list');
+                    techList.innerHTML = content.technologies.map(tech => `<li>${tech}</li>`).join('');
+
+                    const featuresList = document.getElementById('features_list');
+                    featuresList.innerHTML = content.features.map(feature => `<li>${feature}</li>`).join('');
+                })
+                .catch(error => console.error('Error loading language data:', error));
+        </script>
     </div>
-
-    <script>
-        const lang = localStorage.getItem('lang') || 'en-GB';
-
-        fetch('/pages/projects/project-ml.json')
-            .then(response => response.json())
-            .then(data => {
-                const content = data[lang];
-                document.getElementById('project_title').textContent = content.title;
-                document.getElementById('project_description').textContent = content.description;
-                document.getElementById('technologies_title').textContent = content.technologies_title;
-                document.getElementById('features_title').textContent = content.features_title;
-                document.getElementById('results_title').textContent = content.results_title;
-                document.getElementById('results_text').textContent = content.results;
-                document.getElementById('back_home').textContent = content.back_home;
-                document.getElementById('go_projects').textContent = content.go_projects;
-
-                const techList = document.getElementById('technologies_list');
-                techList.innerHTML = content.technologies.map(tech => `<li>${tech}</li>`).join('');
-
-                const featuresList = document.getElementById('features_list');
-                featuresList.innerHTML = content.features.map(feature => `<li>${feature}</li>`).join('');
-            })
-            .catch(error => console.error('Error loading language data:', error));
-    </script>
 
     <footer class="footer">
         <div class="footer-main central-footer-content">

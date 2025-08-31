@@ -1,7 +1,7 @@
 {
   "pt-PT": {
     "about_title": "Sobre Mim",
-    "about_text": "Engenheiro informático com experiência em desenvolvimento de software e investigação, tendo recebido duas bolsas de investigação no CeDRI. Atualmente, trabalho como técnico de Investigação e desenvolvimento, concentrando-me na criação de soluções inovadoras e escaláveis com projectos orientados para a IA. Proactivo, orientado para os objectivos e empenhado em obter resultados com impacto.",
+    "about_text": "Licenciado em Engenharia Informática com 3 anos de experiência comprovada em Desenvolvimento de Software e Investigação, tendo conquistado duas bolsas de investigação no Centro de Digitalização e Robótica Inteligente.\n\n Atualmente, no setor de Investigação e Desenvolvimento (R&D), sou responsável pela conceção e implementação de soluções inovadoras e escaláveis, com especialização em projetos impulsionados por Inteligência Artificial para a otimização de capacidades conversacionais e a automação de tarefas de dados. \n\n Profissional proativo, orientado para os objetivos e focado na obtenção de resultados com impacto.",
     "download_cv": "Ver meu CV (PDF)",
     "projects": "Projetos",
     "ml": "Aprendizagem Automática",
@@ -25,12 +25,20 @@
     "subtitle": "Desenvolvedor de Software",
     "contact": "Contacto",
     "linkedin_text": "Mande-me uma mensagem no LinkedIn",
-    "subsubtitle": "A impulsionar inovação com IA e Aprendizagem Automática",
-    "github_warning": "Ver Todos os Meus Projetos"
+    "subsubtitle": "A Impulsionar Inovação com Inteligência Artificial e Aprendizagem Automática",
+    "github_warning": "Ver Todos os Meus Projetos",
+    "articles_title": "Artigos",
+    "view_all_articles": "Ver Todos os Artigos",
+    "back_to_home": "← Página Inicial",
+    "footer_home": "Página Inicial",
+    "footer_projects": "Projetos",
+    "footer_articles": "Artigos",
+    "footer_contact": "Contacte-me",
+    "footer_privacy": "Privacidade"
   },
   "en-GB": {
     "about_title": "About Me",
-    "about_text": "An informatics engineering graduate with experience in software development and research, awarded two research fellowships at CeDRI. Currently working as a Research and Development Technician, focusing on creating innovative and scalable solutions with AI-driven projects. Proactive, goal-oriented, and passionate about driving impactful results.",
+    "about_text": "Informatics Engineering graduate with 3 years of proven experience in Software Development and Research, having secured two research grants at the Center for Digitalization and Intelligent Robotics.\n\n Currently, in the Research and Development (R&D) sector, I am responsible for the conception and implementation of innovative and scalable solutions, specializing in AI-driven projects for the optimization of conversational capabilities and the automation of data tasks. \n\nA proactive, goal-oriented professional focused on achieving impactful results.",
     "download_cv": "View my CV (PDF)",
     "projects": "Projects",
     "ml": "Machine Learning",
@@ -55,6 +63,14 @@
     "contact": "Contact",
     "linkedin_text": "Message me on LinkedIn",
     "subsubtitle": "Driving Innovation with AI & Machine Learning",
-    "github_warning": "View All My Projects"
+    "github_warning": "View All My Projects",
+    "articles_title": "Articles",
+    "view_all_articles": "View All Articles",
+    "back_to_home": "← Back to Home",
+    "footer_home": "Home",
+    "footer_projects": "Projects",
+    "footer_articles": "Articles",
+    "footer_contact": "Contact Me",
+    "footer_privacy": "Privacy"
   }
 }
