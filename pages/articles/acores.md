@@ -400,7 +400,7 @@ Notas rápidas de reserva
   - ~~[Terra Nostra](https://maps.google.com/?q=Terra+Nostra+Garden+Hotel+Restaurant) (restaurante do hotel) – mais requintado; reserva~~
   - ~~[Caldeiras & Vulcões / Miroma](https://maps.google.com/?q=Miroma+Furnas) – cozinha local~~
 
-  **Estado:** Reservado as 12:30
+  **Estado:** Reservado as 12:00
 
 - Jantar (Ponta Delgada)
   - [Mariserra](https://maps.google.com/?q=Mariserra+Ponta+Delgada) – peixe/marisco
