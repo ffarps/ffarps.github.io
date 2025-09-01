@@ -4,6 +4,9 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 
 ## Informações Essenciais
 
+<details>
+  <summary>Clica para expandir Informações Essenciais</summary>
+
 - Ilhas visitadas: São Miguel e Pico
 - Duração: 8 Dias e 7 Noites, 5 noites em São Miguel e 2 noites no Pico
   - Noites 1 a 4: São Miguel (Domingo a Quarta)
@@ -12,6 +15,8 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 - Variáveis Meteorológicas: 17°C a 26°C, Humidade Média 68% a 83% com baixa probabilidade de chuva
 - Fuso Horário: UTC-1 (1 hora atrás do continente)
 - Informação Extra: São Miguel é rodeada pela `EN1-1A` (100 km, ~1h30 de ponta a ponta). Subidas a Lagoas/Montanhas demoram mais, com nevoeiros frequentes e estradas estreitas.
+
+</details>
 
 ## Mapa
 
@@ -40,7 +45,7 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 
 ## Itinerário
 
-Itinerário da viagem hora por hora (ajuste em função do SpotAzores e meteo).
+Itinerário da viagem hora por hora (ajustar em função do SpotAzores e meteo).
 
 ## Dia 1 (Dom 7 Set): Chegada a São Miguel — Rota Oeste/Norte
 
@@ -56,8 +61,9 @@ Itinerário da viagem hora por hora (ajuste em função do SpotAzores e meteo).
 - 17:30 Mosteiros
   - Piscinas Naturais dos Caneiros e Praia dos Mosteiros (pôr‑do‑sol épico)
 - 19:30 Check‑in no alojamento zona oeste (ex.: Candelária)
-- 20:30 Jantar em Ponta Delgada (reservar)
-  - A Tasca; Restaurante Alcides; Supléxio; Restaurante Açores; alternativa rápida: zona marina
+- 20:30 Jantar em Ponta Delgada
+  - A Tasca é bem concorrido, ordem de chegada
+    - Ou: Restaurante Alcides; Supléxio; Restaurante Açores; alternativa rápida: zona marina
 - Passeio noturno pelo centro histórico de Ponta Delgada
 
 Percurso no Maps (~100 km)
@@ -68,14 +74,15 @@ Percurso no Maps (~100 km)
 
 - 09:00 Furnas (centro)
   - Passeio pelo Parque das Caldeiras (fumarolas) e Vila
-- 10:00 Parque Terra Nostra (opcional; 17€; levar fato-de-banho escuro)
+  - Ver retirada de panelas ~11:30–12:30, bilhete 3€ vale o dia
 - 12:00 Cozido das Furnas no Tony’s (reserva FEITA)
-- 14:30 Fumarolas da Lagoa das Furnas (ver retirada de panelas ~11:30–12:30, bilhete 3€ vale o dia)
+- 14:30 Fumarolas da Lagoa das Furnas
 - 15:30 Caldeira Velha (termas – slot com tempo limite; reservar)
 - 17:00 Lagoa do Fogo
   - Ver miradouros via shuttle (Jun–Set; ver “Informações Úteis”)
   - Opcional: descer à praia fluvial (trilho 2 km i/v, declive forte)
 - 20:00 Jantar em Ponta Delgada
+- Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Mariserra (peixe/marisco) ou Louvre Michaelense (leve)
 
 Percurso no Maps (~150 km)
@@ -87,12 +94,13 @@ Percurso no Maps (~150 km)
 - 09:30 Rabo de Peixe (porto de pesca; visita breve respeitando a comunidade)
 - 10:15 Chá Gorreana (fábrica e trilho PRC28 ~3,5 km, fácil)
 - 11:30 Parque Natural da Ribeira dos Caldeirões (cascata e moinhos)
-- 13:00 Almoço no Nordeste (“O Forno” ou “Tronqueira”)
+- 13:00 Almoço no Nordeste (“O Forno” ou “Tronqueira”) ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
 - Tarde de miradouros (ordem flexível por meteo):
   - Ponta do Sossego; Ponta da Madrugada; Ponta do Arnel (farol: deixar carro no topo)
 - 16:30 Trilho opcional Faial da Terra — PRC9 Sanguinho + Salto do Prego (4,5 km, 2h)
   - Extensão ao Salto do Cagarrão (+4 km)
 - 20:00 Jantar Ponta Delgada
+- Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Casa do Bife “O Galego” (bife regional) ou marina
 
 Percurso no Maps (~160 km)
@@ -105,10 +113,12 @@ Percurso no Maps (~160 km)
   - Bilhete barco Ilhéu de Vila Franca (lotação 400/dia; reservar com antecedência)
   - Ermida Nossa Senhora da Paz (vista icónica)
 - 12:30 Almoço em Vila Franca (provar Queijadas da Vila)
+  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
 - 14:30 Lagoa do Congro (trilho 1,4 km i/v; íngreme na volta)
 - 16:30 Caloura/Água de Pau
   - Miradouro do Pisão; Piscina Natural/Porto da Caloura; Ponta da Galera
 - 19:30 Jantar Ponta Delgada
+- Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Otaka (sushi autor, reserva) ou Bar da Caloura (peixe grelhado; lista de espera no local)
 
 ## Dia 5 (Qui 11 Set): Pico — Vinhas, Gruta e Baleias
@@ -122,12 +132,14 @@ Percurso no Maps (~160 km)
   - Caminhada leve até ao Moinho do Frade; Porto do Calhau/Areia Larga
 - 11:30–12:15 PicoWines – Cooperativa Vitivinícola (prova curta)
 - 12:30–13:30 Almoço (Madalena/São Roque)
+  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Ancoradouro, O Cinco, Petisca (reserva recomendada)
 - 13:50–16:30 Observação de cetáceos (Lajes do Pico recomendado; reserva)
 - 17:15–18:15 Gruta das Torres (visita guiada; reservar)
 - 18:30 Check‑in São Roque/Madalena; pôr do sol nas Piscinas Naturais (Barca ou São Roque)
 - Ir às compras para o almoco de amanha levar sandes/empadas/fruta e água (3 L/pessoa)
 - 20:00 Jantar
+  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Cella Bar (vista + tapas) ou alternativa local
 
 ## Dia 6 (Sex 12 Set): Montanha do Pico
@@ -140,6 +152,7 @@ Percurso no Maps (~160 km)
   - Equipamento: botas, bastões, corta‑vento, água (3 L/pax), snacks, gorro/luvas
   - Alternativa segura: subida com guia (nocturna para nascer do sol)
 - 19:00 Jantar de recuperação
+  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Magma (Santo Amaro; reserva) ou Ponta da Ilha (Manhenha)
 
 ## Dia 7 (Sáb 13 Set): Manhã no Pico — Regresso a São Miguel
@@ -153,6 +166,7 @@ Percurso no Maps (~160 km)
 - Tarde: costa sul de PDL
   - Ponta da Galera; Praia das Milícias/Pópulo; pôr do sol em Mosteiros (se apetece repetir)
 - 20:00 Jantar despedida em PDL
+  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Associação Agrícola (Rabo de Peixe; reserva com muita antecedência) ou A Tasca
 
 ## Dia 8 (Dom 14 Set): Partida
@@ -167,6 +181,9 @@ Percurso no Maps (~160 km)
 
 ## ⚠️ Reservas Prioritárias
 
+<details>
+  <summary>Clica para expandir Reservas Prioritárias</summary>
+
 Reservar com antecedência
 
 - [X] Voo PDL ↔ PIX (SATA)
@@ -180,26 +197,31 @@ Reservar com antecedência
   - [X] Subida ao Pico (Casa da Montanha — registo e bilhete)
   - [X] Observação de cetáceos (Lajes do Pico)
   - [X] Gruta do Carvão (PDL)
-  - [ ] Gruta das Torres (Pico)
+  - ~~[ ] Gruta das Torres (Pico)~~ Indisponível
   - [ ] Ilhéu de Vila Franca (barcos/bilhetes)
   - [ ] Caldeira Velha (slot termal)
-  - [ ] Shuttle Lagoa do Fogo (Jun–Set)
+  - [ ] ~~Shuttle Lagoa do Fogo (Jun–Set)~~
 - [ ] Restaurantes (ligar para reservas)
-  - [ ] A Tasca (PDL)
-  - [ ] Alcides (PDL)
-  - [ ] Otaka (PDL)
-  - [ ] Associação Agrícola (Rabo de Peixe)
-  - [ ] Tony’s (Furnas)
-  - [ ] Bar da Caloura (Caloura)
-  - [ ] Mariserra (PDL)
-  - [ ] Cella Bar (Madalena)
-  - [ ] Ancoradouro (Madalena)
-  - [ ] Magma (Santo Amaro)
-  - [ ] Ponta da Ilha (Manhenha)
+  - ~~[ ] A Tasca (PDL)~~
+  - ~~[ ] Alcides (PDL)~~
+  - ~~[ ] Otaka (PDL)~~
+  - ~~[ ] Associação Agrícola (Rabo de Peixe)~~
+  - [X] Tony’s (Furnas)
+  - ~~[ ] Bar da Caloura (Caloura)~~
+  - ~~[ ] Mariserra (PDL)~~
+  - ~~[ ] Cella Bar (Madalena)~~
+  - ~~[ ] Ancoradouro (Madalena)~~
+  - ~~[ ] Magma (Santo Amaro)~~
+  - ~~[ ] Ponta da Ilha (Manhenha)~~
+
+</details>
 
 ## Anexos
 
 ### Anexo A: Pontos de Interesse e Atividades por Ilha
+
+<details>
+  <summary>Clica para expandir São Miguel</summary>
 
 #### São Miguel
 
@@ -251,6 +273,11 @@ Reservar com antecedência
   - Povoação: Igreja Matriz; Igreja N. Sra. do Rosário; Marina; Praia e piscinas
   - Miradouro do Salto do Cavalo (vista Furnas/Povoação)
 
+</details>
+
+<details>
+  <summary>Clica para expandir Pico</summary>
+
 #### Pico
 
 - Madalena e arredores
@@ -283,7 +310,12 @@ Reservar com antecedência
 - Experiências
   - Gruta das Torres (tubo lávico); Observação de cetáceos (Lajes/Madalena); Subida à Montanha do Pico
 
+</details>
+
 ### Anexo B: Guia Gastronómico
+
+<details>
+  <summary>Clica para expandir Anexo B: Guia Gastronómico</summary>
 
 Sugestões (ligar para reservar nos mais concorridos).
 
@@ -320,7 +352,12 @@ Pratos e produtos a não perder
 - Queijadas da Vila (Vila Franca); Bolo lêvedo; Fofas da Povoação
 - Chá Gorreana; Ananás dos Açores; Vinhos do Pico (Verdelho, Arinto dos Açores, Terrantez do Pico)
 
+</details>
+
 ### Anexo C: Informações Úteis
+
+<details>
+  <summary>Clica para expandir Anexo C: Informações Úteis</summary>
 
 - SpotAzores: usar webcams antes de ir a miradouros/lagoas
 - Lagoa do Fogo (Jun–Set): rent‑a‑car proibido nos miradouros Pico da Barrosa/Lagoa do Fogo/Bela Vista. Usar shuttle hop‑on hop‑off (Caldeira Velha ou Casa da Água; 09:00–19:00). Bilhetes online.
@@ -340,7 +377,12 @@ Pratos e produtos a não perder
   - Windy (vento), SpotAzores (webcams), Azores Viewpoints, Azores Trails, Visit Azores
   - Azores Airlines; Atlanticoline (ferries triângulo)
 
+</details>
+
 ### Anexo D: Sugestões de Trilhos e Atividades Alternativas
+
+<details>
+  <summary>Clica para expandir Anexo D: Sugestões de Trilhos e Atividades Alternativas</summary>
 
 São Miguel
 
@@ -364,13 +406,9 @@ Pico
 - Costeiros: cachorros/rola-pipas (Lajido–Cachorro), piscinas (Poça da Branca/Barca)
 - Whale watching: Lajes do Pico (melhor base; biólogos a bordo)
 
+</details>
+
 ### Anexo E: Plano de Restaurantes por Dia (Reservas)
-
-Notas rápidas de reserva
-
-- Alta procura (Jun–Out): reserva com 48–72h de antecedência (A Tasca, Otaka, Associação Agrícola, Tony’s, Cella Bar, Magma).
-- Liga preferencialmente fora dos picos (11:00–12:00 e 16:30–18:30).
-- Confirma horários no Maps, alguns fecham 1–2 dias/semana.
 
 #### Dia 1 - Dom 7 Set: São Miguel: Oeste/Norte (Sete Cidades → Mosteiros → PDL)
 
@@ -383,13 +421,13 @@ Notas rápidas de reserva
 
   **Estado:** Escolhemos no momento
 
-- [Jantar](#dia-1---dom-8-set-são-miguel-oestenorte-sete-cidades--mosteiros--pdl) (Ponta Delgada)
-  - [A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) – petiscos açorianos (muito concorrido; reserva) (isto tem marisco ew)
-  - [Restaurante Alcides](https://maps.google.com/?q=Restaurante+Alcides+Ponta+Delgada) – bife à regional clássico (reserva) (por mim SIM)
-  - [Suplexio](https://maps.google.com/?q=Supl%C3%A9xio+Ponta+Delgada) – hambúrguer gourmet
-  - [Restaurante Açores](https://maps.google.com/?q=Restaurante+A%C3%A7ores+Ponta+Delgada) – tradicional
+- Jantar (Ponta Delgada)
+  - [X][A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) – petiscos açorianos (muito concorrido; reserva) (isto tem marisco ew)
+  - [X] [Restaurante Alcides](https://maps.google.com/?q=Restaurante+Alcides+Ponta+Delgada) – bife à regional clássico (reserva) (por mim SIM)
+  - ~~[Suplexio](https://maps.google.com/?q=Supl%C3%A9xio+Ponta+Delgada) – hambúrguer gourmet~~
+  - ~~[Restaurante Açores](https://maps.google.com/?q=Restaurante+A%C3%A7ores+Ponta+Delgada) – tradicional~~
 
-  **Estado:** À espera do resultado da sondagem
+  **Estado:** "A tasca" não aceita reservas, ver o que o pessoal acha do restaurante alcides
 
 #### Dia 2 - Seg 8 Set: São Miguel: Furnas & Lagoa do Fogo
 
@@ -422,7 +460,7 @@ Notas rápidas de reserva
   - [x] [Casa do Bife “O Galego”](https://maps.google.com/?q=Casa+do+Bife+O+Galego+Ponta+Delgada) – bife regional (reserva recomendada)
   - ~~[A Tasca](https://maps.google.com/?q=A+Tasca+Ponta+Delgada) (alternativa se não foste no Dia 1)~~
 
-  **Estado:** ~~Reservado as 20:00~~ os gajos são ligam 
+  **Estado:** Os gajos não me respondem à chamada, vamos lá sem reserva
 
 #### Dia 4 - Qua 10 Set: São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
 
@@ -437,29 +475,27 @@ Notas rápidas de reserva
   **Estado:** Escolhemos no momento
 
 - Jantar (Ponta Delgada)
-  - [X] [Otaka](https://maps.google.com/?q=Otaka+Ponta+Delgada) – sushi de autor com peixe açoriano (reserva)
-  - ~~[Bar da Caloura](https://maps.google.com/?q=Bar+da+Caloura) (se preferires jantar com vista mar)~~
+  - ~~[Otaka](https://maps.google.com/?q=Otaka+Ponta+Delgada) – sushi de autor com peixe açoriano (reserva)~~
+  - [Bar da Caloura](https://maps.google.com/?q=Bar+da+Caloura) (se preferires jantar com vista mar)
 
-  **Estado:** ~~Reservado as 20:00~~ [SONDAGEM](#dia-4---qua-10-set-são-miguel-costa-sul-vila-franca-do-campo-caloura)
+  **Estado:** Escolhemos no momento, os restaurantes sugeridos não sao muito bons
 
 #### Dia 5 - Qui 11 Set: Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
 
 *Sugestões de Restaurantes*
-
-[Sondagem](#dia-5---qui-12-set-pico-vinhas-unesco-gruta-das-torres-baleias)
 
 - Almoço (Madalena / São Roque)
   - [Ancoradouro](https://maps.google.com/?q=Ancoradouro+Madalena+Pico) – peixe e marisco (reserva)
   - [O Cinco](https://maps.google.com/?q=O+Cinco+Madalena+Pico) – moderno
   - [Petisca](https://maps.google.com/?q=Petisca+Madalena+Pico) – petiscos
 
-  **Estado:** à espera da sondagem
+  **Estado:** Escolhemos no momento, ou decidimos comer por casa
 
 - Jantar (Madalena)
   - [Cella Bar](https://maps.google.com/?q=Cella+Bar+Madalena+Pico) – tapas e pôr‑do‑sol (muito concorrido; reserva)
   - [Ancoradouro](https://maps.google.com/?q=Ancoradouro+Madalena+Pico) (alternativa)
 
-  **Estado:** à espera da sondagem
+  **Estado:** Escolhemos no momento, ou decidimos comer por casa
 
 #### Dia 6 - Sex 12 Set: Pico: Subida à Montanha
 
@@ -470,7 +506,7 @@ Notas rápidas de reserva
 
   **Estado:** no dia anterior
 
-- [Jantar](#dia-6---sex-13-set-pico-subida-a-montanha) (Nordeste do Pico / Santo Amaro ou Manhenha)
+- Jantar
   - [Magma](https://maps.google.com/?q=Magma+Restaurante+Santo+Amaro+Pico) (Santo Amaro/Terra Alta) – cozinha de autor; reserva
   - [Restaurante Ponta da Ilha](https://maps.google.com/?q=Restaurante+Ponta+da+Ilha+Pico) (Manhenha) – tradicional; reserva
 
@@ -479,7 +515,6 @@ Notas rápidas de reserva
 #### Dia 7 - Sáb 13 Set: Pico → São Miguel (jantar de despedida em PDL)
 
 *Sugestões de Restaurantes*
-[Sondagem](#dia-7---sáb-14-set-pico--são-miguel-jantar-de-despedida-em-pdl)
 
 - Almoço (Pico, conforme logística do voo)
   - [Cella Bar / Ancoradouro](https://maps.google.com/?q=Cella+Bar+Madalena+Pico) (Madalena) – se ainda estiveres no Pico
