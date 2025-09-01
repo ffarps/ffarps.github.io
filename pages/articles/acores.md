@@ -54,15 +54,15 @@ Itinerário da viagem hora por hora (ajustar em função do SpotAzores e meteo).
 - 10:30 Levantamento de carro na Thrifty Car Rental (Aeroporto PDL)
 - 11:30 [Gruta do Carvão](https://maps.app.goo.gl/Frnh59ZsjTxBfstT9) (40–50 min, visita guiada; Reserva feita, pagamento no local)
 - 12:00 Almoço em restaurante próximo, ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-- 13:00 Sete Cidades
-  - Miradouro da Vista do Rei (parque junto ao miradouro)
+- 13:00 [Lagoa das Sete Cidades](https://maps.app.goo.gl/EYmEeauggp5Yzgjb9)
+  - [Miradouro da Vista do Rei](https://maps.app.goo.gl/SGVaHnJA1pwGwatj9) (parque junto ao miradouro)
   - Descer à vila; picnic junto à Ponte das Sete Cidades (entre Lagoa Verde/Azul)
   - Alternativa curta: Grota/Boca do Inferno (2,5 km i/v desde o parque da Mata do Canário)
-- 17:30 Mosteiros
-  - Piscinas Naturais dos Caneiros e Praia dos Mosteiros (pôr‑do‑sol épico)
-- 19:30 Check‑in no alojamento zona oeste (ex.: Candelária)
-- 20:30 Jantar em Ponta Delgada
-  - A Tasca é bem concorrido, ordem de chegada
+- 17:30 [Mosteiros](https://maps.app.goo.gl/1L5gzfvGPepZqUZV8)
+  - [Piscinas Naturais dos Caneiros e Praia dos Mosteiros](https://maps.app.goo.gl/59cKWd1ThBxZ4v7F8) (pôr‑do‑sol épico)
+- 18:00 Check‑in no alojamento zona oeste (ex.: Candelária)
+- 19:30 Jantar em Ponta Delgada
+  - [A Tasca](https://maps.app.goo.gl/PSGbj1PXhKGAjTqy6) é bem concorrido, ordem de chegada
     - Ou: Restaurante Alcides; Supléxio; Restaurante Açores; alternativa rápida: zona marina
 - Passeio noturno pelo centro histórico de Ponta Delgada
 
@@ -72,13 +72,13 @@ Percurso no Maps (~100 km)
 
 ### Ver [Mapa](#mapa)
 
-- 09:00 Furnas (centro)
+- 09:00 [Furnas](https://maps.app.goo.gl/NaZowrskPa1MogEJ8) (centro)
   - Passeio pelo Parque das Caldeiras (fumarolas) e Vila
   - Ver retirada de panelas ~11:30–12:30, bilhete 3€ vale o dia
-- 12:00 Cozido das Furnas no Tony’s (reserva FEITA)
-- 14:30 Fumarolas da Lagoa das Furnas
-- 15:30 Caldeira Velha (termas – slot com tempo limite; reservar)
-- 17:00 Lagoa do Fogo
+- 12:00 Cozido das Furnas no [Tony’s](https://maps.app.goo.gl/8nRAqF4qA6s8jJtu5) (reserva FEITA)
+- 14:30 [Fumarolas da Lagoa das Furnas](https://maps.app.goo.gl/Zmbpm7wKaydvJYdx8)
+- 15:30 [Caldeira Velha](https://maps.app.goo.gl/nkHZ53DXQs2TEhiW6) (termas – slot com tempo limite; reservar)
+- 17:00 [Lagoa do Fogo](https://maps.app.goo.gl/Jc9bLoXn38pp4Rv68)
   - Ver miradouros via shuttle (Jun–Set; ver “Informações Úteis”)
   - Opcional: descer à praia fluvial (trilho 2 km i/v, declive forte)
 - 20:00 Jantar em Ponta Delgada
@@ -91,13 +91,13 @@ Percurso no Maps (~150 km)
 
 ### Ver [Mapa](#mapa)
 
-- 09:30 Rabo de Peixe (porto de pesca; visita breve respeitando a comunidade)
-- 10:15 Chá Gorreana (fábrica e trilho PRC28 ~3,5 km, fácil)
-- 11:30 Parque Natural da Ribeira dos Caldeirões (cascata e moinhos)
+- 09:30 [Rabo de Peixe](https://maps.app.goo.gl/PbFSQMpM7AvcV6Ar6) (porto de pesca; visita breve respeitando a comunidade)
+- 10:15 [Chá Gorreana](https://maps.app.goo.gl/ei3a3yGNgVqziQtJ9) (fábrica e trilho PRC28 ~3,5 km, fácil)
+- 11:30 [Parque Natural da Ribeira dos Caldeirões](https://maps.app.goo.gl/KYT878s8YgQuzd3Y9) (cascata e moinhos)
 - 13:00 Almoço no Nordeste (“O Forno” ou “Tronqueira”) ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
 - Tarde de miradouros (ordem flexível por meteo):
-  - Ponta do Sossego; Ponta da Madrugada; Ponta do Arnel (farol: deixar carro no topo)
-- 16:30 Trilho opcional Faial da Terra — PRC9 Sanguinho + Salto do Prego (4,5 km, 2h)
+  - [Ponta do Sossego](https://maps.app.goo.gl/3xvXBV5nCej4vARf7); [Ponta da Madrugada](https://maps.app.goo.gl/WFyKVnS2rjigWfjZ7); [Ponta do Arnel](https://maps.app.goo.gl/Bq2jze4pqvLE9pso6) (farol: deixar carro no topo)
+- 16:30 Trilho opcional Faial da Terra — [PRC9 Sanguinho](https://maps.app.goo.gl/1wgHd7WcC2VkQTDj9) + Salto do Prego (4,5 km, 2h)
   - Extensão ao Salto do Cagarrão (+4 km)
 - 20:00 Jantar Ponta Delgada
 - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
@@ -109,13 +109,13 @@ Percurso no Maps (~160 km)
 
 ### Ver [Mapa](#mapa)
 
-- 09:00 Vila Franca do Campo
+- 09:00 [Vila Franca Do Campo](https://maps.app.goo.gl/wY3EBKDfgNxsbiAEA)
   - Bilhete barco Ilhéu de Vila Franca (lotação 400/dia; reservar com antecedência)
   - Ermida Nossa Senhora da Paz (vista icónica)
 - 12:30 Almoço em Vila Franca (provar Queijadas da Vila)
   - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-- 14:30 Lagoa do Congro (trilho 1,4 km i/v; íngreme na volta)
-- 16:30 Caloura/Água de Pau
+- 14:30 [Lagoa do Congro](https://maps.app.goo.gl/A24pirSCXk7FsoPQ9) (trilho 1,4 km i/v; íngreme na volta)
+- 16:30 [Caloura/Água de Pau](https://maps.app.goo.gl/YTUhXXsxcMhGMdnV9)
   - Miradouro do Pisão; Piscina Natural/Porto da Caloura; Ponta da Galera
 - 19:30 Jantar Ponta Delgada
 - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
@@ -128,14 +128,13 @@ Percurso no Maps (~160 km)
 - 06:00 Devolução do carro em PDL (tempo para check‑in)
 - 07:00–07:55 Voo PDL → PIX (SATA SP436)
 - 08:15 Levantamento de carro no Aeroporto do Pico (recomendado) e café
-- 09:00–11:00 Paisagem da Cultura da Vinha — Criação Velha (UNESCO)
+- 09:00–11:00 [Paisagem da Cultura da Vinha — Criação Velha](https://maps.app.goo.gl/6CncCJsA62Up4Naf7) (UNESCO)
   - Caminhada leve até ao Moinho do Frade; Porto do Calhau/Areia Larga
-- 11:30–12:15 PicoWines – Cooperativa Vitivinícola (prova curta)
+- 11:30–12:15 [PicoWines – Cooperativa Vitivinícola](https://maps.app.goo.gl/so9nbogeGGjHCu2K9) (prova curta)
 - 12:30–13:30 Almoço (Madalena/São Roque)
   - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Ancoradouro, O Cinco, Petisca (reserva recomendada)
-- 13:50–16:30 Observação de cetáceos (Lajes do Pico recomendado; reserva)
-- 17:15–18:15 Gruta das Torres (visita guiada; reservar)
+- 13:50–16:30 Observação de cetáceos CWAcores?
 - 18:30 Check‑in São Roque/Madalena; pôr do sol nas Piscinas Naturais (Barca ou São Roque)
 - Ir às compras para o almoco de amanha levar sandes/empadas/fruta e água (3 L/pessoa)
 - 20:00 Jantar
@@ -146,7 +145,7 @@ Percurso no Maps (~160 km)
 
 ### Ver [Mapa](#mapa)
 
-- 07:30 Casa da Montanha — registo e briefing (obrigatório; reservar online)
+- 07:30 [Casa da Montanha](https://maps.app.goo.gl/YLARxZwmy4KmWFWU6) — registo e briefing (obrigatório; reservar online)
 - 08:00–16:00 Subida ao Piquinho (2351 m)
   - 3,8 km subida (+1150 m), 3,8 km descida; 8–9 h totais; muito exigente
   - Equipamento: botas, bastões, corta‑vento, água (3 L/pax), snacks, gorro/luvas
