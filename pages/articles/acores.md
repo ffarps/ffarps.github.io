@@ -105,11 +105,20 @@ Percurso no Maps (~150 km)
 
 Percurso no Maps (~160 km)
 
-## Dia 4 (Qua 10 Set): Costa Sul — Vila Franca e Lagoa do Congro
+## Dia 4 (Qua 10 Set): Costa Sul
 
 ### Ver [Mapa](#mapa)
 
-- O Ilhéu de Vila Franca é uma ilha de 1 km de comprimento com água, dá para nadar e snorkelar, mas é um espaço para as familias levar os putos, por 13,50€ por pessoa, podemos ir a uma praia ou caminhada sem custo.
+Dia por reformular
+
+- 09:00 ...
+- 12:00 ...
+- 14:00 ...
+- 16:00 ...
+- 18:00 ...
+- 20:00 ...
+
+<!-- - O Ilhéu de Vila Franca é uma ilha de 1 km de comprimento com água, dá para nadar e snorkelar, mas é um espaço para as familias levar os putos, por 13,50€ por pessoa, podemos ir a uma praia ou caminhada sem custo.
 - *09:00 [Vila Franca Do Campo](https://maps.app.goo.gl/wY3EBKDfgNxsbiAEA)*
   - *Primeiro barco às 10h00 Bilhete barco Ilhéu de Vila Franca (lotação 400/dia; reservado)*
   - *Ermida Nossa Senhora da Paz (vista icónica)*
@@ -120,7 +129,7 @@ Percurso no Maps (~160 km)
   - Miradouro do Pisão; Piscina Natural/Porto da Caloura; Ponta da Galera
 - 19:30 Jantar Ponta Delgada
 - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-  - Otaka (sushi autor, reserva) ou Bar da Caloura (peixe grelhado; lista de espera no local)
+  - Otaka (sushi autor, reserva) ou Bar da Caloura (peixe grelhado; lista de espera no local) -->
 
 ## Dia 5 (Qui 11 Set): Pico — Vinhas, Gruta e Baleias
 
