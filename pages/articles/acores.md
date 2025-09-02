@@ -172,8 +172,7 @@ Dia por reformular
 - Almoço leve
 - Voo PIX → PDL (hora a confirmar)
 - Check‑in hotel PDL (perto aeroporto)
-- Tarde: costa sul de PDL
-  - Ponta da Galera; Praia das Milícias/Pópulo; pôr do sol em Mosteiros (se apetece repetir)
+- Tarde: PDL
 - 20:00 Jantar despedida em PDL
   - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Associação Agrícola (Rabo de Peixe; reserva com muita antecedência) ou A Tasca
