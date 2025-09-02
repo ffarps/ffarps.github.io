@@ -53,7 +53,7 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 | 8  Seg  | São Miguel     | Rota Central (Furnas & Lagoa do Fogo; termas)                         |
 | 9  Ter  | São Miguel     | Rota Nordeste (Costa selvagem, miradouros e trilhos)                  |
 | 10 Qua  | São Miguel     | Costa Sul (Vila Franca, Lagoa do Congro)                              |
-| 11 Qui  | Pico           | Chegada ao Pico: Vinhas (UNESCO), Gruta das Torres e baleias          |
+| 11 Qui  | Pico           | Chegada ao Pico: Vinhas (UNESCO) e baleias          |
 | 12 Sex  | Pico           | Conquista da Montanha do Pico                                         |
 | 13 Sáb  | Pico/São Miguel| Manhã livre no Pico, voo para São Miguel, costa sul/PDL               |
 | 14 Dom  | São Miguel     | Despedida e regresso ao Porto                                         |
@@ -166,15 +166,10 @@ Notas rápidas:
   - Tempo inclui deslocações marítimas e margem para avistamentos.
 - **16h 30m to 17h 15m** Regresso ao porto (Madalena) — Café / snack  
   - Passeio curto pela marginal; lojas de artesanato.
-- **17h 15m to 18h 15m** ~~Gruta das Torres (visita guiada)~~
-  - Visita à maior gruta lávica dos Açores. Verificar horários e disponibilidade.
 - **18h 15m to 20:30m** Jantar  
   - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Ancoradouro ou Cella Bar. Experimente pratos locais (alcatra, peixe fresco, sobremesas regionais).
 - **20h 30m** Voltamos ao hotel na 22 Estrada Regional 1, 9940-128 São Roque do Pico, Portugal, apanhamos o taxi do Sr. Carlos Costa às 20h 30m (Contacto +351 962 525 517)
-**Notas rápidas**
-  - Confirmar horários do voo, boat tour e Gruta das Torres com antecedência.  
-  - Levar vestuário leve, casaco para vento no mar e calçado confortável para caminhadas entre muros de pedra.
 
 ## Dia 12 Set Sex: Montanha do Pico
 
@@ -521,7 +516,7 @@ Pico
 
   **Estado:** Escolhemos no momento, os restaurantes sugeridos não sao muito bons
 
-#### Dia 5 - Qui 11 Set: Pico: Vinhas (UNESCO), Gruta das Torres, Baleias
+#### Dia 5 - Qui 11 Set: Pico: Vinhas (UNESCO), Baleias
 
 - *Sugestões de Restaurantes*
 
