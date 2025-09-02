@@ -77,7 +77,7 @@ Percurso no Maps (~100 km)
   - Ver retirada de panelas ~11:30–12:30, bilhete 3€ vale o dia
 - 12:00 Cozido das Furnas no [Tony’s](https://maps.app.goo.gl/8nRAqF4qA6s8jJtu5) (reserva FEITA)
 - 14:30 [Fumarolas da Lagoa das Furnas](https://maps.app.goo.gl/Zmbpm7wKaydvJYdx8)
-- 15:30 [Caldeira Velha](https://maps.app.goo.gl/nkHZ53DXQs2TEhiW6) (termas – slot com tempo limite; reservar)
+- 15:00 [Caldeira Velha](https://maps.app.goo.gl/nkHZ53DXQs2TEhiW6) - reserva feita (15h00 às 16h30)
 - 17:00 [Lagoa do Fogo](https://maps.app.goo.gl/Jc9bLoXn38pp4Rv68)
   - Ver miradouros via shuttle (Jun–Set; ver “Informações Úteis”)
   - Opcional: descer à praia fluvial (trilho 2 km i/v, declive forte)
@@ -109,11 +109,12 @@ Percurso no Maps (~160 km)
 
 ### Ver [Mapa](#mapa)
 
-- 09:00 [Vila Franca Do Campo](https://maps.app.goo.gl/wY3EBKDfgNxsbiAEA)
-  - Bilhete barco Ilhéu de Vila Franca (lotação 400/dia; reservar com antecedência)
-  - Ermida Nossa Senhora da Paz (vista icónica)
-- 12:30 Almoço em Vila Franca (provar Queijadas da Vila)
-  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
+- O Ilhéu de Vila Franca é uma ilha de 1 km de comprimento com água, dá para nadar e snorkelar, mas é um espaço para as familias levar os putos, por 13,50€ por pessoa, podemos ir a uma praia ou caminhada sem custo.
+- *09:00 [Vila Franca Do Campo](https://maps.app.goo.gl/wY3EBKDfgNxsbiAEA)*
+  - *Primeiro barco às 10h00 Bilhete barco Ilhéu de Vila Franca (lotação 400/dia; reservado)*
+  - *Ermida Nossa Senhora da Paz (vista icónica)*
+- *12:30 Almoço em Vila Franca (provar Queijadas da Vila)*
+  - *Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)*
 - 14:30 [Lagoa do Congro](https://maps.app.goo.gl/A24pirSCXk7FsoPQ9) (trilho 1,4 km i/v; íngreme na volta)
 - 16:30 [Caloura/Água de Pau](https://maps.app.goo.gl/YTUhXXsxcMhGMdnV9)
   - Miradouro do Pisão; Piscina Natural/Porto da Caloura; Ponta da Galera
