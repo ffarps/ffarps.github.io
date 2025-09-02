@@ -52,7 +52,7 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 | 7  Dom  | São Miguel     | Chegada a São Miguel e Rota Oeste/Norte (Sete Cidades e Mosteiros)    |
 | 8  Seg  | São Miguel     | Rota Central (Furnas & Lagoa do Fogo; termas)                         |
 | 9  Ter  | São Miguel     | Rota Nordeste (Costa selvagem, miradouros e trilhos)                  |
-| 10 Qua  | São Miguel     | Costa Sul (Vila Franca, Lagoa do Congro)                              |
+| 10 Qua  | São Miguel     | LUGAR POR DEFINIR                        |
 | 11 Qui  | Pico           | Chegada ao Pico: Vinhas (UNESCO) e baleias          |
 | 12 Sex  | Pico           | Conquista da Montanha do Pico                                         |
 | 13 Sáb  | Pico/São Miguel| Manhã livre no Pico, voo para São Miguel, costa sul/PDL               |
@@ -498,7 +498,7 @@ Pico
 
   **Estado:** Os gajos não me respondem à chamada, vamos lá sem reserva
 
-#### Dia 4 - Qua 10 Set: São Miguel: Costa Sul (Vila Franca do Campo, Caloura)
+#### Dia 4 - Qua 10 Set: São Miguel:LUGAR POR DEFINIR
 
 - *Sugestões de Restaurantes*
 
