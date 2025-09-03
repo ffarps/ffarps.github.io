@@ -140,12 +140,13 @@ Notas rápidas:
 - Ficamos na Madalena o dia todo e voltamos ao hotel na 22 Estrada Regional 1, 9940-128 São Roque do Pico, Portugal, apanhamos o taxi do Sr. Carlos Costa às 20h 30m (Contacto +351 962 525 517)
 <!-- até aqui -->
 
-- **06h 00m** Devolução do carro  
-  - Local: Ponta Delgada, 9500-749  
-  - Tempo para check-in e deslocação ao aeroporto.
-- **07h 00m** Voo PDL → PIX (SATA SP436)
+- **05h 45m** Devolução do carro  
+  - Local: Ponta Delgada, 9500-749
+  - Tempo para check-in (a última chamada é às 06h 30m) e deslocação ao aeroporto.  
+- **07h 00m** Voo PDL → PIX (SATA SP436)  
   - Pequeno-almoço durante o voo
-- **07h 55m** Chegada ao Aeroporto
+- **07h 55m** Chegada ao Aeroporto – 09h 00m Caminhada até Areia Funda (lado Oeste da Ilha)
+  - Paisagem da Cultura da Vinha (Património UNESCO) — Criação Velha
 – **09h 00m** Caminhada até Areia Funda (lado Oeste da Ilha)
   - Paisagem da Cultura da Vinha (Património UNESCO) — Criação Velha  
 - **11h 00m** Passear pela Areia Funda Almoço Local
@@ -191,14 +192,18 @@ Notas rápidas:
 
 **Ver [Mapa](#mapa)**
 
-<!-- Não sei qual está correto, este? -->
 Notas rápidas:
 
 - Vamos passear pela zona do Cais do Pico, perto do hotel, e apanhamos às 12h 45m (no Museu da Baleia) o taxi para voltar ao aeroporto.
 
-- **08h 00m–12h 00m** Manhã livre no Pico (banho em Poça da Branca, passeio em Lajes do Pico ou Lagoa do Capitão, consoante meteo)
-- **12h 00m–13h 30m** Almoço leve
-- **13h 30m–16h 00m** Voo PIX → PDL (hora a confirmar)
+- **08h 00m – 12h 00m** Manhã livre no Pico
+  - **08h 00m** Banho em Poça da Branca
+  - **10h 00m** Museu da Baleia (Entrada a 2 €, compramos os bilhetes no local)
+- **11h 15m – 12h 00m** Almoço
+  - [Tasquinha Requinte](https://www.google.com/maps/place/Tasquinha+Requinte/@38.5289801,-28.3230201,18z/data=!4m14!1m7!3m6!1s0xc606344ac438353:0x3348f1bbf2b1394c!2sWhaling+Museum+of+Madeira!8m2!3d32.735829!4d-16.7404756!16s%2Fg%2F11bwky_ctt!3m5!1s0xb479702a31e2579:0xbfe1a4826fd06c3c!8m2!3d38.5289435!4d-28.3231105!16s%2Fg%2F11q1vhpd81?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D)  
+- **12h 15m** Táxi para o aeroporto (15 min, saída do Museu da Baleia, posso ligar e ajustar o local exato)  
+- **13h 35m** Voo (o gate deve fechar pelas 13h 00m)  
+- **13h 35m – 16h 00m** Voo PIX → PDL (hora a confirmar)
 - **16h 00m–18h 00m** Check‑in hotel PDL (perto aeroporto)
 - **18h 00m–20h 00m** Tarde: PDL
 - **20h 00m** Jantar despedida em PDL
