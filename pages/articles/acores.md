@@ -47,13 +47,13 @@ Guia e itinerário da viagem, contém tabela temporal, restaurantes, mapa, ativi
 
 ### Resumo do Itinerário
 
-| Dia     | Ilha           | Atividades Principais                                                  |
-|---------|----------------|------------------------------------------------------------------------|
+| Dia     | Ilha           | Atividades Principais                                                 |
+|---------|----------------|-----------------------------------------------------------------------|
 | 7  Dom  | São Miguel     | Chegada a São Miguel e Rota Oeste/Norte (Sete Cidades e Mosteiros)    |
 | 8  Seg  | São Miguel     | Rota Central (Furnas & Lagoa do Fogo; termas)                         |
 | 9  Ter  | São Miguel     | Rota Nordeste (Costa selvagem, miradouros e trilhos)                  |
-| 10 Qua  | São Miguel     | LUGAR POR DEFINIR                        |
-| 11 Qui  | Pico           | Chegada ao Pico: Vinhas (UNESCO) e baleias          |
+| 10 Qua  | São Miguel     | LUGAR POR DEFINIR                                                     |
+| 11 Qui  | Pico           | Chegada ao Pico: Vinhas (UNESCO) e baleias                            |
 | 12 Sex  | Pico           | Conquista da Montanha do Pico                                         |
 | 13 Sáb  | Pico/São Miguel| Manhã livre no Pico, voo para São Miguel, costa sul/PDL               |
 | 14 Dom  | São Miguel     | Despedida e regresso ao Porto                                         |
@@ -87,7 +87,7 @@ Percurso Completo deste dia no [Maps](https://www.google.com/maps/place/Continen
 
 - **09h 00m** [Furnas](https://maps.app.goo.gl/NaZowrskPa1MogEJ8) (centro)
   - Passeio pelo Parque das Caldeiras (fumarolas) e Vila
-  - Ver retirada de panelas ~11:30–12:30, bilhete 3€ vale o dia
+  - Ver retirada de panelas ~11:30–12:30, bilhete pagamento no local? penso que não seja preciso
 - **12h 00m** Cozido das Furnas no [Tony’s](https://maps.app.goo.gl/8nRAqF4qA6s8jJtu5)
 - **14h 30m** [Fumarolas da Lagoa das Furnas](https://maps.app.goo.gl/Zmbpm7wKaydvJYdx8)
 - **15h 00m** [Caldeira Velha](https://maps.app.goo.gl/nkHZ53DXQs2TEhiW6) - reserva feita (15h00 às 16h30)
@@ -96,7 +96,7 @@ Percurso Completo deste dia no [Maps](https://www.google.com/maps/place/Continen
   - Opcional: descer à praia fluvial (trilho 2 km i/v, declive forte)
 - **20h 00m** Jantar em Ponta Delgada
   - Escolhemos no momento, ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-  - Exemplo: Mariserra (peixe/marisco) ou Louvre Michaelense (leve)
+    - Exemplo: Mariserra (peixe/marisco) ou Louvre Michaelense (leve)
 - Regresso ao hotel em Ponta Delgada e descanso
 
 Percurso Completo deste dia no [Maps](https://shorturl.at/u7K9D) cerca de 150kms no total.
@@ -118,7 +118,7 @@ Percurso Completo deste dia no [Maps](https://shorturl.at/u7K9D) cerca de 150kms
   - Extensão ao Salto do Cagarrão (+4 km)
 - **20h 00m** Jantar Ponta Delgada
 - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-  - Casa do Bife “O Galego” (bife regional) ou marina
+  - Casa do Bife “O Galego” (bife regional), eles não responderam à chamada, vamos lá sem reserva
 - Regresso ao hotel em Ponta Delgada e descanso.
 Percurso no Maps (~160 km)
 
@@ -149,42 +149,42 @@ Notas rápidas:
 – **09h 00m** Caminhada até Areia Funda (lado Oeste da Ilha)
   - Paisagem da Cultura da Vinha (Património UNESCO) — Criação Velha  
 - **11h 00m** Passear pela Areia Funda Almoço Local
-  - Passeio de carro pelas “curraletas” com paragens para fotografias.  
-  - Caminhada curta entre muros de pedra (30–45 min) para ver vinhedos junto ao mar.  
-  - Visita rápida ao miradouro / pontos panorâmicos.
-  — Cooperativa Vitivinícola da Ilha do Pico (Picowines)  
-    - Tour curto e prova de 2–3 vinhos locais.  
-    - Possibilidade de compra de garrafas.
+  - opções para passar o tempo:
+    - *Caminhada curta entre muros de pedra (30–45 min) para ver vinhedos junto ao mar.*
+    - *Visita rápida ao miradouro / pontos panorâmicos.*
+    - *Cooperativa Vitivinícola da Ilha do Pico (Picowines)*
+    - *Tour curto e prova de 2–3 vinhos locais.*
+    - *Possibilidade de compra de garrafas.*
 - **12h 00m to 13h 30m** — Almoço (São Roque ou Lajes do Pico)
-  - Sugestão: peixe grelhado/local, queijos e pão regional.  
-  - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
+  - Sugestão: peixe grelhado/local, queijos e pão regional.
+    - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
   - Coordenar horário com o boat tour.
-- **13h 30m to 13h 50m** Deslocação ao porto / Check‑in para boat tour  
+- **13h 30m to 13h 50m** Deslocação ao porto / Check‑in para boat tour
   - Chegar com antecedência para formalidades e segurança.
-- **13h 50m to 16h 30m** Boat tour [CW Azores](https://www.google.com/maps/place/CW+Azores/@38.5412134,-28.4993819,13019m/data=!3m1!1e3!4m6!3m5!1s0xb478dab8a55b2eb:0x600a3463e9062194!8m2!3d38.5350739!4d-28.5290477!16s%2Fg%2F1th0p41b?hl=en-GB&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D) — Observação de cetáceos  
-  - Avistamento de cachalotes e golfinhos; explicação do guia sobre comportamento e conservação.  
+- **13h 50m to 16h 30m** Boat tour [CW Azores](https://www.google.com/maps/place/CW+Azores/@38.5412134,-28.4993819,13019m/data=!3m1!1e3!4m6!3m5!1s0xb478dab8a55b2eb:0x600a3463e9062194!8m2!3d38.5350739!4d-28.5290477!16s%2Fg%2F1th0p41b?hl=en-GB&entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D) — Observação de cetáceos
+  - Avistamento de cachalotes e golfinhos; explicação do guia sobre comportamento e conservação.
   - Tempo inclui deslocações marítimas e margem para avistamentos.
 - **16h 30m to 17h 15m** Regresso ao porto (Madalena) — Café / snack  
   - Passeio curto pela marginal; lojas de artesanato.
 - **18h 15m to 20:30m** Jantar  
   - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-  - Ancoradouro ou Cella Bar. Experimente pratos locais (alcatra, peixe fresco, sobremesas regionais).
+    - Ancoradouro ou Cella Bar. Experimente pratos locais (alcatra, peixe fresco, sobremesas regionais).
 - **20h 30m** Voltamos ao hotel na 22 Estrada Regional 1, 9940-128 São Roque do Pico, Portugal, apanhamos o taxi do Sr. Carlos Costa às 20h 30m (Contacto +351 962 525 517)
 
 ## Dia 12 Set Sex: Montanha do Pico
 
 **Ver [Mapa](#mapa)**
-Apanhamos o taxi do Sr. Carlos Costa às 20:30 (Contacto +351 962 525 517) às 6h 45min da manhã para estarmos na casa da montanha antes das 7h30m.
+Notas rápidas:
+
+- Apanhamos o taxi do Sr. Carlos Costa (Contacto +351 962 525 517) às 6h 45min da manhã para estarmos na casa da montanha antes das 7h30m.
 
 - **07h 30m** [Casa da Montanha](https://maps.app.goo.gl/YLARxZwmy4KmWFWU6) — registo e briefing (obrigatório; reservar online)
 - **08h 00m–16h 00m** Subida ao Piquinho (2351 m)
   - 3,8 km subida (+1150 m), 3,8 km descida; 8–9 h totais; muito exigente
   - Equipamento: botas, bastões, corta‑vento, água (3 L/pax), snacks, gorro/luvas
-  - Alternativa segura: subida com guia (nocturna para nascer do sol)
 - **16h 00m** Apanhamos o taxi para voltar ao Hotel entre as 16h e 17h, podemos ir ver a zona perto do hotel se não estivermos todos fritos.
-- **19h 00m** Jantar de recuperação
+- **19h 00m** Jantar de recuperação perto do hotel
   - Escolhemos no momento ver [sugestões](#anexo-e-plano-de-restaurantes-por-dia-reservas)
-  - Magma (Santo Amaro; reserva) ou Ponta da Ilha (Manhenha)
 - Regresso ao hotel em Madalena e descanso
 
 ## Dia 13 Set Sáb: Manhã no Pico — Regresso a São Miguel
@@ -192,7 +192,9 @@ Apanhamos o taxi do Sr. Carlos Costa às 20:30 (Contacto +351 962 525 517) às 6
 **Ver [Mapa](#mapa)**
 
 <!-- Não sei qual está correto, este? -->
-Vamos passear pela zona do Cais do Pico, perto do hotel, e apanhamos às 12h 45m (no Museu da Baleia) o taxi para voltar ao aeroporto.
+Notas rápidas:
+
+- Vamos passear pela zona do Cais do Pico, perto do hotel, e apanhamos às 12h 45m (no Museu da Baleia) o taxi para voltar ao aeroporto.
 
 - **08h 00m–12h 00m** Manhã livre no Pico (banho em Poça da Branca, passeio em Lajes do Pico ou Lagoa do Capitão, consoante meteo)
 - **12h 00m–13h 30m** Almoço leve
