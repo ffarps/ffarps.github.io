@@ -97,17 +97,21 @@ Percurso Completo deste dia no [Maps](https://www.google.com/maps/place/Continen
 
 **Ver [Mapa](#mapa)**
 
+*De Ginetes às Furnas são 1h10"  
 **09h 00m**  
 [Furnas](https://maps.app.goo.gl/NaZowrskPa1MogEJ8) (centro)
-Passeio pelo Parque das Caldeiras (fumarolas) e Vila
+Passeio pelo Parque das Caldeiras (fumarolas) e Vila  
+**10h00m**  
+[Fumarolas da Lagoa das Furnas](https://maps.app.goo.gl/Zmbpm7wKaydvJYdx8)  
 Ver retirada de panelas ~11:30–12:30, bilhete pagamento no local? vemos lá.  
 **12h 00m**  
 Cozido das Furnas no [Tony’s](https://maps.app.goo.gl/8nRAqF4qA6s8jJtu5)  
-**14h 30m**  
-[Fumarolas da Lagoa das Furnas](https://maps.app.goo.gl/Zmbpm7wKaydvJYdx8)  
+
+*Das Furnas à Caldeira Velha são 30 minutos*  
 **15h 00m**  
 [Caldeira Velha](https://maps.app.goo.gl/nkHZ53DXQs2TEhiW6) - reserva feita (das 15h00 às 16h30) - *deixar o carro num [parque de estacionamento](https://shorturl.at/Lykdz) perto do local, podemos descer até à lagoa do fogo, mas é preciso ter cuidado já que os caminhos não estão muito bem marcados (tempo livre)*  
-**17h 00m**  
+*Da caldeira velha à lagoa do fogo são 10 minutos*
+**16h 45m**  
 [Lagoa do Fogo](https://maps.app.goo.gl/Jc9bLoXn38pp4Rv68) (Opcional: descer à praia fluvial (trilho 2 km i/v, declive forte))  
 **20h 00m**  
 Jantar em Ponta Delgada
