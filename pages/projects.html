@@ -3,190 +3,346 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>All Projects</title>
     <link rel="stylesheet" href="/styles/styles.css" />
     <style>
         body {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 2rem 1.5rem 4rem;
         }
 
         .back-link {
-            display: inline-block;
-            margin-bottom: 2rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            margin-bottom: 1.5rem;
             color: var(--font-color);
             text-decoration: none;
             border: 1px solid var(--accent-color);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
+            padding: 0.5rem 0.9rem;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
         }
 
-        .back-link:hover {
+        .back-link:hover,
+        .back-link:focus-visible {
             background: var(--accent-color);
             color: var(--back-accent-color);
+            border-color: transparent;
         }
 
-        .search-container {
+        .page-header {
+            margin-bottom: 2.5rem;
+        }
+
+        .page-header h1 {
+            margin-bottom: 0.75rem;
+        }
+
+        .page-header p {
+            max-width: 60ch;
+            line-height: 1.6;
+        }
+
+        .projects-toolbar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            align-items: flex-end;
             margin-bottom: 2rem;
+        }
+
+        .toolbar-field {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            min-width: 220px;
+            flex: 1 1 280px;
+        }
+
+        .toolbar-field label {
+            font-size: 0.95rem;
+            font-weight: 600;
+            opacity: 0.8;
         }
 
         .search-input {
             width: 100%;
-            padding: 0.5rem;
-            font-size: 1rem;
+            padding: 0.65rem 0.95rem;
             border: 2px solid var(--accent-color);
+            border-radius: 8px;
             background: var(--back-accent-color);
             color: var(--font-color);
-            border-radius: 4px;
+            font-size: 1rem;
+            transition: border-color 0.2s ease;
         }
 
-        .tags {
+        .search-input:focus-visible {
+            outline: 2px solid var(--font-color);
+            outline-offset: 2px;
+        }
+
+        .sort-select {
+            width: 100%;
+            padding: 0.65rem 0.95rem;
+            border: 2px solid var(--accent-color);
+            border-radius: 8px;
+            background: var(--back-accent-color);
+            color: var(--font-color);
+            font-size: 1rem;
+            appearance: none;
+        }
+
+        .chips-container {
+            flex: 100%;
             display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 2rem;
+            flex-direction: column;
+            gap: 0.65rem;
         }
 
-        .tag {
-            padding: 0.25rem 0.5rem;
+        .chip-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag-chip {
+            border: 1px solid var(--accent-color);
+            border-radius: 999px;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            background: transparent;
+            color: var(--font-color);
+            cursor: pointer;
+            transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .tag-chip[aria-pressed="true"] {
             background: var(--accent-color);
             color: var(--back-accent-color);
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.9rem;
+            border-color: transparent;
         }
 
-        .tag.active {
-            background: var(--font-color);
+        .tag-chip:focus-visible {
+            outline: 2px solid var(--font-color);
+            outline-offset: 2px;
+        }
+
+        .toolbar-actions {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .toolbar-actions button {
+            padding: 0.6rem 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--accent-color);
+            background: transparent;
+            color: var(--font-color);
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .toolbar-actions button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .toolbar-actions button:not(:disabled):hover,
+        .toolbar-actions button:not(:disabled):focus-visible {
+            background: var(--accent-color);
             color: var(--back-accent-color);
         }
 
-        .projects-grid {
+        .results-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .results-summary strong {
+            font-size: 1.05rem;
+        }
+
+        .project-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-bottom: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 4rem;
         }
 
         .project-card {
             background: var(--back-accent-color);
             border: 2px solid var(--accent-color);
-            border-radius: 12px;
-            padding: 1.2rem;
-            transition: box-shadow 0.2s;
-            cursor: pointer;
+            border-radius: 14px;
+            padding: 1.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.85rem;
         }
 
-        .project-card:hover {
-            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-            background: var(--accent-color);
-            color: var(--back-accent-color);
+        .project-card:focus-within {
+            outline: 2px solid var(--font-color);
+            outline-offset: 4px;
         }
 
-        .project-card:hover h3,
-        .project-card:hover p {
-            color: var(--back-accent-color);
+        .project-card h3 {
+            margin: 0;
+            font-size: 1.2rem;
         }
 
-        .project-thumb {
-            width: 100px;
-            height: 100px;
-            object-fit: contain;
-            margin-bottom: 1rem;
-            border-radius: 8px;
+        .project-card p {
+            margin: 0;
+            opacity: 0.85;
+            line-height: 1.6;
         }
 
-        .project-badge {
-            display: inline-block;
-            font-size: 0.9em;
+        .project-meta {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            opacity: 0.7;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .project-tags li {
+            border-radius: 999px;
+            padding: 0.25rem 0.65rem;
+            font-size: 0.75rem;
             font-weight: 600;
-            background: var(--accent-color);
-            color: var(--back-accent-color);
+            border: 1px solid currentColor;
+        }
+
+        .project-link {
+            align-self: flex-start;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.55rem 0.9rem;
             border-radius: 6px;
-            padding: 0.15em 0.7em;
-            margin-bottom: 0.7em;
+            border: 1px solid var(--accent-color);
+            color: var(--font-color);
+            font-weight: 600;
+            text-decoration: none;
+            transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .project-link:hover,
+        .project-link:focus-visible {
+            background: var(--font-color);
+            color: var(--back-accent-color);
+            border-color: transparent;
+        }
+
+        .empty-state {
+            padding: 2.5rem;
+            border-radius: 16px;
+            border: 2px dashed var(--accent-color);
+            text-align: center;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 720px) {
+            body {
+                padding: 1.5rem 1rem 3rem;
+            }
+
+            .projects-toolbar {
+                gap: 1rem;
+            }
+
+            .toolbar-field {
+                flex: 1 1 100%;
+            }
+
+            .results-summary {
+                flex-direction: column;
+                align-items: flex-start;
+            }
         }
 
         .footer {
             max-width: none !important;
             width: 100vw !important;
             margin-left: calc(-50vw + 50%) !important;
-            margin-top: 2rem;
+            margin-top: 3rem;
         }
     </style>
 </head>
 
 <body>
-    <a href="/" class="back-link">&larr; Back to Home</a>
-    <h1>All Projects</h1>
-    <div class="search-container">
-        <input type="text" class="search-input" placeholder="Search projects..." id="search-input">
-    </div>
-    <div class="tags">
-        <span class="tag active" data-tag="all">All</span>
-        <span class="tag" data-tag="ml">Machine Learning</span>
-        <span class="tag" data-tag="web">Web Development</span>
-        <span class="tag" data-tag="backend">Backend</span>
-        <span class="tag" data-tag="mobile">Mobile</span>
-        <span class="tag" data-tag="tools">Tools</span>
-        <span class="tag" data-tag="sim">Simulation</span>
-    </div>
-    <div class="projects-grid" id="projects-grid">
-        <!-- Projects will be loaded here -->
-    </div>
+    <a href="/" class="back-link" aria-label="Back to home">
+        <span aria-hidden="true">&larr;</span>
+        Back to Home
+    </a>
 
-    <script>
-        const projects = [
-            { title: 'HoloAssembly', desc: 'AR/VR Assembly Simulator', tag: 'sim', link: 'https://github.com/ffarps/holoassembly', badge: 'Simulation', image: '/images/holoassembly.jpg' },
-            { title: 'Machine Learning Project', desc: 'Advanced predictive analytics with ML', tag: 'ml', link: 'projects/project-ml.html', badge: 'ML', image: '/images/gpu-svgrepo-com.svg' },
-            { title: 'Web Development Project', desc: 'Full-stack web application', tag: 'web', link: 'projects/project-web.html', badge: 'Web', image: '/images/web-development-svgrepo-com.svg' },
-            { title: 'Backend API Project', desc: 'Scalable REST API with microservices', tag: 'backend', link: 'projects/project-backend.html', badge: 'Backend', image: '/images/api-svgrepo-com.svg' },
-            { title: 'Mobile App Project', desc: 'Cross-platform mobile application', tag: 'mobile', link: 'projects/project-mobile.html', badge: 'Mobile', image: '/images/web-development-svgrepo-com.svg' },
-            { title: 'Developer Tools', desc: 'CLI utilities and productivity tools', tag: 'tools', link: 'projects/project-tools.html', badge: 'Tools', image: '/images/api-svgrepo-com.svg' }
-        ];
+    <header class="page-header">
+        <h1>All Projects</h1>
+        <p>Browse Francisco Pereira&rsquo;s full portfolio. Use the search bar and tag filters to quickly surface work
+            by technology, industry, or platform.</p>
+    </header>
 
-        function renderProjects(filteredProjects) {
-            const grid = document.getElementById('projects-grid');
-            grid.innerHTML = filteredProjects.map(project => `
-                <div class="project-card" onclick="window.location.href='${project.link}'">
-                    <img src="${project.image}" alt="${project.title}" class="project-thumb" loading="lazy" />
-                    <span class="project-badge">${project.badge}</span>
-                    <h3>${project.title}</h3>
-                    <p>${project.desc}</p>
-                </div>
-            `).join('');
-        }
+    <section aria-labelledby="projects-title">
+        <h2 id="projects-title" class="sr-only">Projects catalogue</h2>
 
-        function filterProjects() {
-            const searchTerm = document.getElementById('search-input').value.toLowerCase();
-            const activeTag = document.querySelector('.tag.active').dataset.tag;
-            let filtered = projects.filter(project =>
-                (activeTag === 'all' || project.tag === activeTag) &&
-                (project.title.toLowerCase().includes(searchTerm) || project.desc.toLowerCase().includes(searchTerm))
-            );
-            renderProjects(filtered);
-        }
+        <div class="projects-toolbar">
+            <div class="toolbar-field">
+                <label for="search-input">Search</label>
+                <input id="search-input" class="search-input" type="search" placeholder="Search projects or tags"
+                    autocomplete="off" />
+            </div>
 
-        document.getElementById('search-input').addEventListener('input', filterProjects);
-        document.querySelectorAll('.tag').forEach(tag => {
-            tag.addEventListener('click', function () {
-                document.querySelectorAll('.tag').forEach(t => t.classList.remove('active'));
-                this.classList.add('active');
-                filterProjects();
-            });
-        });
+            <div class="toolbar-field">
+                <label for="sort-select">Sort by</label>
+                <select id="sort-select" class="sort-select">
+                    <option value="featured">Featured order</option>
+                    <option value="newest">Newest first</option>
+                    <option value="title-asc">Title A &rarr; Z</option>
+                </select>
+            </div>
 
-        renderProjects(projects);
-    </script>
+            <div class="chips-container">
+                <span class="tag-label" id="tag-filter-label">Filter by tag</span>
+                <div class="chip-row" id="tag-chip-row" role="group" aria-labelledby="tag-filter-label"></div>
+            </div>
+
+            <div class="toolbar-actions">
+                <button type="button" id="clear-filters" disabled>Clear filters</button>
+            </div>
+        </div>
+
+        <div class="results-summary" aria-live="polite" aria-atomic="true">
+            <strong id="results-count"></strong>
+            <span id="results-active-filters"></span>
+        </div>
+
+        <div id="projects-grid" class="project-grid" role="list"></div>
+    </section>
 
     <footer class="footer">
         <div class="footer-main central-footer-content">
             <div class="footer-row">
                 <div class="footer-links">
                     <a href="/" class="footer-link">Home</a>
-                    <a href="/pages/projects.html" class="footer-link">Projects</a>
-                    <a href="/pages/articles.html" class="footer-link">Articles</a>
+                    <a href="/pages/projects.html" class="footer-link" aria-current="page">Projects</a>
                     <a href="/#contact-section" class="footer-link">Contact Me</a>
                     <a href="/pages/privacy.html" class="footer-link">Privacy</a>
                 </div>
@@ -232,10 +388,256 @@
                     </div>
                 </div>
             </div>
-            <span class="footer-copyright">&copy; 2023-2025 Francisco Pereira</span>
+            <span class="footeropyright">&copy; 2023-2025 Francisco Pereira</span>
         </div>
     </footer>
 
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            const projects = [
+                {
+                    id: "holoassembly",
+                    title: "HoloAssembly",
+                    description: "AR/VR simulator that guides technicians through complex assembly workflows.",
+                    link: "https://github.com/ffarps/holoassembly",
+                    tags: ["Simulation", "Tools", "XR"],
+                    primaryTag: "Simulation",
+                    year: 2024,
+                    featuredOrder: 1
+                },
+                {
+                    id: "ml-suite",
+                    title: "Machine Learning Project",
+                    description: "Predictive analytics toolkit delivering explainable AI dashboards for stakeholders.",
+                    link: "projects/project-ml.html",
+                    tags: ["Machine Learning", "AI"],
+                    primaryTag: "Machine Learning",
+                    year: 2023,
+                    featuredOrder: 2
+                },
+                {
+                    id: "fullstack-web",
+                    title: "Web Development Project",
+                    description: "Full-stack web platform featuring server-rendered pages and granular caching.",
+                    link: "projects/project-web.html",
+                    tags: ["Web Development", "Frontend"],
+                    primaryTag: "Web Development",
+                    year: 2022,
+                    featuredOrder: 3
+                },
+                {
+                    id: "serverless-api",
+                    title: "Backend API Project",
+                    description: "Scalable REST API using event-driven microservices and observability tooling.",
+                    link: "projects/project-backend.html",
+                    tags: ["Backend", "Microservices"],
+                    primaryTag: "Backend",
+                    year: 2023,
+                    featuredOrder: 4
+                },
+                {
+                    id: "hybrid-mobile",
+                    title: "Mobile App Project",
+                    description: "Cross-platform mobile app with offline-first data sync and adaptive layouts.",
+                    link: "projects/project-mobile.html",
+                    tags: ["Mobile", "Cross-Platform"],
+                    primaryTag: "Mobile",
+                    year: 2022,
+                    featuredOrder: 5
+                },
+                {
+                    id: "dev-tooling",
+                    title: "Developer Tools",
+                    description: "CLI and editor integrations that streamline release pipelines and QA automation.",
+                    link: "projects/project-tools.html",
+                    tags: ["Tools", "Productivity"],
+                    primaryTag: "Tools",
+                    year: 2021,
+                    featuredOrder: 6
+                }
+            ];
+
+            const state = {
+                search: "",
+                tags: new Set(),
+                sort: "featured"
+            };
+
+            const elements = {
+                grid: document.getElementById("projects-grid"),
+                tagRow: document.getElementById("tag-chip-row"),
+                search: document.getElementById("search-input"),
+                sort: document.getElementById("sort-select"),
+                clear: document.getElementById("clear-filters"),
+                resultsCount: document.getElementById("results-count"),
+                resultsFilters: document.getElementById("results-active-filters")
+            };
+
+            const uniqueTags = Array.from(new Set(projects.flatMap(project => project.tags))).sort((a, b) => a.localeCompare(b));
+
+            function getColorForTag(tag) {
+                const accent = getComputedStyle(document.documentElement).getPropertyValue("--accent-color").trim();
+                let hash = 0;
+                for (let i = 0; i < tag.length; i += 1) {
+                    hash = tag.charCodeAt(i) + ((hash << 5) - hash);
+                }
+                const hue = Math.abs(hash) % 360;
+                return accent || `hsl(${hue}, 70%, 55%)`;
+            }
+
+            function buildTagFilters() {
+                elements.tagRow.innerHTML = "";
+                uniqueTags.forEach(tag => {
+                    const button = document.createElement("button");
+                    button.type = "button";
+                    button.className = "tag-chip";
+                    button.textContent = tag;
+                    button.dataset.tag = tag;
+                    button.setAttribute("aria-pressed", state.tags.has(tag) ? "true" : "false");
+                    button.addEventListener("click", () => toggleTag(tag));
+                    elements.tagRow.appendChild(button);
+                });
+            }
+
+            function toggleTag(tag) {
+                if (state.tags.has(tag)) {
+                    state.tags.delete(tag);
+                } else {
+                    state.tags.add(tag);
+                }
+                render();
+            }
+
+            function handleSearch(event) {
+                state.search = event.target.value;
+                render();
+            }
+
+            function handleSort(event) {
+                state.sort = event.target.value;
+                render();
+            }
+
+            function clearFilters() {
+                state.search = "";
+                state.tags.clear();
+                state.sort = "featured";
+                render();
+            }
+
+            function getFilteredProjects() {
+                const query = state.search.trim().toLowerCase();
+                const activeTags = Array.from(state.tags);
+
+                return projects
+                    .filter(project => {
+                        const matchesSearch = query.length === 0
+                            || project.title.toLowerCase().includes(query)
+                            || project.description.toLowerCase().includes(query)
+                            || project.tags.some(tag => tag.toLowerCase().includes(query));
+
+                        const matchesTags = activeTags.length === 0
+                            ? true
+                            : activeTags.every(tag => project.tags.includes(tag));
+
+                        return matchesSearch && matchesTags;
+                    })
+                    .sort((a, b) => {
+                        if (state.sort === "newest") {
+                            return b.year - a.year;
+                        }
+                        if (state.sort === "title-asc") {
+                            return a.title.localeCompare(b.title);
+                        }
+                        return a.featuredOrder - b.featuredOrder;
+                    });
+            }
+
+            function renderProjects() {
+                const filtered = getFilteredProjects();
+                elements.grid.innerHTML = "";
+
+                if (filtered.length === 0) {
+                    const empty = document.createElement("div");
+                    empty.className = "empty-state";
+                    empty.textContent = "No projects match the current filters. Clear the filters or try a different keyword.";
+                    elements.grid.appendChild(empty);
+                    return;
+                }
+
+                filtered.forEach(project => {
+                    const card = document.createElement("article");
+                    card.className = "project-card";
+                    card.setAttribute("role", "listitem");
+
+                    const title = document.createElement("h3");
+                    title.textContent = project.title;
+
+                    const description = document.createElement("p");
+                    description.textContent = project.description;
+
+                    const meta = document.createElement("div");
+                    meta.className = "project-meta";
+                    meta.innerHTML = `<span>${project.primaryTag}</span><span>${project.year}</span>`;
+
+                    const tagList = document.createElement("ul");
+                    tagList.className = "project-tags";
+                    project.tags.forEach(tag => {
+                        const item = document.createElement("li");
+                        item.textContent = tag;
+                        item.style.color = getColorForTag(tag);
+                        tagList.appendChild(item);
+                    });
+
+                    const link = document.createElement("a");
+                    link.className = "project-link";
+                    link.href = project.link;
+                    const isExternal = /^https?:\/\//i.test(project.link);
+                    if (isExternal) {
+                        link.target = "_blank";
+                        link.rel = "noopener noreferrer";
+                    }
+                    link.innerHTML = `Explore<span aria-hidden="true">→</span>`;
+
+                    card.appendChild(title);
+                    card.appendChild(description);
+                    card.appendChild(meta);
+                    card.appendChild(tagList);
+                    card.appendChild(link);
+                    elements.grid.appendChild(card);
+                });
+
+                updateSummary(filtered.length);
+            }
+
+            function updateSummary(visibleCount) {
+                const total = projects.length;
+                const tagDescription = state.tags.size > 0
+                    ? `Filtered by ${Array.from(state.tags).join(", ")}`
+                    : "No tag filters applied";
+
+                elements.resultsCount.textContent = `Showing ${visibleCount} of ${total} project${total === 1 ? "" : "s"}`;
+                elements.resultsFilters.textContent = state.search
+                    ? `Search: “${state.search}”. ${tagDescription}.`
+                    : tagDescription;
+
+                elements.clear.disabled = state.tags.size === 0 && state.search.length === 0 && state.sort === "featured";
+            }
+
+            function render() {
+                elements.search.value = state.search;
+                elements.sort.value = state.sort;
+                buildTagFilters();
+                renderProjects();
+            }
+
+            elements.search.addEventListener("input", handleSearch);
+            elements.sort.addEventListener("change", handleSort);
+            elements.clear.addEventListener("click", clearFilters);
+
+            render();
+        });
+    </script>
     <script src="/scripts/language.js"></script>
     <script src="/scripts/theme.js"></script>
 </body>
