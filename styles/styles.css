@@ -374,7 +374,7 @@ header h3 {
   width: 32px;
   height: 22px;
   border-radius: 2px;
-  border: 1.5px solid var(--accent-color, var(--accent-color-dark));
+  border: none;
 }
 
 /* Standardized call-to-action button style */
@@ -916,8 +916,8 @@ footer.footer {
 }
 
 /* --- Styled GitHub Profile Text --- */
-#github_warning,
-#github_warning a {
+#more_projects,
+#more_projects a {
   text-decoration: none !important;
 }
 
@@ -926,7 +926,7 @@ footer.footer {
   text-decoration: none !important;
 }
 
-#github_warning {
+#more_projects {
   composes: cta-btn;
   margin: 1.2em 0 0.4em 0;
   font-size: 1.2em;
@@ -935,7 +935,7 @@ footer.footer {
   border: 2px solid var(--font-color, var(--font-color-dark));
 }
 
-#github_warning svg {
+#more_projects svg {
   width: 1.3em;
   height: 1.3em;
   vertical-align: middle;
@@ -995,7 +995,7 @@ footer.footer {
   width: 32px;
   height: 22px;
   border-radius: 3px;
-  border: 2.5px solid var(--accent-color, var(--accent-color-dark));
+  border: none;
   /* transition: border 0.18s, box-shadow 0.18s, transform 0.18s; */
 }
 

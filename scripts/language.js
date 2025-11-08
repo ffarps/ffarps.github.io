@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function () {
     for (const key in data[lang]) {
       const el = document.getElementById(key);
       if (el) {
-        // If github_warning, add the GitHub icon before the text
-        if (key === 'github_warning') {
+        // If more_projects, add the GitHub icon before the text
+        if (key === 'more_projects') {
           el.textContent = data[lang][key];
           el.onclick = function () {
             window.location.href = '/pages/projects.html';

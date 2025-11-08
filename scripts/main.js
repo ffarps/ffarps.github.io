@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     for (const key in data[lang]) {
       const el = document.getElementById(key);
       if (el) {
-        if (key === 'github_warning') {
+        if (key === 'more_projects') {
           el.textContent = data[lang][key];
           el.onclick = function () {
             window.location.href = '/pages/projects.html';
