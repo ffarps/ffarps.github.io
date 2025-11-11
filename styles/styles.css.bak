@@ -425,7 +425,7 @@ footer.footer {
   background: var(--back-accent-color, var(--back-accent-color-dark));
   color: var(--font-color, var(--font-color-dark));
   margin: 0;
-  padding: 2px 0 1px 0;
+  padding: 8px 0 4px 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -444,7 +444,7 @@ footer.footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.05em;
+  gap: 0.3em;
 }
 
 .footer-main {
@@ -460,7 +460,7 @@ footer.footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 0.5em;
+  gap: 1.5em;
   padding: 0;
 }
 
@@ -560,38 +560,21 @@ footer.footer {
   }
 
   .footer-row {
-    flex-direction: row;
-    gap: 0.3em;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    gap: 0.6em;
+    align-items: stretch;
   }
 
   .footer-links,
   .footer-social,
   .footer-switchers {
     justify-content: center;
-    flex: 0 0 auto;
   }
 
   .footer-switchers {
-    flex-direction: row;
-    gap: 0.3em;
-    align-items: center;
-  }
-  
-  footer.footer {
-    padding: 1px 0 0px 0;
-  }
-  
-  .central-footer-content {
-    gap: 0.02em;
-  }
-  
-  .footer-copyright {
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
+    flex-direction: column;
+    gap: 0.6em;
+    align-items: stretch;
   }
 
   .projects-grid {
