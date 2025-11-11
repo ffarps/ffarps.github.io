@@ -20,11 +20,11 @@ body {
   color: var(--font-color, var(--font-color-dark));
   font-family: 'JetBrains Mono', monospace, 'Segoe UI', Arial, sans-serif;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: 1.06em;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .content-wrapper {
