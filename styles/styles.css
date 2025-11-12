@@ -488,16 +488,29 @@ footer.footer {
 
 @media (max-width: 900px) {
   .split-layout {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    display: block !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    grid-template-columns: none !important;
+    grid-template-rows: none !important;
+    gap: 1rem !important;
+    overflow: visible !important;
   }
   
   .personal-info {
-    padding: 1.5rem;
+    padding: 1.5rem !important;
+    overflow-y: visible !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
   }
   
   .projects-section {
-    padding: 1.5rem;
+    padding: 1.5rem !important;
+    overflow-y: visible !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
   }
 }
 
@@ -505,52 +518,6 @@ footer.footer {
   body {
     font-size: 0.95em;
     overflow-x: hidden;
-  }
-
-  header,
-  main {
-    width: 100%;
-    padding: 1rem 0.5rem 0 0.5rem;
-  }
-
-  .header-row {
-    display: flex; /* Show header on mobile */
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .projects-grid {
-    gap: 1rem;
-  }
-  
-  .split-layout {
-    gap: 0.5rem;
-  }
-  
-  .personal-info {
-    padding: 1rem;
-  }
-  
-  .projects-section {
-    padding: 1rem;
-  }
-  
-  .info-section {
-    padding: 1rem;
-    margin-bottom: 0.8rem;
-  }
-}
-
-@media (max-width: 700px) {
-  body {
-    font-size: 0.95em;
-    overflow-x: hidden;
-  }
-
-  header,
-  main {
-    width: 100%;
-    padding: 1rem 0.5rem 0 0.5rem;
   }
 
   .header-row {
@@ -594,35 +561,126 @@ footer.footer {
     padding: 0;
   }
 
+  .split-layout {
+    display: block !important;
+    gap: 1.5rem !important;
+    width: 100% !important;
+  }
+  
+  .personal-info {
+    padding: 1rem !important;
+    width: 100% !important;
+    overflow-y: visible !important;
+    display: block !important;
+  }
+  
+  .projects-section {
+    padding: 1rem !important;
+    width: 100% !important;
+    overflow-y: visible !important;
+    display: block !important;
+  }
+  
+  .info-section {
+    padding: 1rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+
   .projects-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    display: block !important;
+    gap: 1.5rem !important;
   }
   
   .project-cards-container {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    display: block !important;
+    gap: 1.5rem !important;
   }
 
   .project-card {
-    min-height: 220px;
-    padding: 1.4rem;
-    aspect-ratio: unset;
+    min-height: 220px !important;
+    padding: 1.4rem !important;
+    aspect-ratio: unset !important;
+    max-width: 100% !important;
+    margin-bottom: 1.5rem !important;
+    display: block !important;
   }
 
-  .cv-btn {
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
+  /* Mobile text and button alignment */
+  .info-section {
+    padding: 1rem !important;
+    margin-bottom: 1.2rem !important;
+    text-align: left !important;
+    display: block !important;
+    position: relative !important;
+    overflow: visible !important;
   }
   
-  .linkedin-btn {
-    width: 100%;
-    justify-content: center;
+  .personal-info .info-section {
+    text-align: left !important;
+    display: block !important;
+  }
+  
+  /* Left-align buttons with text */
+  .info-section #download_cv,
+  .info-section .cv-btn,
+  .info-section a[href*="download"] {
+    display: block !important;
+    width: calc(100% - 2rem) !important;
+    max-width: 280px !important;
+    margin: 1rem 0 !important;
+    text-align: center !important;
+    padding: 0.8rem 1.2rem !important;
+    box-sizing: border-box !important;
+    font-family: inherit !important;
+    font-size: 1rem !important;
+    background: transparent !important;
+    border: 2px solid var(--font-color, #000) !important;
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    color: var(--font-color, #000) !important;
+    transition: all 0.15s !important;
+  }
+  
+  .info-section #linkedin,
+  .info-section .linkedin-btn,
+  .info-section button[id="linkedin"] {
+    display: flex !important;
+    width: calc(100% - 2rem) !important;
+    max-width: 280px !important;
+    margin: 1rem 0 !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 0.8rem 1.2rem !important;
+    box-sizing: border-box !important;
+    font-family: inherit !important;
+    font-size: 1rem !important;
+    background: transparent !important;
+    border: 2px solid var(--font-color, #000) !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    color: var(--font-color, #000) !important;
+    transition: all 0.15s !important;
+  }
+  
+  /* Ensure content aligns properly */
+  .personal-info {
+    display: block !important;
+    position: relative !important;
+    overflow: visible !important;
+  }
+  
+  /* Debug colors to verify CSS loading */
+  .personal-info {
+    
+  }
+  
+  .info-section {
+    
   }
   
   .section {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem !important;
   }
 }
 
@@ -649,10 +707,12 @@ footer.footer {
   
   .personal-info {
     padding: 0.8rem;
+    width: 100%;
   }
   
   .projects-section {
     padding: 0.8rem;
+    width: 100%;
   }
   
   .info-section {

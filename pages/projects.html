@@ -20,6 +20,48 @@
             margin-bottom: 2.5rem;
         }
 
+        .page-navigation {
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--accent-color);
+            background: transparent;
+            color: var(--font-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.2s ease;
+            width: fit-content;
+        }
+
+        .back-button:hover,
+        .back-button:focus-visible {
+            background: var(--accent-color);
+            color: var(--back-accent-color);
+        }
+
+        .back-button:focus-visible {
+            outline: 2px solid var(--font-color);
+            outline-offset: 2px;
+        }
+
+        .back-arrow {
+            font-size: 16px;
+            font-weight: bold;
+            transition: color 0.2s ease;
+        }
+
+        .back-button:hover .back-arrow,
+        .back-button:focus-visible .back-arrow {
+            color: var(--back-accent-color);
+        }
+
         .page-header h1 {
             margin-bottom: 0.75rem;
         }
@@ -295,6 +337,19 @@
                 flex-direction: column;
                 align-items: flex-start;
             }
+
+            .back-button {
+                padding: 0.5rem 0.8rem;
+                font-size: 0.9rem;
+            }
+            
+            .back-button-text {
+                display: none;
+            }
+            
+            .back-button {
+                width: auto;
+            }
         }
 
         /* Modal styles */
@@ -444,6 +499,12 @@
 
 <main>
     <header class="page-header">
+        <div class="page-navigation">
+            <a href="/" class="back-button" aria-label="Go back to homepage">
+                <span class="back-arrow" aria-hidden="true">←</span>
+                <span class="back-button-text" id="back-button-text">Back to Home</span>
+            </a>
+        </div>
         <h1 id="projects-title">All Projects</h1>
         <p id="projects-description">Browse Francisco Pereira&rsquo;s full portfolio. Use the search bar and tag filters to quickly surface work
             by technology, industry, or platform.</p>
@@ -793,6 +854,7 @@
                     document.getElementById('sort-title').textContent = texts.sort_title;
                     document.getElementById('tag-filter-label').textContent = texts.filter_by_tag;
                     document.getElementById('clear-filters').textContent = texts.clear_filters;
+                    document.getElementById('back-button-text').textContent = texts.back_to_home;
                 }
 
                 function render() {
