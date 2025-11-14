@@ -205,7 +205,7 @@
 
         .project-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, max-content));
+            grid-template-columns: repeat(auto-fill, minmax(220px, max-content));
             gap: 0.75rem;
             margin-bottom: 3rem;
             align-items: start;
@@ -222,7 +222,7 @@
             gap: 0.4rem;
             position: relative;
             cursor: pointer;
-            min-height: 200px;
+            min-height: 240px;
         }
 
         .project-card:focus-within {
@@ -319,7 +319,7 @@
             }
 
             .project-grid {
-                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
                 gap: 0.6rem;
             }
 
@@ -632,6 +632,19 @@
 </footer>
 
     <script>
+        // Mapping of month numbers to month names
+        const monthNames = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+
+        // Function to format the date
+        function formatDate(project) {
+            const monthName = monthNames[project.month - 1]; // Month names are 0-indexed
+            const year = project.year;
+            return `<span>${monthName}</span><span>${year}</span>`;
+        }
+
         window.addEventListener("DOMContentLoaded", () => {
             let projectsData = null;
             let uiTexts = null;
@@ -800,7 +813,7 @@
 
                         const meta = document.createElement("div");
                         meta.className = "project-meta";
-                        meta.innerHTML = `<span>${project.primaryTag}</span><span>${project.year}</span>`;
+                        meta.innerHTML = formatDate(project);
 
                         const tagList = document.createElement("ul");
                         tagList.className = "project-tags";
