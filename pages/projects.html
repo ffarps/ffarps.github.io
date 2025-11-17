@@ -289,7 +289,8 @@
             padding: 0.2rem 0.5rem;
             font-size: 0.85em; /* Small - Tag labels */
             font-weight: 600;
-            border: 1px solid currentColor;
+            border: 1px solid var(--font-color);
+            color: var(--font-color);
         }
         
         .project-tags li[data-tag="Template"] {
@@ -667,7 +668,7 @@
             };
 
             // Load projects data from JSON
-            fetch('/pages/projects/content.json')
+            fetch('/pages/projects_content.json')
                 .then(response => response.json())
                 .then(data => {
                     projectsData = data.projects;
@@ -703,16 +704,6 @@
                 // Initialize the rest of the app
                 const uniqueTags = Array.from(new Set(projectsData.flatMap(project => project.tags))).sort((a, b) => a.localeCompare(b));
                 
-                function getColorForTag(tag) {
-                    const accent = getComputedStyle(document.documentElement).getPropertyValue("--accent-color").trim();
-                    let hash = 0;
-                    for (let i = 0; i < tag.length; i += 1) {
-                        hash = tag.charCodeAt(i) + ((hash << 5) - hash);
-                    }
-                    const hue = Math.abs(hash) % 360;
-                    return accent || `hsl(${hue}, 70%, 55%)`;
-                }
-
                 function buildTagFilters() {
                     elements.tagRow.innerHTML = "";
                     uniqueTags.forEach(tag => {
@@ -821,9 +812,6 @@
                             const item = document.createElement("li");
                             item.textContent = tag;
                             item.setAttribute("data-tag", tag);
-                            if (tag !== "Template") {
-                                item.style.color = getColorForTag(tag);
-                            }
                             tagList.appendChild(item);
                         });
 
@@ -991,6 +979,11 @@
                 document.addEventListener('languageChanged', () => {
                     currentLang = localStorage.getItem('lang') || 'en-GB';
                     document.getElementById('html-root').setAttribute('lang', currentLang);
+                    render();
+                });
+
+                // Listen for theme changes
+                document.addEventListener('themeChanged', () => {
                     render();
                 });
 

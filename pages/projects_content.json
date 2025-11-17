@@ -1,0 +1,294 @@
+{
+  "projects": [
+    {
+      "id": "holoassembly",
+      "featuredOrder": 1,
+      "featured": true,
+      "year": 2023,
+      "month": 11,
+      "tags": [
+        "Simulation",
+        "Tools",
+        "XR"
+      ],
+      "primaryTag": "Simulation",
+      "external": false,
+      "link": "https://github.com/ffarps/holoassembly",
+      "content": {
+        "en-GB": {
+          "title": "HoloAssembly",
+          "description": "an Augmented Reality Assembly guide App based on my Degree's final project",
+          "technologies_title": "A unity 3D app for Android, capable of displaying information on an AR overlayed car.",
+          "technologies": [
+            "Unity",
+            "C#",
+            "HoloLens",
+            "AR Foundation"
+          ],
+          "features_title": "Key Features",
+          "features": [
+            "Real-time AR/VR guides",
+            "Gesture recognition",
+            "Automatic validation"
+          ],
+          "results_title": "Results",
+          "results": "App running in an Android phone using a Image target (marker)\nApp running in an Android phone using a Model target (Cad tracking)",
+          "back_home": "Back to Home",
+          "go_projects": "Go to All Projects"
+        },
+        "pt-PT": {
+          "title": "HoloAssembly",
+          "description": "Um aplicativo de guia de montagem em realidade aumentada baseado no meu projeto final de licenciatura.",
+          "technologies_title": "Tecnologias Utilizadas",
+          "technologies": [
+            "Unity",
+            "C#",
+            "HoloLens",
+            "AR Foundation"
+          ],
+          "features_title": "Recursos Principais",
+          "features": [
+            "Guias AR/VR em tempo real",
+            "Reconhecimento de gestos",
+            "Validação automática"
+          ],
+          "results_title": "Resultados",
+          "results": "Aplicação a funcionar num telemóvel Android utilizando um alvo de imagem (marcador)\nAplicação a funcionar num telemóvel Android utilizando um alvo modelo (rastreamento CAD)",
+          "back_home": "Voltar ao Início",
+          "go_projects": "Ir para Todos os Projetos"
+        }
+      }
+    },
+    {
+      "id": "one-handed-typer",
+      "featuredOrder": 2,
+      "featured": true,
+      "year": 2025,
+      "month": 9,
+      "tags": [
+        "Speech-to-text",
+        "whisper",
+        "AI"
+      ],
+      "primaryTag": "AI",
+      "external": false,
+      "link": "https://github.com/ffarps/one-handed-typer",
+      "content": {
+        "en-GB": {
+          "title": "One-Handed Typer",
+          "description": "Speech-to-text dictation app for accessible typing, powered by OpenAI Whisper running locally on GPU.",
+          "technologies_title": "Technologies Used",
+          "technologies": [
+            "Python",
+            "NVIDIA CUDA",
+            "Streamlit",
+            "React+Vite",
+            "FastAPI"
+          ],
+          "features_title": "Key Features",
+          "features": [
+            "GPU-accelerated transcription",
+            "Multi-language support",
+            "One-click copy to clipboard",
+            "Runs 100% locally (no API calls, no internet required)"
+          ],
+          "results_title": "Results",
+          "results": "On RTX 3070 with \"small\" model:\n\n    ~1-2 seconds for 10-30 second clips\n    ~2GB VRAM usage\n    Excellent accuracy",
+          "back_home": "Back to Home",
+          "go_projects": "Go to All Projects"
+        },
+        "pt-PT": {
+          "title": "One-Handed Typer",
+          "description": "Aplicação de voz para texto para digitação acessível, com tecnologia OpenAI Whisper executada localmente na GPU.",
+          "technologies_title": "Tecnologias Utilizadas",
+          "technologies": [
+            "Python",
+            "NVIDIA CUDA",
+            "Streamlit",
+            "React+Vite",
+            "FastAPI"
+          ],
+          "features_title": "Recursos Principais",
+          "features": [
+            "Transcrição acelerada por GPU",
+            "Suporte a vários idiomas",
+            "Cópia para a área de transferência com um clique",
+            "Funciona 100% localmente"
+          ],
+          "results_title": "Resultados",
+          "results": "Na RTX 3070 com modelo «pequeno»:\n\n    ~1-2 segundos para clipes de 10-30 segundos\n    ~2 GB de utilização de VRAM\n    Excelente precisão",
+          "back_home": "Voltar ao Início",
+          "go_projects": "Ir para Todos os Projetos"
+        }
+      }
+    },
+    {
+      "id": "YouTube-Video-Organizer",
+      "featuredOrder": 3,
+      "featured": true,
+      "year": 2025,
+      "month": 12,
+      "tags": [
+        "DEV",
+        "Youtube",
+        "Tool",
+        "Productivity"
+      ],
+      "primaryTag": "DEV",
+      "external": false,
+      "link": "https://github.com/ffarps/YouTube-Video-Organizer-Tool",
+      "content": {
+        "en-GB": {
+          "title": "YouTube Video Organizer",
+          "description": "Organizes YouTube videos into categories and provides a REST API for programmatic use.",
+          "technologies_title": "Technologies Used",
+          "technologies": [
+            "Python"
+          ],
+          "features_title": "Key Features",
+          "features": [
+            "Organize youtube playlists"
+          ],
+          "results_title": "Results",
+          "results": "",
+          "back_home": "Back to Home",
+          "go_projects": "Go to All Projects"
+        },
+        "pt-PT": {
+          "title": "Organizador de vídeos do YouTube",
+          "description": "Organiza vídeos do YouTube em categorias e fornece uma API REST para uso programático.",
+          "technologies_title": "Tecnologias Utilizadas",
+          "technologies": [
+            "Python"
+          ],
+          "features_title": "Recursos Principais",
+          "features": [
+            "Organizar listas de reprodução do YouTube"
+          ],
+          "results_title": "Resultados",
+          "results": "",
+          "back_home": "Voltar ao Início",
+          "go_projects": "Ir para Todos os Projetos"
+        }
+      }
+    },
+    {
+      "id": "docker",
+      "featuredOrder": 4,
+      "featured": false,
+      "year": 2025,
+      "month": 6,
+      "tags": [
+        "Guide"
+      ],
+      "primaryTag": "Guide",
+      "external": false,
+      "link": "https://github.com/ffarps/docker",
+      "content": {
+        "en-GB": {
+          "title": "Guide to Docker management",
+          "description": "Ever run df -h and wonder where hundreds of gigabytes of disk space went? If you use Docker, you've likely found the culprit. Docker's images, volumes, and build cache can accumulate over time, consuming a massive amount of storage.\n\nThis guide provides a simple, step-by-step workflow to diagnose the problem and safely reclaim your disk space.",
+          "technologies_title": "Technologies Used",
+          "technologies": [],
+          "features_title": "Key Features",
+          "features": [],
+          "results_title": "Recommended Workflow",
+          "results": "Diagnose: docker system df\n    Quick Prune: docker system prune\n    Check Again: docker system df\n    Deep Prune (if needed): docker system prune -a and (carefully!) docker volume prune.\n\nHappy Dockering",
+          "back_home": "Back to Home",
+          "go_projects": "Go to All Projects"
+        },
+        "pt-PT": {
+          "title": "Guia para a gestão do Docker",
+          "description": "Já executou o comando df -h e se perguntou para onde foram centenas de gigabytes de espaço em disco? Se utiliza o Docker, provavelmente já descobriu o culpado. As imagens, volumes e cache de compilação do Docker podem acumular-se ao longo do tempo, consumindo uma quantidade enorme de armazenamento.\n\nEste guia fornece um fluxo de trabalho simples e passo a passo para diagnosticar o problema e recuperar com segurança o seu espaço em disco.",
+          "technologies_title": "Tecnologias Utilizadas",
+          "technologies": [],
+          "features_title": "Recursos Principais",
+          "features": [],
+          "results_title": "Fluxo de trabalho recomendado",
+          "results": "Diagnóstico: docker system df\n    Limpeza rápida: docker system prune\n    Verifique novamente: docker system df\n    Limpeza profunda (se necessário): docker system prune -a e (com cuidado!) docker volume prune.\n\nBoa sorte com o Docker!",
+          "back_home": "Voltar ao Início",
+          "go_projects": "Ir para Todos os Projetos"
+        }
+      }
+    },
+    {
+      "id": "ollama-openwebui",
+      "featuredOrder": 4,
+      "featured": false,
+      "year": 2025,
+      "month": 4,
+      "tags": [
+        "Ollama",
+        "OpenWebUI",
+        "Guide"
+      ],
+      "primaryTag": "Guide",
+      "external": false,
+      "link": "https://github.com/ffarps/ollama-openwebui",
+      "content": {
+        "en-GB": {
+          "title": "Secure Local Deployment: Ollama + Open WebUI",
+          "description": "This guide covers a secure and reliable setup for Ollama and Open WebUI with Docker.",
+          "technologies_title": "Technologies Used",
+          "technologies": [],
+          "features_title": "Key Features",
+          "features": [],
+          "results_title": "Results",
+          "results": "See Repository for more details",
+          "back_home": "Back to Home",
+          "go_projects": "Go to All Projects"
+        },
+        "pt-PT": {
+          "title": "Implantação local segura: Ollama + Open WebUI",
+          "description": "",
+          "technologies_title": "Tecnologias Utilizadas",
+          "technologies": [],
+          "features_title": "Recursos Principais",
+          "features": [],
+          "results_title": "Resultados",
+          "results": "Consulte o Repositório para obter mais detalhes.",
+          "back_home": "Voltar ao Início",
+          "go_projects": "Ir para Todos os Projetos"
+        }
+      }
+    }
+  ],
+  "ui": {
+    "pt-PT": {
+      "page_title": "Todos os Projetos",
+      "page_description": "Navegue pelo portfólio completo de Francisco Pereira. Use a barra de pesquisa e filtros de tags para encontrar rapidamente trabalhos por tecnologia, indústria ou plataforma.",
+      "back_to_home": " Voltar ao Início",
+      "search_placeholder": "Pesquisar projetos ou tags",
+      "sort_by": "Ordenar por",
+      "sort_featured": "Ordem de destaque",
+      "sort_newest": "Mais recentes primeiro",
+      "sort_title": "Título A → Z",
+      "filter_by_tag": "Filtrar por tag",
+      "clear_filters": "Limpar filtros",
+      "showing_results": "Mostrando {visible} de {total} projeto{total_plural}",
+      "no_filters": "Nenhum filtro de tag aplicado",
+      "filtered_by": "Filtrado por {tags}",
+      "search_active": "Pesquisa: \"{search}\". {filter_text}.",
+      "no_projects": "Nenhum projeto corresponde aos filtros atuais. Limpe os filtros ou tente uma palavra-chave diferente.",
+      "explore": "Explorar"
+    },
+    "en-GB": {
+      "page_title": "All Projects",
+      "page_description": "Browse Francisco Pereira's full portfolio. Use the search bar and tag filters to quickly surface work by technology, industry, or platform.",
+      "back_to_home": " Back to Home",
+      "search_placeholder": "Search projects or tags",
+      "sort_by": "Sort by",
+      "sort_featured": "Featured order",
+      "sort_newest": "Newest first",
+      "sort_title": "Title A → Z",
+      "filter_by_tag": "Filter by tag",
+      "clear_filters": "Clear filters",
+      "showing_results": "Showing {visible} of {total} project{total_plural}",
+      "no_filters": "No tag filters applied",
+      "filtered_by": "Filtered by {tags}",
+      "search_active": "Search: \"{search}\". {filter_text}.",
+      "no_projects": "No projects match the current filters. Clear the filters or try a different keyword.",
+      "explore": "Explore"
+    }
+  }
+}
