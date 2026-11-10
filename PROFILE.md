@@ -9,7 +9,7 @@ Surfaces to keep in sync:
 | -------------- | ----------------------------------------------------- | --------------------------------------------------------------------------- |
 | English CV     | `latex-cv-francisco-pereira/CV_ENG.tex`               | edit, compile on Overleaf, export to `downloads/franciscopereira.cv.en.pdf` |
 | Portuguese CV  | `latex-cv-francisco-pereira/CV_PT.tex`                | same, export to `downloads/franciscopereira.cv.pt.pdf`                      |
-| Portfolio site | `lang.json` (`subtitle`, `subsubtitle`, `about_text`) | edit both `en-GB` and `pt-PT`                                               |
+| Portfolio site | `index.html` (role line, intro, Experience)           | edit both the `lang="en"` and `lang="pt"` text                              |
 | LinkedIn       | linkedin.com/in/francisco-pereira-9755501a3           | paste from the blocks below                                                 |
 
 ## Rules
@@ -53,26 +53,27 @@ Change the title when the job changes, not before.
 
 ## Overview
 
-**EN** — Software developer maintaining and modernising legacy core products in
-Python, including LLM-backed conversational features. In a previous R&D role I
-built the company's first AI prototypes: a
-retrieval-augmented assistant over the internal Confluence knowledge base and a
-self-hosted LLM inference API running on local hardware.
+**EN** — Software developer working across several of the company's products: a
+multi-tenant enterprise video platform, property management systems (PMS),
+issue-tracking software and others. Most of the work is maintaining and
+modernising existing code and building features in Python, including LLM-backed
+conversational features. In a previous R&D role I built the company's first AI
+prototypes: a retrieval-augmented assistant over the internal Confluence
+knowledge base and a self-hosted LLM inference API running on local hardware.
 
-Peer-reviewed publication in mixed reality for smart manufacturing. Starting a
-postgraduate degree in Applied Machine Learning in September 2026, working towards
-a Machine Learning Engineering role.
+Peer-reviewed publication in mixed reality for smart manufacturing.
 
-**PT** — Técnico de informática numa empresa de software, onde asseguro a manutenção
-e modernização de produtos legados em Python, incluindo funcionalidades
-conversacionais assentes em modelos de linguagem (LLM). Numa função anterior de
-I&D, desenvolvi os primeiros protótipos de IA da empresa: um assistente com geração
-aumentada por recuperação (RAG) sobre a base de conhecimento interna em Confluence
-e uma API de inferência de LLM alojada em infraestrutura própria.
+**PT** — Técnico de informática a trabalhar em vários produtos da empresa: uma
+plataforma de vídeo empresarial multi-tenant, sistemas de gestão de propriedades
+(PMS) e software de issue tracking, entre outros. O trabalho passa sobretudo por
+manter e modernizar código existente e desenvolver funcionalidades em Python,
+incluindo funcionalidades conversacionais assentes em LLM. Antes, numa função de
+I&D, desenvolvi os primeiros protótipos de IA da empresa: um assistente RAG sobre
+a base de conhecimento interna em Confluence e uma API de inferência de LLM
+alojada em infraestrutura própria.
 
 Artigo científico publicado na área da realidade mista aplicada ao fabrico
-inteligente. Em setembro de 2026 inicio uma pós-graduação em Machine Learning
-Aplicado, com o objetivo de seguir uma carreira em Engenharia de Machine Learning.
+inteligente.
 
 ---
 
@@ -80,15 +81,17 @@ Aplicado, com o objetivo de seguir uma carreira em Engenharia de Machine Learnin
 
 ### Jan 2026 – Present · Software Developer / Técnico de Informática · GoTVee · Remote
 
-- Maintain and modernise legacy core products, refactoring and sustaining systems the business depends on.
+- Work across several of the company's products: a multi-tenant enterprise video platform serving thousands of videos for the company's largest client, property management systems (PMS), issue-tracking software and others.
+- Maintain and modernise legacy code: bug fixes, refactoring and new features on systems the business depends on.
 - Build and maintain features in Python, including LLM-backed conversational features.
-- Maintain and extend a multi-tenant enterprise video platform serving thousands of videos for the company's largest client: bug resolution, new features and ongoing code maintenance.
 
-_PT:_ Manutenção e modernização de produtos legados, com refatoração e sustentação
-dos sistemas de que o negócio depende. · Desenvolvimento e manutenção de
-funcionalidades em Python, incluindo funcionalidades conversacionais assentes em
-LLM. · Manutenção e evolução de uma plataforma empresarial multi-tenant de vídeo
-que disponibiliza milhares de vídeos ao maior cliente da empresa.
+_PT:_ Trabalho em vários produtos da empresa: uma plataforma de vídeo empresarial
+multi-tenant que disponibiliza milhares de vídeos ao maior cliente da empresa,
+sistemas de gestão de propriedades (PMS) e software de issue tracking, entre
+outros. · Manutenção e modernização de código legado: correção de bugs,
+refatoração e novas funcionalidades em sistemas de que o negócio depende. ·
+Desenvolvimento e manutenção de funcionalidades em Python, incluindo
+funcionalidades conversacionais assentes em LLM.
 
 ### Jan 2025 – Dec 2025 · Research and Development Technician · GoTVee · Bragança, Hybrid
 
@@ -112,8 +115,6 @@ que disponibiliza milhares de vídeos ao maior cliente da empresa.
 
 ## Education
 
-- **Sep 2026 – 2027** · Postgraduate Degree in Applied Machine Learning · ISCTE – Instituto Universitário de Lisboa
-  - _PT:_ Pós-Graduação em Machine Learning Aplicado · ISCTE – Instituto Universitário de Lisboa
 - **Oct 2019 – Jul 2023** · Degree in Informatics Engineering · Universidade Politécnica de Bragança
   - Scientific areas: Computer Science, Computer Engineering, Mathematics, Information Systems
   - Awarded two research fellowships
@@ -155,9 +156,9 @@ De-jargoned to match the CVs. Replaces the current wording.
 **Jan 2026 – Present · Software Developer · Remote**
 
 ```
-- Maintaining and modernising legacy core products, refactoring and sustaining systems the business depends on
+- Working across several of the company's products: a multi-tenant enterprise video platform serving thousands of videos for the company's largest client, property management systems (PMS), issue-tracking software and others
+- Maintaining and modernising legacy code: bug fixes, refactoring and new features on systems the business depends on
 - Building and maintaining features in Python, including LLM-backed conversational features
-- Maintaining and extending a multi-tenant enterprise video platform serving thousands of videos for the company's largest client
 ```
 
 **Jan 2025 – Dec 2025 · Research and Development Technician · Bragança, Hybrid**

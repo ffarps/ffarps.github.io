@@ -1,183 +1,478 @@
 <!DOCTYPE html>
-<html lang="en-GB" id="html-root">
+<html lang="en-GB">
 
 <head>
   <meta charset="UTF-8" />
-  <title>Francisco Pereira</title>
+  <title>Francisco Pereira — Software Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Francisco Pereira - Driving Innovation with AI & Machine Learning" />
-  <link rel="stylesheet" href="styles/styles.min.css" />
+  <meta name="description"
+    content="Francisco Pereira — software developer working in Python and LLM applications. Experience, publication, CV and contact." />
+  <meta name="color-scheme" content="light dark" />
   <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="fonts/jetbrains-mono.css" />
+  <script>
+    // Pick the language before first paint: saved choice, else the browser's.
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('lang'); } catch (e) { }
+      var lang = saved || (/^pt/i.test(navigator.language || '') ? 'pt-PT' : 'en-GB');
+      document.documentElement.lang = lang;
+    })();
+  </script>
+  <style>
+    @font-face {
+      font-family: 'JetBrains Mono';
+      font-weight: 400;
+      font-display: swap;
+      src: url('fonts/JetBrainsMono/JetBrainsMono-Regular.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'JetBrains Mono';
+      font-weight: 700;
+      font-display: swap;
+      src: url('fonts/JetBrainsMono/JetBrainsMono-Bold.ttf') format('truetype');
+    }
+
+    /* Black and white, one font. Dark mode swaps the two colours. */
+    :root {
+      --bg: #fff;
+      --text: #000;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000;
+        --text: #fff;
+      }
+    }
+
+    /* Both languages live in the markup; show only the active one. */
+    html[lang^="en"] [lang="pt"],
+    html[lang^="pt"] [lang="en"] {
+      display: none;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .page {
+      max-width: 88rem;
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 0.25em;
+    }
+
+    a:hover {
+      text-decoration-thickness: 2px;
+    }
+
+    :focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+
+    /* Language switch */
+    .langs {
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+    }
+
+    .langs button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font: inherit;
+      color: inherit;
+      background: none;
+      border: 0;
+      border-bottom: 2px solid transparent;
+      padding: 0.2rem 0;
+      cursor: pointer;
+      opacity: 0.5;
+    }
+
+    .langs button:hover {
+      opacity: 1;
+    }
+
+    .langs img {
+      display: block;
+      width: 20px;
+      height: 15px;
+    }
+
+    html[lang^="en"] .langs [data-lang="en-GB"],
+    html[lang^="pt"] .langs [data-lang="pt-PT"] {
+      opacity: 1;
+      font-weight: 700;
+      border-bottom-color: currentColor;
+    }
+
+    main {
+      flex: 1;
+      display: grid;
+      gap: 2.5rem;
+      padding: 1.5rem 0 2rem;
+    }
+
+    /* Left: who I am and how to reach me */
+    h1 {
+      font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+      line-height: 1.1;
+      margin: 0;
+      letter-spacing: -0.03em;
+    }
+
+    .role {
+      margin: 0.75rem 0 0;
+    }
+
+    .intro {
+      margin: 1.5rem 0 0;
+      font-size: 0.95rem;
+      max-width: 36rem;
+    }
+
+    .intro+.intro {
+      margin-top: 0.9rem;
+    }
+
+    .cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 2.75rem;
+      padding: 0.5rem 1.1rem;
+      border: 2px solid var(--text);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .btn-primary,
+    .btn:hover {
+      background: var(--text);
+      color: var(--bg);
+    }
+
+    .btn-primary:hover {
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 1.5rem;
+      list-style: none;
+      padding: 0;
+      margin: 1.25rem 0 0;
+    }
+
+    /* Right: experience, publication, education, projects */
+    .facts {
+      font-size: 0.8125rem;
+    }
+
+    .facts>*+* {
+      margin-top: 1.1rem;
+    }
+
+    .pair {
+      display: grid;
+      gap: 1.4rem;
+    }
+
+    @media (min-width: 40rem) {
+      .pair {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+      padding-bottom: 0.2rem;
+      border-bottom: 2px solid var(--text);
+    }
+
+    .entry {
+      display: grid;
+      grid-template-columns: 5.5rem 1fr;
+      gap: 0.75rem;
+    }
+
+    .entry+.entry,
+    .plain+.plain {
+      margin-top: 0.55rem;
+    }
+
+    .when {
+      white-space: nowrap;
+    }
+
+    .entry h3,
+    .plain h3 {
+      font-size: inherit;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .entry p,
+    .plain p {
+      margin: 0.1rem 0 0;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      font-size: 0.75rem;
+    }
+
+    @media (max-width: 30rem) {
+      .btn {
+        flex: 1 1 100%;
+      }
+    }
+
+    /* Desktop: two columns, everything on one screen */
+    @media (min-width: 46rem) {
+      .page {
+        padding: 1.25rem 2.5rem 1rem;
+      }
+
+      body {
+        font-size: 1rem;
+      }
+
+      .intro {
+        font-size: 1.0625rem;
+      }
+
+      .facts {
+        font-size: 0.9375rem;
+      }
+
+      .entry {
+        grid-template-columns: 6.5rem 1fr;
+      }
+
+      main {
+        grid-template-columns: 5fr 7fr;
+        gap: clamp(2rem, 5vw, 4.5rem);
+        align-items: center;
+        padding: 0.5rem 0;
+      }
+    }
+
+    /* Short laptop screens: scale everything down a touch so it still fits */
+    @media (min-width: 46rem) and (max-height: 760px) {
+      html {
+        font-size: 15px;
+      }
+    }
+
+    @media (min-width: 46rem) and (max-height: 670px) {
+      html {
+        font-size: 14px;
+      }
+    }
+
+    @media print {
+
+      .langs,
+      .cta {
+        display: none;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <div class="split-layout">
-    <aside class="personal-info">
-      <div class="info-section">
-        <h1 id="main_title">Francisco Pereira</h1>
-        <h2 id="subtitle">Software Developer</h2>
-        <h3 id="subsubtitle">Driving Innovation with AI & Machine Learning</h3>
-      </div>
-      <div class="info-section">
-        <h2 id="about_title"></h2>
-        <p id="about_text"></p>
-        <a id="download_cv" class="cta-btn cv-btn" href="/downloads/franciscopereira.cv.en.pdf" target="_blank"
-          rel="noopener noreferrer">View CV as PDF</a>
-      </div>
-      <div class="info-section">
-        <h2 id="contact"></h2>
-        <button id="linkedin" class="cta-btn linkedin-btn"
-          onclick="window.open('https://www.linkedin.com/messaging/compose?recipient=francisco-pereira-9755501a3', '_blank', 'noopener,noreferrer')">
-          <svg width="20" height="20" aria-hidden="true">
-            <use href="/images/icons.svg#linkedin-icon"></use>
-          </svg>
-          <span id="linkedin_text"></span>
-        </button>
-      </div>
-    </aside>
-    <main class="projects-section">
-      <section class="section">
-        <h2 id="projects"></h2>
-        <div class="project-cards-container">
-          <div class="project-card project-clickable"
-          onclick="window.open('https://github.com/ffarps/holoassembly','_blank')">
-          <span class="project-badge sim" id="badge_sim"></span>
-          <img loading="lazy" src="images/holoassembly.jpg" alt="HoloAssembly" class="project-thumb" loading="lazy" />
-          <h3 id="project_sim_title"></h3>
-          <p id="project_sim_desc"></p>
-          <div class="project-links">
-            <span class="project-link github-icon-link">
-              <svg width="22" height="22" aria-hidden="true">
-                <use href="/images/icons.svg#github-icon"></use>
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div class="project-card project-card-template">
-          <span class="project-badge ml" id="badge_ml"></span>
-          <img loading="lazy" src="images/gpu-svgrepo-com.svg" alt="ML Project" class="project-thumb" />
-          <h3 id="project_ml_title"></h3>
-          <p id="project_ml_desc"></p>
-          <div class="project-links">
-            <span class="project-link github-icon-link">
-              <svg width="22" height="22" aria-hidden="true">
-                <use href="/images/icons.svg#github-icon"></use>
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div class="project-card project-card-template">
-          <span class="project-badge web" id="badge_web"></span>
-          <img loading="lazy" src="images/web-development-svgrepo-com.svg" alt="Web Project" class="project-thumb" />
-          <h3 id="project_web_title"></h3>
-          <p id="project_web_desc"></p>
-          <div class="project-links">
-            <span class="project-link github-icon-link">
-              <svg width="22" height="22" aria-hidden="true">
-                <use href="/images/icons.svg#github-icon"></use>
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div class="project-card project-card-template">
-          <span class="project-badge backend" id="badge_backend"></span>
-          <img loading="lazy" src="images/api-svgrepo-com.svg" alt="Backend Project" class="project-thumb" />
-          <h3 id="project_backend_title"></h3>
-          <p id="project_backend_desc"></p>
-          <div class="project-links">
-            <span class="project-link github-icon-link">
-              <svg width="22" height="22" aria-hidden="true">
-                <use href="/images/icons.svg#github-icon"></use>
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div class="project-card project-card-template">
-          <span class="project-badge mobile" id="badge_mobile"></span>
-          <img loading="lazy" src="images/web-development-svgrepo-com.svg" alt="Mobile Project" class="project-thumb" />
-          <h3 id="project_mobile_title"></h3>
-          <p id="project_mobile_desc"></p>
-          <div class="project-links">
-            <span class="project-link github-icon-link">
-              <svg width="22" height="22" aria-hidden="true">
-                <use href="/images/icons.svg#github-icon"></use>
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div class="project-card project-card-template">
-          <span class="project-badge tools" id="badge_tools"></span>
-          <img loading="lazy" src="images/api-svgrepo-com.svg" alt="Tools Project" class="project-thumb" />
-          <h3 id="project_tools_title"></h3>
-          <p id="project_tools_desc"></p>
-          <div class="project-links">
-            <span class="project-link github-icon-link">
-              <svg width="22" height="22" aria-hidden="true">
-                <use href="/images/icons.svg#github-icon"></use>
-              </svg>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div style="text-align: center; margin: 1.2rem 0;">
-        <button id="more_projects" class="cta-btn projects-btn" tabindex="0" aria-label="View all projects"></button>
-      </div>
-      </section>
-    </main>
-  </div>
-  <footer class="footer">
-    <div class="footer-main central-footer-content">
-      <div class="footer-row">
-        <div class="footer-links">
-          <!-- <a href="/" class="footer-link">Home</a> -->
-          <!-- <a href="/pages/projects.html" class="footer-link">Projects</a> -->
-          <!-- <a href="#contact-section" class="footer-link">Contact Me</a> -->
-          <a href="/pages/privacy.html" class="footer-link">Privacy</a>
-        </div>
-        <div class="footer-social">
-          <a class="primary" href="https://github.com/ffarps" title="GitHub" target="_blank" rel="noopener noreferrer">
-            <svg width="20" height="20" aria-hidden="true">
-              <use href="/images/icons.svg#github-icon"></use>
-            </svg>
-          </a>
-          <a class="primary linkedin-icon" href="https://www.linkedin.com/in/francisco-pereira-9755501a3/"
-            title="LinkedIn" target="_blank" rel="noopener noreferrer">
-            <svg width="20" height="20" aria-hidden="true">
-              <use href="/images/icons.svg#linkedin-icon"></use>
-            </svg>
-          </a>
-        </div>
-        <div class="footer-switchers">
-          <div id="lang-switcher" class="lang-switcher lang-switcher-footer stylish-lang-switcher">
-            <button class="lang-btn" data-lang="en-GB" aria-label="English" title="English" tabindex="0">
-              <span class="lang-flag-wrap"><img loading="lazy" src="images/gb.svg" alt="English" height="22"
-                  width="32" /></span>
-              <span class="lang-label">EN</span>
-            </button>
-            <button class="lang-btn" data-lang="pt-PT" aria-label="Português" title="Português" tabindex="0">
-              <span class="lang-flag-wrap"><img loading="lazy" src="images/pt.svg" alt="Português" height="22"
-                  width="32" /></span>
-              <span class="lang-label">PT</span>
-            </button>
-          </div>
-          <div id="theme-switcher" class="theme-switcher">
-            <button class="theme-btn" data-theme="system" aria-label="System Default" title="System Default">
-              System
-            </button>
-            <button class="theme-btn" data-theme="dark" aria-label="Dark Mode" title="Dark Mode">
-              Dark
-            </button>
-            <button class="theme-btn" data-theme="light" aria-label="Light Mode" title="Light Mode">
-              Light
-            </button>
-          </div>
-        </div>
-      </div>
-      <span class="footer-copyright">&copy; 2023-2025 Francisco Pereira</span>
+  <div class="page">
+    <div class="langs">
+      <button type="button" data-lang="en-GB" aria-label="English">
+        <img src="images/gb.svg" alt="" width="20" height="15" />EN
+      </button>
+      <button type="button" data-lang="pt-PT" aria-label="Português">
+        <img src="images/pt.svg" alt="" width="20" height="15" />PT
+      </button>
     </div>
-  </footer>
-  <script src="scripts/main.min.js"></script>
+
+    <main>
+      <div class="hero">
+        <h1>Francisco Pereira</h1>
+        <p class="role" lang="en">Software Developer · Python · LLM applications</p>
+        <p class="role" lang="pt">Técnico de Informática · Python · Aplicações com LLM</p>
+
+        <p class="intro" lang="en">I'm a software developer at GoTVee, working across several of the company's
+          products: a multi-tenant enterprise video platform, property management systems (PMS), issue-tracking
+          software and others. Day to day that means maintaining and modernising existing code: fixing bugs,
+          refactoring and adding features.</p>
+        <p class="intro" lang="en">Before that I spent a year in R&amp;D building the company's first AI prototypes:
+          an assistant that answers questions from our Confluence, and an LLM API that runs on our own GPU instead of
+          someone else's cloud.</p>
+        <p class="intro" lang="pt">Sou técnico de informática na GoTVee e trabalho em vários produtos da empresa:
+          uma plataforma de vídeo empresarial multi-tenant, sistemas de gestão de propriedades (PMS), software de
+          issue tracking, entre outros. No dia a dia, mantenho e modernizo código que já existe: corrijo bugs,
+          refatorizo e acrescento funcionalidades.</p>
+        <p class="intro" lang="pt">Antes disso, passei um ano em I&amp;D a construir os primeiros protótipos de IA
+          da empresa: um assistente que responde a perguntas com base no nosso Confluence e uma API de LLM a correr
+          na nossa própria GPU, sem depender de serviços externos.</p>
+
+        <div class="cta">
+          <a class="btn btn-primary"
+            href="https://www.linkedin.com/messaging/compose?recipient=francisco-pereira-9755501a3" rel="noopener">
+            <span lang="en">Message me on LinkedIn</span><span lang="pt">Enviar mensagem no LinkedIn</span>
+          </a>
+          <a class="btn" href="mailto:ffarps@protonmail.com">
+            <span lang="en">Email me</span><span lang="pt">Enviar email</span>
+          </a>
+        </div>
+
+        <ul class="links">
+          <li lang="en"><a href="/downloads/franciscopereira.cv.en.pdf">CV (PDF)</a></li>
+          <li lang="pt"><a href="/downloads/franciscopereira.cv.pt.pdf">CV (PDF)</a></li>
+          <li><a href="https://github.com/ffarps" rel="me noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/francisco-pereira-9755501a3/" rel="me noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="facts">
+        <section>
+          <h2><span lang="en">Experience</span><span lang="pt">Experiência</span></h2>
+
+          <div class="entry">
+            <span class="when" lang="en">2026 – now</span><span class="when" lang="pt">2026 – hoje</span>
+            <div>
+              <h3><span lang="en">Software Developer</span><span lang="pt">Técnico de Informática</span> · GoTVee</h3>
+              <p lang="en">Bug fixes, refactoring and new features across several products, including LLM-backed
+                chat features in Python.</p>
+              <p lang="pt">Correção de bugs, refatoração e novas funcionalidades em vários produtos, incluindo
+                chat com LLM, em Python.</p>
+            </div>
+          </div>
+
+          <div class="entry">
+            <span class="when">2025</span>
+            <div>
+              <h3><span lang="en">R&amp;D Technician</span><span lang="pt">Técnico de I&amp;D</span> · GoTVee</h3>
+              <p lang="en">RAG assistant over 30+ Confluence spaces; self-hosted LLM inference API with Ollama and
+                LangChain on an RTX 3090.</p>
+              <p lang="pt">Assistente RAG sobre mais de 30 espaços do Confluence e uma API de inferência de LLM
+                alojada internamente (Ollama, LangChain, RTX 3090).</p>
+            </div>
+          </div>
+
+          <div class="entry">
+            <span class="when">2024</span>
+            <div>
+              <h3><span lang="en">Software Developer Internship</span><span lang="pt">Estágio de Desenvolvimento de
+                  Software</span> · GoTVee</h3>
+              <p lang="en">PoCs and MVPs for AI systems using large language models.</p>
+              <p lang="pt">Provas de conceito e MVPs de sistemas de IA com modelos de linguagem.</p>
+            </div>
+          </div>
+
+          <div class="entry">
+            <span class="when">2022 – 23</span>
+            <div>
+              <h3><span lang="en">Research Fellowships</span><span lang="pt">Bolsas de Investigação</span> · CeDRI
+              </h3>
+              <p lang="en">Mixed reality (AR and VR) applications and defect-detection tooling in Unity 3D.</p>
+              <p lang="pt">Aplicações de realidade mista (RA e RV) e ferramentas de deteção de defeitos em Unity 3D.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2><span lang="en">Publication</span><span lang="pt">Publicação</span></h2>
+          <div class="entry">
+            <span class="when">2024</span>
+            <div>
+              <h3><a href="https://doi.org/10.1007/978-3-031-65400-8_23">An Augmented Reality Intelligent Guide for
+                  the Automotive Industry</a></h3>
+              <p>Learning Factories of the Future (CFL 2024)</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="pair">
+          <section>
+            <h2><span lang="en">Education</span><span lang="pt">Educação</span></h2>
+            <div class="plain">
+              <h3><span lang="en">Degree in Informatics Engineering</span><span lang="pt">Licenciatura em Engenharia
+                  Informática</span></h3>
+              <p>Universidade Politécnica de Bragança · 2019 – 2023</p>
+            </div>
+          </section>
+
+          <section>
+            <h2><span lang="en">Projects</span><span lang="pt">Projetos</span></h2>
+            <!--
+              To feature a project, copy this block above the GitHub entry
+              (keep it to two or three so the page still fits one screen):
+
+              <div class="plain">
+                <h3><a href="https://github.com/ffarps/REPO">Project name</a></h3>
+                <p lang="en">One line: what it does and the stack.</p>
+                <p lang="pt">Uma linha: o que faz e a stack.</p>
+              </div>
+            -->
+            <div class="plain">
+              <h3><a href="https://github.com/ffarps?tab=repositories"><span lang="en">See them on
+                    GitHub</span><span lang="pt">Ver no GitHub</span>&nbsp;→</a></h3>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <span>&copy; 2023–2026 Francisco Pereira</span>
+      <a href="/pages/privacy.html"><span lang="en">Privacy</span><span lang="pt">Privacidade</span></a>
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll('.langs button').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var lang = btn.getAttribute('data-lang');
+        document.documentElement.lang = lang;
+        try { localStorage.setItem('lang', lang); } catch (e) { }
+      });
+    });
+  </script>
 </body>
 
 </html>
