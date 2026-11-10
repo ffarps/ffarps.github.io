@@ -16,6 +16,13 @@
       try { saved = localStorage.getItem('lang'); } catch (e) { }
       var lang = saved || (/^pt/i.test(navigator.language || '') ? 'pt-PT' : 'en-GB');
       document.documentElement.lang = lang;
+
+      // Theme: follow the system unless the visitor picked one.
+      var theme = null;
+      try { theme = localStorage.getItem('theme'); } catch (e) { }
+      if (theme === 'light' || theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', theme);
+      }
     })();
   </script>
   <style>
@@ -33,17 +40,26 @@
       src: url('fonts/JetBrainsMono/JetBrainsMono-Bold.ttf') format('truetype');
     }
 
-    /* Black and white, one font. Dark mode swaps the two colours. */
+    /* Black and white, one font. Dark mode swaps the two colours.
+       The system setting decides, unless data-theme is set by the toggle. */
     :root {
       --bg: #fff;
       --text: #000;
+      color-scheme: light;
     }
 
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         --bg: #000;
         --text: #fff;
+        color-scheme: dark;
       }
+    }
+
+    :root[data-theme="dark"] {
+      --bg: #000;
+      --text: #fff;
+      color-scheme: dark;
     }
 
     /* Both languages live in the markup; show only the active one. */
@@ -94,7 +110,17 @@
     .langs {
       display: flex;
       justify-content: flex-end;
+      align-items: center;
       gap: 1rem;
+    }
+
+    .langs .theme-toggle {
+      opacity: 1;
+      margin-right: 0.5rem;
+    }
+
+    .theme-toggle svg {
+      display: block;
     }
 
     .langs button {
@@ -320,6 +346,13 @@
 <body>
   <div class="page">
     <div class="langs">
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark theme"
+        title="Light / dark">
+        <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true">
+          <circle cx="9" cy="9" r="7.5" fill="none" stroke="currentColor" stroke-width="2" />
+          <path d="M9 1.5a7.5 7.5 0 0 1 0 15z" fill="currentColor" />
+        </svg>
+      </button>
       <button type="button" data-lang="en-GB" aria-label="English">
         <img src="images/gb.svg" alt="" width="20" height="15" />EN
       </button>
@@ -465,7 +498,16 @@
   </div>
 
   <script>
-    document.querySelectorAll('.langs button').forEach(function (btn) {
+    document.getElementById('theme-toggle').addEventListener('click', function () {
+      var root = document.documentElement;
+      var current = root.getAttribute('data-theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      var next = current === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) { }
+    });
+
+    document.querySelectorAll('.langs [data-lang]').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var lang = btn.getAttribute('data-lang');
         document.documentElement.lang = lang;
